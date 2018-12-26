@@ -6,7 +6,7 @@
 name: Enes Demirağ
 title: Software Developer
 email: enesdemirag@ituauv.com
-website: www.enesdemirag.github.io
+# website: www.enesdemirag.github.io
 
 # Social links
 # twitter_username: facespics
@@ -40,7 +40,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in robotics some of my other interests and hobbies are:
+  Alongside my interests in robotics some of my other hobbies are:
    - Comics
    - Computer Games
    - Role Playing Games
