@@ -5,7 +5,7 @@
 # Personal info
 name: Enes Demirağ
 title: Software Developer
-email: enesdemirag@ituauv.com
+email: demirag16@itu.edu.tr
 # website: www.enesdemirag.github.io
 
 # Social links
@@ -38,7 +38,24 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me
+more_title: Skills
+more_content: | # this will include new lines to allow paragraphs
+    Computer Skills:
+        - Office
+        - Python
+        - C
+        - C#
+    Technical Skills:
+        - Linux
+        - Robotics
+        - Image Processing
+        - Microcontrollers
+        - Arduino
+        - Raspberry Pi
+        - ROVs
+        - Autonomous Vehicles
+
+more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in robotics some of my other hobbies are:
    - Comics
