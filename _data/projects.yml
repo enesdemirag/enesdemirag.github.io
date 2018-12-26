@@ -10,9 +10,9 @@
   github: iturov
   link: rov.itu.edu.tr
   quote: >
-Software Developer
+    Software Developer
   description: | # this will include new lines to allow paragraphs
-    This is an Underwater Robotics Team which we started with my friends. The main aim of this project is to develop and spread underwater robots in Turkey. The team got first place in Turkey branch of the MATE ROV Competition and attended the international finals in Long Beach, LA. I am one of the founding members. As a Software Team Leader I worked on GUI, motor controlling, communication system and other specific tasks. Still I am in contact with team as a mentor.
+    This is an Underwater Robotics Team which we started with my friends. The main aim of this project is to develop and spread underwater robots in Turkey. The team got first place in Turkey branch of the MATE ROV Competition and attended the international finals in Long Beach, LA. I am one of the founding members. As a Software Team Leader I worked on <mark>GUI</mark>, <mark>motor controlling</mark>, <mark>communication system</mark> and other specific tasks. Still I am in contact with team as a mentor.
 
 - name: ITU Racing Team
   github: ituracingteam
@@ -20,5 +20,4 @@ Software Developer
   quote: >
     Software Developer
   description: | # this will include new lines to allow paragraphs
-    This is a university team founded in 2007. We are preparing for the Formula SAE (Student) competition, which is one of the most prestigious engineering competitions in the world. As a ECU Subteam member I worked about 1 year on ECU and Ignition System with Internal Combustion Engine. After that, I worked about 9 months on LiDAR Systems and Point Cloud Processing. Finally I worked on Image Processing and Lane Detection on a Driverless Racing Car.
-    
+    This is a university team founded in 2007. We are preparing for the Formula SAE (Student) competition, which is one of the most prestigious engineering competitions in the world. As a ECU Subteam member I worked about 1 year on <mark>ECU</mark> and <mark>Ignition System</mark> with Internal Combustion Engine. After that, I worked about 9 months on <mark>LiDAR Systems</mark> and <mark>Point Cloud Processing</mark>. Finally I worked on <mark>Image Processing</mark> and <mark>Lane Detection</mark> on a Driverless Racing Car.
