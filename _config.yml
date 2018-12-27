@@ -26,7 +26,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Enes and I'm a student at Istanbul Technical University. I am studying Electronics and Communication Engineering. As well as programming I also have experience in electronics. I have worked at a number of projects gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>C</mark> and <mark>Python</mark> programming.
+  I am most skilled in <mark>Python</mark> programming. You can check my [LinkedIn](https://www.linkedin.com/in/enesdemirag/) profile.
 
 # Projects Section
 # projects_title: Projects
@@ -38,14 +38,15 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education
 
 # More Section
-more_title: Skills
+more_title: Skills & Awards
 more_content: | # this will include new lines to allow paragraphs
-    Computer Skills:
+    ### Computer Skills:
         - Office
         - Python
         - C
         - C#
-    Technical Skills:
+
+    ### Technical Skills:
         - Linux
         - Robotics
         - Image Processing
@@ -55,16 +56,30 @@ more_content: | # this will include new lines to allow paragraphs
         - ROVs
         - Autonomous Vehicles
 
-more_title: Awards
-more_content: | # this will include new lines to allow paragraphs
-    <mark>2018</mark>: Teknofest Underwater Systems Competition 4 th - Istanbul / Turkey
-    <mark>2018</mark>: MATE ROV International Competition 11 th - Federal Way, Washington / USA
-    <mark>2018</mark>: MATE ROV Regional Competition 1 st - Istanbul / Turkey
-    <mark>2017</mark>: MATE ROV International Competition 23 th - Long Beach, California / USA
-    <mark>2017</mark>: MATE ROV Regional Competition 1 st - Istanbul / Turkey
+    ### Awards:
+        - <mark>2018</mark>: Teknofest Underwater Systems Competition 4 th - Istanbul / Turkey
+        - <mark>2018</mark>: MATE ROV International Competition 11 th - Federal Way, Washington / USA
+        - <mark>2018</mark>: MATE ROV Regional Competition 1 st - Istanbul / Turkey
+        - <mark>2017</mark>: MATE ROV International Competition 23 th - Long Beach, California / USA
+        - <mark>2017</mark>: MATE ROV Regional Competition 1 st - Istanbul / Turkey
 
-more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   Alongside my interests in robotics some of my other hobbies are:
    - Comics
    - Computer Games
