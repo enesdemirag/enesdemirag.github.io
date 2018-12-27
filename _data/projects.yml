@@ -8,6 +8,7 @@
 
     I am currently working on <mark>path planning</mark> and <mark>point cloud processing</mark> on <mark>ROS</mark> environment.
 
+
 - name: ITU ROV Team
   github: iturov
   link: rov.itu.edu.tr
@@ -17,6 +18,7 @@
     This is an Underwater Robotics Team which we started with my friends. The main aim of this project is to develop and spread underwater robots in Turkey. The team got first place in Turkey branch of the MATE ROV Competition and attended the international finals in Long Beach, LA. I am one of the founding members.
 
     As a Software Team Leader I worked on <mark>GUI</mark>, <mark>motor controlling</mark>, <mark>communication system</mark> and other specific tasks. Still I am in contact with team as a mentor.
+
 
 - name: ITU Racing Team
   github: ituracingteam
