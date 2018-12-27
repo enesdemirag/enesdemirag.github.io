@@ -38,47 +38,30 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education
 
 # More Section
-more_title: Skills & Awards
+# more_title: Skills & Awards
 more_content: | # this will include new lines to allow paragraphs
-    ### Computer Skills:
-        - Office
-        - Python :fire:
-        - C
-        - C#
+  ### Computer Skills:
+  - Office
+  - Python :fire:
+  - C
+  - C#
 
-    ### Technical Skills:
-        - Linux
-        - Robotics
-        - Image Processing
-        - Microcontrollers
-        - Arduino
-        - Raspberry Pi
-        - ROVs
-        - Autonomous Vehicles
+  ### Technical Skills:
+  - Linux
+  - Robotics
+  - Image Processing
+  - Microcontrollers
+  - Arduino
+  - Raspberry Pi
+  - ROVs
+  - Autonomous Vehicles
 
-    ### Awards:
-        - <mark>2018</mark>: Teknofest Underwater Systems Competition 4^th^ - *Istanbul / Turkey*
-        - <mark>2018</mark>: MATE ROV International Competition 11^th^ - *Federal Way, Washington / USA*
-        - <mark>2018</mark>: MATE ROV Regional Competition 1^st^ - *Istanbul / Turkey*
-        - <mark>2017</mark>: MATE ROV International Competition 23^rd^ - *Long Beach, California / USA*
-        - <mark>2017</mark>: MATE ROV Regional Competition 1^st^ - *Istanbul / Turkey*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  ### Awards:
+  - <mark>2018</mark>: Teknofest Underwater Systems Competition 4^th^ - *Istanbul / Turkey*
+  - <mark>2018</mark>: MATE ROV International Competition 11^th^ - *Federal Way, Washington / USA*
+  - <mark>2018</mark>: MATE ROV Regional Competition 1^st^ - *Istanbul / Turkey*
+  - <mark>2017</mark>: MATE ROV International Competition 23^rd^ - *Long Beach, California / USA*
+  - <mark>2017</mark>: MATE ROV Regional Competition 1^st^ - *Istanbul / Turkey*
 
   Alongside my interests in robotics some of my other hobbies are:
    - Comics
