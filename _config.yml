@@ -3,7 +3,7 @@
 # favicon: images/favicon.ico
 
 # Personal info
-name: Enes Demirag
+name: Enes Demirağ
 title: Software Developer
 email: demirag16@itu.edu.tr
 # website: www.enesdemirag.github.io
@@ -42,7 +42,7 @@ more_title: Skills & Awards
 more_content: | # this will include new lines to allow paragraphs
     ### Computer Skills:
         - Office
-        - Python
+        - Python :fire:
         - C
         - C#
 
@@ -57,11 +57,11 @@ more_content: | # this will include new lines to allow paragraphs
         - Autonomous Vehicles
 
     ### Awards:
-        - <mark>2018</mark>: Teknofest Underwater Systems Competition 4 th - *Istanbul / Turkey*
-        - <mark>2018</mark>: MATE ROV International Competition 11 th - *Federal Way, Washington / USA*
-        - <mark>2018</mark>: MATE ROV Regional Competition 1 st - *Istanbul / Turkey*
-        - <mark>2017</mark>: MATE ROV International Competition 23 th - *Long Beach, California / USA*
-        - <mark>2017</mark>: MATE ROV Regional Competition 1 st - *Istanbul / Turkey*
+        - <mark>2018</mark>: Teknofest Underwater Systems Competition 4^th^ - *Istanbul / Turkey*
+        - <mark>2018</mark>: MATE ROV International Competition 11^th^ - *Federal Way, Washington / USA*
+        - <mark>2018</mark>: MATE ROV Regional Competition 1^st^ - *Istanbul / Turkey*
+        - <mark>2017</mark>: MATE ROV International Competition 23^rd^ - *Long Beach, California / USA*
+        - <mark>2017</mark>: MATE ROV Regional Competition 1^st^ - *Istanbul / Turkey*
 
 
 
