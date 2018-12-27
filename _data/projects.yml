@@ -6,7 +6,7 @@
   description: | # this will include new lines to allow paragraphs
     ITU AUV Team is an underwater robotics team, that came together to prepare for the RoboSub’19 at San Diego. The team had 2 years of experience with the MATE ROV Competition.
 
-    I am currently working on <mark>path planning</mark> and <mark>point cloud processing</mark>.
+    I am currently working on <mark>path planning</mark> and <mark>point cloud processing</mark> on <mark>ROS</mark> environment.
 
 - name: ITU ROV Team
   github: iturov

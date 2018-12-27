@@ -55,14 +55,6 @@ more_content: | # this will include new lines to allow paragraphs
         - ROVs
         - Autonomous Vehicles
 
-more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in robotics some of my other hobbies are:
-   - Comics
-   - Computer Games
-   - Role Playing Games
-   - Cinema
-
 more_title: Awards
 more_content: | # this will include new lines to allow paragraphs
     <mark>2018</mark>: Teknofest Underwater Systems Competition 4 th - Istanbul / Turkey
@@ -70,6 +62,14 @@ more_content: | # this will include new lines to allow paragraphs
     <mark>2018</mark>: MATE ROV Regional Competition 1 st - Istanbul / Turkey
     <mark>2017</mark>: MATE ROV International Competition 23 th - Long Beach, California / USA
     <mark>2017</mark>: MATE ROV Regional Competition 1 st - Istanbul / Turkey
+
+more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in robotics some of my other hobbies are:
+   - Comics
+   - Computer Games
+   - Role Playing Games
+   - Cinema
 
 # TODO: Languages, Certificates, and others
 
