@@ -72,8 +72,8 @@ more_content: | # this will include new lines to allow paragraphs
    - Role Playing Games
    - Cinema
 
-   ### Communities
-    <mark>ITU Robotics Club</mark> : Previously known as ARIGE is a robotics club among Istanbul Technical University. The club has many achievements, tons of opportunity for Research and Development projects with great minds. Can handle any size of project from micro robots to mars rovers and underwater vehicles. A cool place for the robot enthusiasts in the ITU campus.
+  ### Communities
+  <mark>ITU Robotics Club</mark> : Previously known as ARIGE is a robotics club among Istanbul Technical University. The club has many achievements, tons of opportunity for Research and Development projects with great minds. Can handle any size of project from micro robots to mars rovers and underwater vehicles. A cool place for the robot enthusiasts in the ITU campus.
 
 # Footer
 footer_show_references: true
