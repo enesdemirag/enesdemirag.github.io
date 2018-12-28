@@ -1,4 +1,4 @@
-# Site
+﻿# Site
 # repository: enesdemirag/enesdemirag.github.io
 favicon: images/favicon.ico
 
@@ -26,7 +26,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Enes and I'm a student at Istanbul Technical University. I am studying Electronics and Communication Engineering. As well as programming I also have experience in electronics. I have worked at a number of projects gaining teamwork and leadership skills.
 
-  I am most skilled in <mark>Python</mark> programming. You can check my <mark>[LinkedIn](https://www.linkedin.com/in/enesdemirag/)</mark> profile.
+  I am most skilled in <mark>Robotics</mark> and currently working on an underwater robotics project. You can check my **[LinkedIn](https://www.linkedin.com/in/enesdemirag/)** profile.
 
 # Projects Section
 # projects_title: Projects
@@ -40,27 +40,31 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 more_title: Computer Skills
 more_content: | # this will include new lines to allow paragraphs
-  - Office
+  - Office Programs
   - Python
   - C
   - C#
+  - Linux
+  - Git
+  - OpenCV
+  - Tensorflow
+  - ROS
 
   ### Technical Skills
-  - Linux
-  - Robotics
-  - Image Processing
-  - Microcontrollers
   - Arduino
   - Raspberry Pi
-  - ROVs
-  - Autonomous Vehicles
+  - ROVs & AUVs
+  - Stereo Cameras
 
   ### Awards
-  - <mark>2018</mark> Teknofest Underwater Systems Competition 4th - *Istanbul / Turkey*
-  - <mark>2018</mark> MATE ROV International Competition 11th - *Federal Way, Washington / USA*
-  - <mark>2018</mark> MATE ROV Regional Competition 1st - *Istanbul / Turkey*
-  - <mark>2017</mark> MATE ROV International Competition 23rd - *Long Beach, California / USA*
-  - <mark>2017</mark> MATE ROV Regional Competition 1st - *Istanbul / Turkey*
+  <mark>2018</mark>
+    - Teknofest Underwater Systems Competition 4th - *Istanbul / Turkey*
+    - MATE ROV International Competition 11th - *Federal Way, Washington / USA*
+    - MATE ROV Regional Competition 1st - *Istanbul / Turkey*
+
+  <mark>2017</mark>
+    - MATE ROV International Competition 23rd - *Long Beach, California / USA*
+    - MATE ROV Regional Competition 1st - *Istanbul / Turkey*
 
   ### Hobbies
    - Comics
@@ -68,7 +72,9 @@ more_content: | # this will include new lines to allow paragraphs
    - Role Playing Games
    - Cinema
 
-# TODO: Languages, Certificates, and others
+   ### Communities
+  <mark>ITU Robotics Club</mark>
+    -  Previously known as ARIGE is a robotics club among Istanbul Technical University. The club has many achievements, tons of opportunity for Research and Development projects with great minds. Can handle any size of project from micro robots to mars rovers and underwater vehicles. A cool place for the robot enthusiasts in the ITU campus.
 
 # Footer
 footer_show_references: true
