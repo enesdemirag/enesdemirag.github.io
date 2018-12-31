@@ -48,15 +48,11 @@ more_content: | # this will include new lines to allow paragraphs
   - Linux
   - Git
   - ROS
-#  - OpenCV
-#  - Tensorflow
-#  - LaTeX
 
   ### Technical Skills
   - Arduino & Raspberry Pi
   - [ROVs](https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle) & [AUVs](https://en.wikipedia.org/wiki/Autonomous_underwater_vehicle)
   - Stereo Cameras
-#  - Circuit Design
 
   ### Awards
   <mark>2018</mark>
@@ -69,10 +65,10 @@ more_content: | # this will include new lines to allow paragraphs
     - MATE ROV Regional Competition 1st - *Istanbul / Turkey*
 
   ### Hobbies
-   - Comics
    - Computer Games
    - Role Playing Games
    - Cinema
+   - Comics
 
   ### Communities
   <mark>ITU Robotics Club</mark> : Previously known as ARIGE is a robotics club among Istanbul Technical University. The club has many achievements, tons of opportunity for Research and Development projects with great minds. Can handle any size of project from micro robots to mars rovers and underwater vehicles. A cool place for the robot enthusiasts in the ITU campus.
