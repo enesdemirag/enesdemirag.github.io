@@ -44,17 +44,19 @@ more_content: | # this will include new lines to allow paragraphs
   - Python
   - C
   - C#
+  - HTML
   - Linux
   - Git
-  - OpenCV
-  - Tensorflow
   - ROS
+#  - OpenCV
+#  - Tensorflow
+#  - LaTeX
 
   ### Technical Skills
-  - Arduino
-  - Raspberry Pi
-  - ROVs & AUVs
+  - Arduino & Raspberry Pi
+  - [ROVs](https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle) & [AUVs](https://en.wikipedia.org/wiki/Autonomous_underwater_vehicle)
   - Stereo Cameras
+#  - Circuit Design
 
   ### Awards
   <mark>2018</mark>
