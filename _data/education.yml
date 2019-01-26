@@ -1,3 +1,8 @@
+- name: Liverpool John Moores University
+  dates: 2019 - Present
+  qualification: Erasmus, Electronics and Electrical Engineering
+  description: | # this will include new lines to allow paragraphs
+
 - name: Istanbul Technical University
   dates: 2016 - Present
   qualification: BSc Electronics and Communication Engineering
