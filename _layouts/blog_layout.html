@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+    <body bgcolor="#F7F7F7">
+        <script src="/assets/js/sidebar.js"></script>
+        {% if page.links %}
+            {% assign links = page.links | split: ' ' %}
+            {% include sidebar.html links=links %}
+        {% else %}
+            {% include sidebar.html %}  
+        {% endif %}
+        <div class="mt-3">
+            <div class="blog-container" id="content">
+                <div class="blog-title">
+                    <h1 class="blog-title-text">{{ page.title }}</h1>
+                </div>
+                {% if page.date %}
+                    <div class="blog-date">
+                        <p class="blog-date-text">Published on {{ page.date | date: "%B %-d, %Y"}}</p>
+                        <!-- <a class="medium-link" href="https://medium.com/@alankbi">
+                            <i class="medium-icon fab fa-medium"></i></a> -->
+                    </div>
+                {% endif %}
+                {% if page.date %}
+                    <div class="blog-image">
+                        <img src="{{ page.image }}" alt="Blog header image">
+                    </div>
+                {% endif %}
+                <div class="blog-content">
+                    {{ content }}
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

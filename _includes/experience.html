@@ -1,0 +1,7 @@
+{% for experience in site.data.experience %}
+    {% include item.html
+        title=experience.title
+        description=experience.description
+        image=experience.image
+        link=experience.link %}
+{% endfor %}

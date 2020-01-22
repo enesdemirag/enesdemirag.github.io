@@ -1,0 +1,49 @@
+.item {
+    width: 20vw;
+    min-width: 200px;
+    max-width: 300px;
+    box-shadow: 0px 0px 4px 1px $item-shadow-color;
+    margin: 8px;
+    border-radius: 2px;
+    margin-top: 1000px;
+    transition: box-shadow 0.3s, margin-top 1.2s;
+}
+
+.item:hover {
+    box-shadow: 0px 2px 4px 3px $item-shadow-color;
+}
+
+.item-header {
+    padding: 8px;
+    background-color: $item-header-color;
+    color: $main-font-color;
+    text-align: center;
+    border-radius: 0 0 2px 2px;
+    height: 180px;
+    position: relative;
+}
+
+/* Blog item header: height is no longer fixed, padding bottom increased */
+.blog-item-header {
+    padding: 8px;
+    padding-bottom: 40px;
+    background-color: $item-header-color;
+    color: $main-font-color;
+    text-align: center;
+    border-radius: 0 0 2px 2px;
+    position: relative;
+}
+
+.item-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px 2px 0 0;
+}
+
+.item-date {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
