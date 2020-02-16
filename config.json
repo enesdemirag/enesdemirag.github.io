@@ -1,15 +1,13 @@
-[
- {
-  "username": "enesdemirag",
-  "name": "Enes Demirağ",
-  "userimg": "https://avatars2.githubusercontent.com/u/26373568?v=4",
-  "sort": "star",
-  "order": "desc",
-  "includeFork": false,
-  "theme": "dark.css",
-  "types": [
-   "all"
-  ],
-  "linkedin": "enesdemirag"
- }
-]
+[{
+    "username": "enesdemirag",
+    "name": "Enes Demirağ",
+    "userimg": "https://avatars2.githubusercontent.com/u/26373568?v=4",
+    "sort": "star",
+    "order": "desc",
+    "includeFork": false,
+    "theme": "dark.css",
+    "types": [
+        "all"
+    ],
+    "linkedin": "enesdemirag"
+}]
