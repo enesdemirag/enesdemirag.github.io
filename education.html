@@ -39,7 +39,7 @@
         <div id="education">
             <h1>Education</h1>
             <div class="projects" id="work_section">
-                <a href="" target="_blank">
+                <a href="">
                     <section>
                         <div class="section_title">Istanbul Technical University</div>
                         <div class="about_section">
@@ -52,7 +52,7 @@
                         </div>
                     </section>
                 </a>
-                <a href="" target="_blank">
+                <a href="">
                     <section>
                         <div class="section_title">Liverpool John Moores University</div>
                         <div class="about_section">
@@ -82,30 +82,6 @@
                 document.getElementById("loading").style.display = "none";
             }, 800);
         }, 1500);
-        $.getJSON("blog.json", function (blog) {
-            blog = blog || [];
-            if (blog.length == 0) {
-                return (document.getElementById("blog_section").style.display =
-                    "none");
-            }
-            for (var i = 0; i < blog.length; i++) {
-                $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-            }
-        }).fail(function () {
-            return (document.getElementById("blog_section").style.display = "none");
-        });
     </script>
 
     <script>
