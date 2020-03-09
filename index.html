@@ -38,30 +38,32 @@
     <div id="display">
         <div id="education">
             <div id="footer">
-                Hi, I'm Enes. I'm studing Electronics and Communication Engineering at <i class="fas fa-map-marker-alt"></i> Istanbul Technical University. You can contact me by <i class="fas fa-envelope"></i> <a href="mailto:ensdmrg@gmail.com">mail.</a> I can provide a detailed resume upon request.
+                Hi, I'm Enes. I'm an <i class="fas fa-satellite"/></i> Electronics and Communication Engineering 4<sup>th</sup> Grade Student at <i class="fas fa-map-marker-alt"></i> Istanbul Technical University.
+                Working on <i class="fas fa-robot"></i> robotics and <i class="fas fa-camera-retro"></i> computer vision.
+                You can reach me via <i class="fas fa-envelope"></i> <a href="mailto:ensdmrg@gmail.com">e-mail.</a> I can provide a detailed resume upon request.
             </div>
             <div class="projects" id="work_section">
-                <a href="education.html" target="_blank">
+                <a href="education.html">
                     <section>
                         <div class="section_title">Education</div>
                     </section>
                 </a>
-                <a href="experience.html" target="_blank">
+                <a href="experience.html">
                     <section>
                         <div class="section_title">Experience</div>
                     </section>
                 </a>
-                <a href="repos.html" target="_blank">
+                <a href="repos.html">
                     <section>
                         <div class="section_title">Repos</div>
                     </section>
                 </a>
-                <a href="certificates.html" target="_blank">
+                <a href="certificates.html">
                     <section>
                         <div class="section_title">Certificates</div>
                     </section>
                 </a>
-                <a href="blogs.html" target="_blank">
+                <a href="blogs.html">
                     <section>
                         <div class="section_title">Blogs</div>
                     </section>
@@ -87,30 +89,6 @@
                 document.getElementById("loading").style.display = "none";
             }, 800);
         }, 1500);
-        $.getJSON("blog.json", function (blog) {
-            blog = blog || [];
-            if (blog.length == 0) {
-                return (document.getElementById("blog_section").style.display =
-                    "none");
-            }
-            for (var i = 0; i < blog.length; i++) {
-                $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-            }
-        }).fail(function () {
-            return (document.getElementById("blog_section").style.display = "none");
-        });
     </script>
 
     <script>
