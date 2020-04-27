@@ -2,15 +2,14 @@
 title: "Underwater 3D Vision"
 ---
 
-# Underwater 3D Vision
-
 ### Disadventages of Distance Sensors and Power of Stereo Cameras
 
 There are variety of sensors types for measuring distances. It is possible to measure distances using infra-red light, radio waves, lasers etc. Radars and Lidars are widespread because of their performance and accuracy. However, most of these sensors do not work well under water. Radio waves for instance; will be reduced, thus they cannot travel long distances under water.
 
 Other sensors such as IR light sensors also cannot operate properly due to the refraction caused by medium changes. I.e. the sensor transmits the light but the light does not come back to receiver. To get rid of this refraction we need to make the sensor waterproof. Yet refraction is not the only problem. According to this <b><a href="https://ieeexplore.ieee.org/document/7477644">article</a></b>, infra-red light is heavily attenuated in water, as a result their maximum range under water is 20-25cm. So from our point of view they are useless just like RF sensors.
 
-<center><img src="images/underwater-3d-vision/top_image.jpg"></center>
+<!-- <center><img src="images/underwater-3d-vision/top_image.jpg"></center> -->
+![AUV](images/underwater-3d-vision/top_image.jpg){: .center-image }
 
 <b>Well then, what is being used for underwater applications?</b> you might ask. Of course there are underwater sensors for measuring distances and Sonar is most likely to be used. Sonars use acoustic waves (considered sound waves in water). Sonar can see obstacles from hundreds of meters away, therefore that makes sonar like Elvis of underwater sensors. Although sonars are especially developed for underwater use and can obtain perfect accuracy, they are costly to use for our student project.
 
@@ -22,7 +21,6 @@ You can ask: <b>Is measuring distance really that hard? Even I can estimate dist
     <figcaption>
         <i>We see the world with two eyes. Cameras see the world with only one lens.</i>
     </figcaption>
-    </img>
 </figure>
 
 A company called Stereolabs developed a camera that can see the world in 3D. ZED Camera has two lenses and can capture depth for every single pixel in real time. ZED is not the only stereo camera of course, there are other cameras from different companies but the idea is the same. Our AUV can detect obstacles in water and plan its trajectory to avoid obstacles.

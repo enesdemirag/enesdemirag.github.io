@@ -2,8 +2,6 @@
 title: "Yapay Sinir Ağları"
 ---
 
-# Yapay Sinir Ağları
-
 ### Yapay Zeka nedir? Faydaları ve Tehlikeleri nelerdir?
 
 Makineler düşünebilir mi? Ünlü bilgisayar bilimcisi Alan Turing’in 1950 yılında “Computing Machinery and Intelligence” isimli makalesinde sorduğu bu soru ile başlayan yapay zeka serüveni her geçen gün hız kazanarak yoluna devam ediyor. Yapılması imkansız diye düşünülen onlarca görev artık yapay zekanın yardımı ile tamamen bilgisayarlar tarafından yapılıyor. Uzun zamandır devam eden yapay zeka çalışmaları günümüzde dijital verinin büyüklüğü ve bilgisayarların işlem gücündeki artış sayesinde gittikçe hız kazanıyor.

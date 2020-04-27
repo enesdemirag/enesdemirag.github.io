@@ -6,7 +6,7 @@ lang: "en"
 # Page settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
 date_format: "%d %B, %Y"     # see http://shopify.github.io/liquid/filters/date/
-hide_title: true             # remove site heading in the header
+hide_title: false            # remove site heading in the header
 post_footer: true            # show previous and next links at the end of each post
 
 # Theme settings
@@ -15,7 +15,7 @@ dark_header: true            # keep the header dark
 # style: minimal             # use a simpler style inspired by the minima theme
 
 navigation:                  # (optional) site navigation in the header
-  - resume.html
+#  - resume.html
 #  - index.html
 #  - README.md
 #  - title: "https://"       # linking external sites is also supported
@@ -40,3 +40,4 @@ plugins:
  - jekyll-paginate
  - jekyll-default-layout
  - jemoji
+ - kramdown
