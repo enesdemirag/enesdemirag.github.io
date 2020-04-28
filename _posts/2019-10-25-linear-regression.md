@@ -14,7 +14,7 @@ We will use two different regression methods and write separate functions for bo
 
 |Simple Linear Regression|Least Squares Regression|
 |:---:|:---:|
-|<img src="images/simple-regression.png" width=300>|<img src="images/least-squares-regression.png" width= 300>|
+|<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/simple-regression.png" width=300>|<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/least-squares-regression.png" width= 300>|
 
 First, we generate points of ```y = x``` line with random error. Then, we will try to estimate this line using two different methods. Finally, we plot two lines respectively.  
 
@@ -63,5 +63,5 @@ plt.show()
 The result should be like this. Code can be accessed from [here](materials/linear-regression/regression.py).
 
 <p align="center">
-  <img src="images/regression-result.png">
+  <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/regression-result.png">
 </p>

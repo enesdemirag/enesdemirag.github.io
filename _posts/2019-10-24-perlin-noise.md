@@ -4,7 +4,7 @@
 
 Difference between random numbers and perlin noise shown below.
 <p align="center">
-  <img width="751" height="422" src="images/randomvsperlin.png">
+  <img width="751" height="422" src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/randomvsperlin.png">
 </p>
 
 Ken Perlin developed this algorithm for Disney's computer animated sci-fi motion picture [Tron (1982)](https://www.imdb.com/title/tt0084827/). In 1997, he won an Academy Award for Technical Achievement from the Academy of Motion Picture Arts and Sciences for this contribution to CGI.
@@ -75,7 +75,7 @@ mlab.show()
 The result should be like this. You can find the full code from [here](materials/perlin-noise/opensimplex-demo.py).
 
 <p align="center">
-  <img src="images/3d-simplex.png">
+  <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/3d-simplex.png">
 </p>
 
 
