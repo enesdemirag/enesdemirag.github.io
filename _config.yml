@@ -1,6 +1,6 @@
 title: "Enes Demirağ"
 author: "Enes Demirağ"
-description: "Fun projects and coding exercises"
+description: "My Personal Blog"
 lang: "en"
 
 # Page settings
@@ -41,3 +41,4 @@ plugins:
  - jekyll-default-layout
  - jemoji
  - kramdown
+ - jekyll-seo-tag
