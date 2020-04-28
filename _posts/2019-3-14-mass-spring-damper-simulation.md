@@ -1,4 +1,6 @@
-### Theoretical - Mass Spring Damper Simulation
+---
+title: "Mass Spring Damper Simulation"
+---
 
 Mass-Spring-Damper System would be the most common and most important example as the same time in differential equation. Especially you are studying mechanical or control engineering, you would be very familiar with this kind of model.
 
@@ -24,9 +26,7 @@ Where, **F** is the external force applied to the dynamic system. **m, b, and k*
 
 For more information, you can check [this website](http://www.sharetechnote.com/html/DE_Modeling_Example_SpringMass.html) and [this presentation](www.sharetechnote.com/html/DE_Modeling_Example_SpringMass.html) from Prof. R.G. Longoria, University of Texas.
 
-### Practical - Mass Spring Damper Simulation
-
-Create a physics simulation of a Mass-Spring-Damper System and plot the displacement, velocity and acceleration changes.
+Lets create a physics simulation of a Mass-Spring-Damper System and plot the displacement, velocity and acceleration changes.
 
 For simplicity, we will use pre-written Python visualizer code *[here](materials/mass-spring-damper-simulation)*. It uses _[matplotlib](https://matplotlib.org/)_ package to plot In order to simulate displacement, velocity and acceleration quantities. In order to this first we need to save visualizer.py file and import that to our python code.
 
@@ -41,7 +41,6 @@ All we need to do is implementing **Force = mass * acceleration + b * velocity +
 Also we know that in order to compute position we need to take integral of acceleration two times. Because computers can't calculate real integral, we should use [limit definition of the integral](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-3/a/definite-integral-as-the-limit-of-a-riemann-sum) to approximate an integral like above.
 
 Mass will will move from initial point (x = 15) to the center (x = 0) and oscillate. It will lose its energy in time and stop at the center after a while.
-
 
 ```python
 from visualizer import Visualizer # Import Visualizer class

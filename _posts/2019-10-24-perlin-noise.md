@@ -1,4 +1,6 @@
-### Theoretical - Perlin Noise
+---
+title: "Perlin Noise"
+---
 
 [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) is a random sequence generator producing a more natural, harmonic succession of numbers than that of the standard ```random()``` function. It was developed by Ken Perlin in the 1980s and has been used in graphical applications to generate procedural textures, shapes, terrains, and other seemingly organic forms.
 
@@ -20,9 +22,7 @@ For more information about this topic, you can look links below.
 - [Working with Simplex Noise](https://cmaher.github.io/posts/working-with-simplex-noise/)
 - [Simplex Noise Demystified](http://staffwww.itn.liu.se/~stegu/simplexnoise/simplexnoise.pdf)
 
-### Practical - Perlin Noise
-
-Write a program and show Simplex Noise in 1D
+If you want to see how we can use Simplex Noise in python continue with me with this 1D example.
 
 [Here](https://gist.github.com/eevee/26f547457522755cb1fb8739d0ea89a1) is a Python implementation of Perlin Noise. You can examine that but for simplicity I will use [OpenSimplex](https://pypi.org/project/opensimplex/) package. Using this package, we can generate 2D, 3D and 4D simplex noise in Python.
 
@@ -50,7 +50,7 @@ plt.show()
 
 ---
 
-Write a program and show Simplex Noise in 3D
+Okay, now its time to see this noise in 3D.
 
 We can generate terrains using simplex noise. For this application, I will use [mayavi](https://docs.enthought.com/mayavi/mayavi/) instead of matplotlib. Because 3D plotting in mayavi is much more efficient. In order to get smooth values, we must take small steps on the ```noise2d()``` function. Because of this, I simply divide 10. Also due to this function gives values between -1 and 1, I will map it between 0 and 10 via adding 1 and multiplying with 10.
 
@@ -77,6 +77,5 @@ The result should be like this. You can find the full code from [here](materials
 <p align="center">
   <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/3d-simplex.png">
 </p>
-
 
 You can use higher dimensional noise functions to make organic looking visuals. [Here](https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/) is and example of using perlin noise to make animated loop GIFs.

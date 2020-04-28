@@ -1,21 +1,20 @@
-### Theoretical - Caesar Cipher
+---
+title: "Caesar Cipher"
+---
 
 **Caesar Cipher** is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the text is replaced by a letter some fixed number of positions down the alphabet.
 
 You can watch this _[Khan Academy Video](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/caesar-cipher)_ and read this _[article](http://www.cs.trincoll.edu/~crypto/historical/caesar.html)_ for more information.
 
-### Practical - Caesar Cipher
+Lets write encrypt and decrypt functions for Caesar Cipher Encryption.
 
-_Alphabet : "abcdefghijklmnopqrstuvwxyz"_
-
-Write encrypt and decrypt functions for Caesar Cipher Encryption.
-
-Example:
+Encryption Example:
 ```
 input         : "hello", 5
 output        : "mjqqt"
 ```
 
+Decryption Example:
 ```
 input         : "Oazsdmfgxmfuaze", 12
 output        : "Congratulations"

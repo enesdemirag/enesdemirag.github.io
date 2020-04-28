@@ -1,4 +1,6 @@
-### Theoretical - Markov Chains
+---
+title: "Markov Chains"
+---
 
 A Markov Chain is a sequence of states. The idea of a sequence means, there should always be a transition where the state goes from one state to another.
 
@@ -8,7 +10,7 @@ For example, You could think of the behaviors of a baby as a Markov Chain Model,
   <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/markov-chain.gif">
 </p>
 
-Marcov Chains used in a variety of fields to analyze a sequence of states and also generate or predict outcomes based on that sequence such as financial data, scientific data, weather patterns, or predicting an earthquake based on sensor readings. You can look [this great visual explanation](http://setosa.io/ev/markov-chains/) of Marcov Chains.  
+Markov Chains used in a variety of fields to analyze a sequence of states and also generate or predict outcomes based on that sequence such as financial data, scientific data, weather patterns, or predicting an earthquake based on sensor readings. You can look [this great visual explanation](http://setosa.io/ev/markov-chains/) of Markov Chains.  
 
 We can generate a sequence of states based on existing states and probability of outcomes after that.
 And also we can think of text as a sequence of states. Every character represents a state. Or we could also think text as a sequence of states on word level.
@@ -18,10 +20,7 @@ Besides each state can be a single word or character, also there is a concept kn
 
 [Here](https://youtu.be/eGFJ8vugIWA) is a video on generating text using character level n-grams in JavaScript.
 
-
-### Practical - Markov Chains
-
-Write a program which generates text using n-grams from input text.
+Lets write a program which generates text using n-grams from input text.
 
 In order to generate text, first we need to create a state space for given source text. ```addWords()``` function will add every different word to a dictionary as a key, and assign an empty list as value. Then we will add every word to the previous word's associated list. **(Createing bi-grams)** After that, we should have a list of next possible words for each word in source text. Same word can be found more than one in list. This means the probability of that word is higher.
 

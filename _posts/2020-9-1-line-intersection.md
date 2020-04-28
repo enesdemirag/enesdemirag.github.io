@@ -1,4 +1,6 @@
-### Theoretical - Line Intersection
+---
+title: "Line Intersection"
+---
 
 In a 2D space, there are 3 ways how 2 lines interact with each other.
 
@@ -10,21 +12,7 @@ We can use Python's [SymPy](https://www.sympy.org/) package. SymPy are capable o
 
 There are two ways to represent a line, using a point on the line and the slope of line, or using two different points on the line. We will use two points.
 
-### Practical - Line Intersection
-
-- Using SymPy
-
-```python
-from sympy import Point, Line
-
-line1 = Line(Point(-3, 0.5), Point(1, 1))
-line2 = Line(Point(-2,-5), Point(3, 3))
-
-intersect = line1.intersection(line2)
-print(intersect)
-```
-
-- Classical Formula
+Implementing the **Classical Formula** can be like this.
 
 <p align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c51a9b486a6ef5a7a08b92d75e71a07888034a9a" width=300></p>
 
@@ -52,4 +40,16 @@ def findIntersection(l1, l2):
 
 x, y = findIntersection(line1, line2)
 print(x, y)
+```
+
+But using **SymPy** can be just that easy.
+
+```python
+from sympy import Point, Line
+
+line1 = Line(Point(-3, 0.5), Point(1, 1))
+line2 = Line(Point(-2,-5), Point(3, 3))
+
+intersect = line1.intersection(line2)
+print(intersect)
 ```

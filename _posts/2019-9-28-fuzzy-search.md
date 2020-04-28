@@ -1,4 +1,6 @@
-### Theoretical - Fuzzy Search
+---
+title: "Fuzzy Search"
+---
 
 Searching is a key component of big and complex systems. There are many different ways to find what we are looking for. For instance, if we want to find the location of a file in a directory, we enter the file name and the search algorithm looks ever directory and returns the file when it finds. But sometimes we do not know the exact name of the file. In this case, traditional searchinf algorithms are not sufficient.
 
@@ -6,9 +8,7 @@ For these type of problems, we use Fuzzy Search Algorithms. This way we can find
 
 To find the similarity, we need to give ranks to every file and return the one with best rank. In order to do this, we will use _[Levenshtein Distance](https://youtu.be/MiqoA-yF-0M)_ method.
 
-### Practical - Fuzzy Search
-
-Write a function that gets an input, and returns the most similar results in a file.
+Lets write a function that gets an input, and returns the most similar results in a file.
 Example movie list is [here](materials/fuzzy-search/movielist.txt).
 
 ```python

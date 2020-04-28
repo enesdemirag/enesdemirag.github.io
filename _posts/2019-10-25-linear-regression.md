@@ -1,4 +1,6 @@
-### Theoretical - Linear Regression
+---
+title: "Linear Regression"
+---
 
 In statistical modeling, **[regression](https://en.wikipedia.org/wiki/Regression_analysis)** is a set of statistical processes for estimating the relationships among one dependent and one or more independent variables. **[Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)** was the first type of regression analysis to be studied and to be used extensively in practical applications.
 
@@ -6,11 +8,8 @@ In statistical modeling, **[regression](https://en.wikipedia.org/wiki/Regression
 
 For more information, you can check these [1](https://youtu.be/KsVBBJRb9TE) - [2](https://youtu.be/coQAAN4eY5s) videos.
 
-### Practical - Linear Regression
 
-Write a function which returns the best fitting line for given data points.
-
-We will use two different regression methods and write separate functions for both of them.
+To write a function which returns the best fitting line for given data points I used two regression methods and write separate functions for both of them to show the differences.
 
 |Simple Linear Regression|Least Squares Regression|
 |:---:|:---:|

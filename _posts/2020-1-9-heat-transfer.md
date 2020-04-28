@@ -1,4 +1,6 @@
-### Theoretical - Heat Transfer
+---
+title: "Heat Transfer"
+---
 
 Heat transfer is a discipline of thermal engineering that concerns the generation, use, conversion, and exchange of thermal energy (heat) between physical systems.
 
@@ -50,9 +52,7 @@ Symbolic programming is a programming paradigm in which the program can manipula
 
 SymPy are capable of computing symbolic expressions with variables. Using symbolic programming we can we can solve problems like this. You can learn more about sympy from [this tutorials](https://docs.sympy.org/1.5.1/tutorial).
 
-### Practical - Heat Transfer
-
-- Classical Approach
+Here is the python code uses **Classical Approach**.
 
 ```python
 class Matter(object):
@@ -73,7 +73,7 @@ t_balance = heatTransfer(hot_water, cold_water)
 print(t_balance)
 ```
 
-- Symbolic Programing Approach
+And here is the python code using **Symbolic Programing Approach**.
 
 ```python
 class Matter(object):

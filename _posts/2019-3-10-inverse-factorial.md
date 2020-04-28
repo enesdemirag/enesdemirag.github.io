@@ -1,19 +1,12 @@
-### Theoretical - Inverse Factorial
+---
+title: "Inverse Factorial"
+---
 
 In mathematics, the **factorial** of a integer n, denoted by n!, is the product of all positive integers less than or equal to n.
 
-### Practical - Inverse Factorial
+Lets write a function that returns a number if its factorial is given. If the input value does not have a solution, returns 0.
 
-Write a function that returns a number if its factorial is given.
-If the input value does not have a solution, return 0.
-
-Example:
-```
-input         : 120
-output        : 5
-```
-
-We create a loop counting from one to infinite. And in every loop we check that if number can be divided without remainder and multiply the products until we reach to input value.
+We can create a loop counting from one to infinite. And in every loop we check that if number can be divided without remainder and multiply the products until we reach to input value.
 
 Here is a solution using Python.
 
