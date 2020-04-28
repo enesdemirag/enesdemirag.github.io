@@ -6,21 +6,23 @@ An **image kernel** is a small matrix used to apply effects such as blurring, sh
 
 Below matrix is a 3x3 Gaussian Blur Kernel. For each pixel in the image, we take 3x3 block of neighbor pixels and multiply each pixel by the corresponding entry of the kernel and then take the sum. That sum becomes a new value of the pixel.
 
+
+
 <table>
     <tr>
-        <td>0.0625</td>
-        <td>0.125</td>
-        <td>0.0625</td>
+        <td><center>0.0625</center></td>
+        <td><center>0.125</center></td>
+        <td><center>0.0625</center></td>
     </tr>
     <tr>
-        <td>0.125</td>
-        <td>0.25</td>
-        <td>0.125</td>
+        <td><center>0.125</center></td>
+        <td><center>0.25</center></td>
+        <td><center>0.125</center></td>
     </tr>
     <tr>
-        <td>0.0625</td>
-        <td>0.125</td>
-        <td>0.0625</td>
+        <td><center>0.0625</center></td>
+        <td><center>0.125</center></td>
+        <td><center>0.0625</center></td>
     </tr>
 </table>
 
