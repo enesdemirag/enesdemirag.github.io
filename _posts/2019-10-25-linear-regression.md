@@ -11,10 +11,9 @@ For more information, you can check these [1](https://youtu.be/KsVBBJRb9TE) - [2
 
 To write a function which returns the best fitting line for given data points I used two regression methods and write separate functions for both of them to show the differences.
 
-<figure>
+<p align="center">
     <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/least-squares-regression.png"/>
-    <figcaption> Least Squares Regression </figcaption>
-</figure>
+</p>
 
 First, we generate points of ```y = x``` line with random error. Then, we will try to estimate this line using two different methods. Finally, we plot two lines respectively.  
 
