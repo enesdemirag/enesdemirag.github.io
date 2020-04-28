@@ -1,5 +1,5 @@
 ---
-title: "Fuzzy Search"
+title: "Searching cleverly with Fuzzy Search"
 ---
 
 Searching is a key component of big and complex systems. There are many different ways to find what we are looking for. For instance, if we want to find the location of a file in a directory, we enter the file name and the search algorithm looks ever directory and returns the file when it finds. But sometimes we do not know the exact name of the file. In this case, traditional searchinf algorithms are not sufficient.

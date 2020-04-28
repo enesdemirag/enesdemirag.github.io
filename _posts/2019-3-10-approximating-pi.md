@@ -1,5 +1,5 @@
 ---
-title: "Approximating Pi"
+title: "Approximating Pi with Monte Carlo Method"
 ---
 
 The number &#960; (pi) is a mathematical constant defined as the ratio of a circle's circumference to its diameter. This magical number appears in many formulas in all areas of mathematics and physics.

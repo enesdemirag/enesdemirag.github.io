@@ -1,5 +1,5 @@
 ---
-title: "Markov Chains"
+title: "Text Generation using Markov Chains"
 ---
 
 A Markov Chain is a sequence of states. The idea of a sequence means, there should always be a transition where the state goes from one state to another.

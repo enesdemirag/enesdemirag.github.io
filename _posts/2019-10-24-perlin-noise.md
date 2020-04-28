@@ -1,5 +1,5 @@
 ---
-title: "Perlin Noise"
+title: "Perlin Noise and Cool Applications"
 ---
 
 [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) is a random sequence generator producing a more natural, harmonic succession of numbers than that of the standard ```random()``` function. It was developed by Ken Perlin in the 1980s and has been used in graphical applications to generate procedural textures, shapes, terrains, and other seemingly organic forms.
