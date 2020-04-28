@@ -1,5 +1,5 @@
 ---
-title: "Image Kernels"
+title: "Origin of Computer Vision, Kernels"
 ---
 
 An **image kernel** is a small matrix used to apply effects such as blurring, sharpening, and edge detection. They are like ancestors of modern image processing techniques and even used today in machine learning for _feature extraction_, a technique for determining the most important portions of an image.

@@ -1,5 +1,5 @@
 ---
-title: "Fibonacci Finder"
+title: "Thinking Backwards with Fibonacci"
 ---
 
 The Fibonacci sequence is one of the most famous formulas in mathematics. Each number in the sequence is the sum of the two numbers that precede it. So, the sequence goes: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so on.
@@ -18,7 +18,7 @@ fibonacci(n):
 
 For more information check out _[this](http://mathworld.wolfram.com/FibonacciNumber.html)_ website and *[wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)* page.
 
-Here is a MATLAB function which returns the index of the input number in fibonacci sequence. If input value is not a member of fibonacci sequence it gives -1. For instance if we give **89** as an input, it should return **10** and if we pass **92**, it should return **-1**.
+Because implementing fibonacci was so simple for us, lets thinks backwards. Here is a MATLAB function which returns the index of the input number in fibonacci sequence. If input value is not a member of fibonacci sequence it gives -1. For instance if we give **89** as an input, it should return **10** and if we pass **92**, it should return **-1**.
 
 ```matlab
 function output = fibonacci_finder(input)
@@ -31,7 +31,7 @@ function output = fibonacci_finder(input)
         temp = a;
         a = b;
         b = temp + b;
-        if(a == input) % If
+        if(a == input)
             break;
         end
         else if(a > input) % If input number didn't within the sequence
