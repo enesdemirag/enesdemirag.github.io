@@ -37,18 +37,6 @@ _ITU Department of Information Technology_ (Apr. - July 2017)
 > This department develops all IT needs of university as hardware, software, data communication systems and technical
 services in our university. I worked 3 months here and I learned many things about Networks and ```Linux systems```.
 
-## Skills
-
-- Robotics
-- Computer Vision
-- Python
-- C
-- Java
-- Linux
-- Git
-- ROS
-- OpenCV
-
 ## Projects
 
 **Software Team Member**
@@ -77,6 +65,18 @@ _ITU ROV Team_ (Oct. 2016 - Sept. 2018)
 > The main aim of this project is to develop remotely operated underwater robots in Turkey. I worked on GUI design
 with C#, motor controlling and ```embedded systems``` using C++, ```communication systems``` like TCP/IP, i2c, and UART.
 You can see my work from [2018](https://github.com/iturov/rov2018) and [2019](https://github.com/iturov/rov2019) repositories.
+
+## Skills
+
+- Robotics
+- Computer Vision
+- Python
+- C
+- Java
+- Linux
+- Git
+- ROS
+- OpenCV
 
 ## Awards
 
