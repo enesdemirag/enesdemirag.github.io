@@ -18,6 +18,7 @@ _Erasmus Exchange Program_
 <br>
 _Graduate_
 
+---
 ## Work Experience
 
 **Software Intern**
@@ -39,6 +40,7 @@ _ITU Department of Information Technology_ (Apr. - July 2017)
 > This department develops all IT needs of university as hardware, software, data communication systems and technical
 services in our university. I worked 3 months here and I learned many things about Networks and ```Linux systems```.
 
+---
 ## Projects
 
 **Software Team Member**
@@ -68,6 +70,7 @@ _ITU ROV Team_ (Oct. 2016 - Sept. 2018)
 with C#, motor controlling and ```embedded systems``` using C++, ```communication systems``` like TCP/IP, i2c, and UART.
 You can see my work from [2018](https://github.com/iturov/rov2018) and [2019](https://github.com/iturov/rov2019) repositories.
 
+---
 ## Skills
 
 - Robotics
@@ -80,6 +83,7 @@ You can see my work from [2018](https://github.com/iturov/rov2018) and [2019](ht
 - ROS
 - OpenCV
 
+---
 ## Awards
 
 - Teknofest Underwater Systems Competition **4<sup>th</sup>** - _Istanbul / Turkey / 2018_
@@ -88,16 +92,19 @@ You can see my work from [2018](https://github.com/iturov/rov2018) and [2019](ht
 - MATE ROV International Competition **23<sup>rd</sup>** - _Long Beach, California / USA / 2017_
 - MATE ROV Regional Competition **1<sup>st</sup>** - _Istanbul / Turkey / 208_
 
+---
 ## Certificates
 
 - **PCAP:** Programming Essentials in Python - _Python Institude_
 - Python Programming Course - _Udemy_
 
+---
 ## Languages
 
 - Turkish : Native
 - English : Advanced
 
+---
 ## Organisations
 
 **ITU Robotics**
