@@ -3,6 +3,7 @@ layout: page
 title: "Resume"
 ---
 
+---
 ## Education
 
 **Istanbul Technical University** - Turkey (2016 - Present)
