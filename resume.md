@@ -34,7 +34,7 @@ _DESI Security & Lock Systems_ (July - Aug. 2017)
 >DESI is a manufacturing and RD company dealing with electronic security business. As an electronics intern I worked
 there about 2 months, practising with electrical components and ```microcontrollers```.
 
-***Assistant Student***
+**Assistant Student**
 <br>
 _ITU Department of Information Technology_ (Apr. - July 2017)
 > This department develops all IT needs of university as hardware, software, data communication systems and technical
@@ -90,7 +90,7 @@ You can see my work from [2018](https://github.com/iturov/rov2018) and [2019](ht
 - MATE ROV International Competition **11<sup>th</sup>** - _Federal Way, Washington / USA / 2018_
 - MATE ROV Regional Competition **1<sup>st</sup>** - _Istanbul / Turkey / 2018_
 - MATE ROV International Competition **23<sup>rd</sup>** - _Long Beach, California / USA / 2017_
-- MATE ROV Regional Competition **1<sup>st</sup>** - _Istanbul / Turkey / 208_
+- MATE ROV Regional Competition **1<sup>st</sup>** - _Istanbul / Turkey / 2017_
 
 ---
 ## Certificates
