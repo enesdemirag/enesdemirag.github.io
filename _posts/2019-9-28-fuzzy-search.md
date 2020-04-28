@@ -9,7 +9,7 @@ For these type of problems, we use Fuzzy Search Algorithms. This way we can find
 To find the similarity, we need to give ranks to every file and return the one with best rank. In order to do this, we will use _[Levenshtein Distance](https://youtu.be/MiqoA-yF-0M)_ method.
 
 Lets write a function that gets an input, and returns the most similar results in a file.
-Example movie list is [here](materials/fuzzy-search/movielist.txt).
+Example movie list is [here](https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/fuzzy-search/movielist.txt).
 
 ```python
 def distance(string, pattern): # Levenshtein Distance
@@ -53,28 +53,28 @@ for i in range(len(sorted_list)):
         break
 ```
 
-Full code can be accessed from [here](materials/fuzzy-search/search.py).
+Full code can be accessed from [here](https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/fuzzy-search/search.py).
 
 #### **References:**
 
 _Search Algorithms:_
-- https://study.com/academy/lesson/string-searching-algorithms-methods-types.html
-- https://www.geeksforgeeks.org/searching-algorithms/
+- [study.com](https://study.com/academy/lesson/string-searching-algorithms-methods-types.html)
+- [geeksforgeeks.org](https://www.geeksforgeeks.org/searching-algorithms/)
 
 _Searching and Sorting Algorithms Book:_
-- http://www.cs.carleton.edu/faculty/adalal/teaching/f04/117/notes/searchSort.pdf 
+- [Amy Csizmar Dalal](http://www.cs.carleton.edu/faculty/adalal/teaching/f04/117/notes/searchSort.pdf) 
 
 _Fuzzy Search:_
-- https://en.wikipedia.org/wiki/Approximate_string_matching
+- [wikipedia](https://en.wikipedia.org/wiki/Approximate_string_matching)
 
 _Python Package:_
-- https://github.com/seatgeek/fuzzywuzzy
-- https://github.com/ztane/python-Levenshtein/
+- [SeatGeek](https://github.com/seatgeek/fuzzywuzzy)
+- [Antti Haapala](https://github.com/ztane/python-Levenshtein/)
 
 _Levenshtein Distance:_
-- https://en.wikipedia.org/wiki/Levenshtein_distance
+- [wiki](https://en.wikipedia.org/wiki/Levenshtein_distance)
 
 _Levenshtein Distance Tutorials:_
-- https://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/
-- https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python
-- https://www.elastic.co/blog/found-fuzzy-search
+- [stackabuse.com](https://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/)
+- [wikibooks](https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python)
+- [elastic.co](https://www.elastic.co/blog/found-fuzzy-search)

@@ -66,4 +66,4 @@ learn(text)
 run(100, 0)
 ```
 
-You can find the working example code from [here](materials/markov-chains/demo.py).
+You can find the working example code from [here](https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/markov-chains/demo.py).

@@ -6,27 +6,27 @@ An **image kernel** is a small matrix used to apply effects such as blurring, sh
 
 Below matrix is a 3x3 Gaussian Blur Kernel. For each pixel in the image, we take 3x3 block of neighbor pixels and multiply each pixel by the corresponding entry of the kernel and then take the sum. That sum becomes a new value of the pixel.
 
-<table align = center>
+<table>
     <tr>
-        <td align = center>0.0625</td>
-        <td align = center>0.125</td>
-        <td align = center>0.0625</td>
+        <td>0.0625</td>
+        <td>0.125</td>
+        <td>0.0625</td>
     </tr>
     <tr>
-        <td align = center>0.125</td>
-        <td align = center>0.25</td>
-        <td align = center>0.125</td>
+        <td>0.125</td>
+        <td>0.25</td>
+        <td>0.125</td>
     </tr>
     <tr>
-        <td align = center>0.0625</td>
-        <td align = center>0.125</td>
-        <td align = center>0.0625</td>
+        <td>0.0625</td>
+        <td>0.125</td>
+        <td>0.0625</td>
     </tr>
 </table>
 
 If you want to learn more about image kernels, you can check *[wikipedia](https://bit.ly/2yfaapD)* page and _[this documentation](https://docs.gimp.org/en/gimp-filter-convolution-matrix.html)_ from gimp, also I certainly suggest you to look at _[this website](http://setosa.io/ev/image-kernels/)_ for visually explanation of image kernels.
 
-Lets practice image kernels with writing a function that can apply the entered kernel to an image. You can use image *[here](materials/image-kernels/)* for filtering.
+Lets practice image kernels with writing a function that can apply the entered kernel to an image. You can use image *[here](https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/image-kernels/)* for filtering.
 
 I will use Python for this. Before coding, we need to import _[numpy](https://docs.scipy.org/doc/numpy/user/whatisnumpy.html)_ and _[matplotlib](https://matplotlib.org/)_ modules to our program. Numpy enables us to perform fast operations on matrices. Of course we can write our program without using numpy but it would be much harder. Matplotlib actually a plotting library for python but we need it just for showing our filtered image.
 
@@ -74,4 +74,4 @@ def filter(image, kernel):
 
 <p align="center"><img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/image-kernels.png"></p>
 
-_Full code is [here](materials/image-kernels/demo.py)._
+_Full code is [here](https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/image-kernels/demo.py)._

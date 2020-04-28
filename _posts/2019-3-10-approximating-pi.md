@@ -8,9 +8,7 @@ Interestingly, pi is an irrational number, there can be no “final" digit of pi
 
 Since computers can't work with infinite decimals, they need to approximate pi. There are countless number of numerical methods to calculate the value of pi.
 
-Lets write a program which approximates the value of &#960;
-
-There are a couple different ways of estimating &#960;. I will use **[Monte Carlo Method](http://mathworld.wolfram.com/MonteCarloMethod.html)** with C programming.
+Lets write a program which approximates the value of &#960;. There are a couple different ways of estimating &#960;. I will use **[Monte Carlo Method](http://mathworld.wolfram.com/MonteCarloMethod.html)** with C programming.
 
 What if we randomly throw darts at a dart board that looks like this.
 
@@ -22,7 +20,7 @@ If we count up the darts that landed within the circle and compare to the total 
 
 From the figure, it's clear that the length of the square **L** is twice the radius of the circle **r**. So we can calculate the ratio between the areas of circle and square as following.
 
-<table cellspacing=0  border=0 align=center>
+<table>
 <tr>
   <td nowrap align="center">
     <table cellspacing=0 border=0 >
@@ -124,7 +122,7 @@ From the figure, it's clear that the length of the square **L** is twice the rad
 </tr>
 </table>
 
-So if we randomly throw the darts, the ratio should approximate to &#960;/4. Therefore we can just multiply the ratio by 4 to get an estimate for &#960;.
+So if we randomly throw the darts, the ratio should approximate to **&#960; / 4**. Therefore we can just multiply the ratio by 4 to get an estimate for &#960;.
 
 First, we need to include math.h library to our program. Then imagine a 500x500 square and a circle which perfectly fits inside of it. I will take the center of the circle as origin point **(0,0)**.
 
@@ -185,7 +183,7 @@ def distance(x, y):
         print(pi)
 ```
 
-Simulation: code is [here](materials/approximating-pi/simulation.py).
+I also made an animation using [PyGame](https://www.pygame.org/). Code is [here](https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/approximating-pi/simulation.py).
 
 <p align="center">
 <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/monte-carlo.gif">

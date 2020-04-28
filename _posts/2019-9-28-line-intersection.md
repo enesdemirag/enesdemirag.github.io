@@ -14,7 +14,7 @@ There are two ways to represent a line, using a point on the line and the slope 
 
 Implementing the **Classical Formula** can be like this.
 
-<p align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c51a9b486a6ef5a7a08b92d75e71a07888034a9a" width=300></p>
+<figure><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c51a9b486a6ef5a7a08b92d75e71a07888034a9a"></figure>
 
 ```python
 class Point(object):
@@ -42,7 +42,7 @@ x, y = findIntersection(line1, line2)
 print(x, y)
 ```
 
-But using **SymPy** can be just that easy.
+Here using **SymPy** can be just that easy.
 
 ```python
 from sympy import Point, Line

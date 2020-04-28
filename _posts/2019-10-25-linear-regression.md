@@ -1,5 +1,5 @@
 ---
-title: "Linear Regression"
+title: "Linear Regression & Least Squares Method"
 ---
 
 In statistical modeling, **[regression](https://en.wikipedia.org/wiki/Regression_analysis)** is a set of statistical processes for estimating the relationships among one dependent and one or more independent variables. **[Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)** was the first type of regression analysis to be studied and to be used extensively in practical applications.
@@ -11,9 +11,22 @@ For more information, you can check these [1](https://youtu.be/KsVBBJRb9TE) - [2
 
 To write a function which returns the best fitting line for given data points I used two regression methods and write separate functions for both of them to show the differences.
 
-|Simple Linear Regression|Least Squares Regression|
-|:---:|:---:|
-|<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/simple-regression.png" width=300>|<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/least-squares-regression.png" width= 300>|
+<table>
+<tr>
+<td>
+<figure>
+    <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/simple-regression.png"/>
+    <figcaption> Simple Linear Regression </figcaption>
+</figure>
+</td>
+<td>
+<figure>
+    <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/least-squares-regression.png"/>
+    <figcaption> Least Squares Regression </figcaption>
+</figure>
+</td>
+</tr>
+</table>
 
 First, we generate points of ```y = x``` line with random error. Then, we will try to estimate this line using two different methods. Finally, we plot two lines respectively.  
 
@@ -59,7 +72,7 @@ ax[1].legend(["Least Squares Regression Line"])
 plt.show()
 ```
 
-The result should be like this. Code can be accessed from [here](materials/linear-regression/regression.py).
+The result should be like this. As you can see both methods fit exactly the same line. Full code can be accessed from [here](https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/linear-regression/regression.py).
 
 <p align="center">
   <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/regression-result.png">
