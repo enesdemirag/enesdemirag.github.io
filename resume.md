@@ -63,15 +63,14 @@ _ITU ROV Team_ (Oct. 2016 - Sept. 2018)
 ---
 ## Skills
 
-- Robotics
+- Machine Learning
 - Computer Vision
-- Python
-- C
-- Java
+- Robotics
+- Object Oriented System Design
+- Embedded System Programming
+- Microcontrollers
 - Linux
 - Git
-- ROS
-- OpenCV
 
 ---
 ## Awards
