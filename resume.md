@@ -84,8 +84,8 @@ _ITU ROV Team_ (Oct. 2016 - Sept. 2018)
 ---
 ## Certificates
 
-- **PCAP:** Programming Essentials in Python - _Python Institude_
-- Machine Learning Crash Course - _Google_
+- **PCAP:** [Programming Essentials in Python](https://enesdemirag.github.io/docs/certificates/python_certificate.pdf) - _Python Institude_
+- [Machine Learning Crash Course](https://enesdemirag.github.io/docs/certificates/google_ml_certificate.pdf) - _Google_
 
 ---
 ## Languages
