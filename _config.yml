@@ -3,8 +3,6 @@ author: "Enes Demirağ"
 description: "My Personal Blog"
 lang: "en"
 
-markdown: maruku
-
 # Page settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
 date_format: "%d %B %Y"      # see http://shopify.github.io/liquid/filters/date/
@@ -44,3 +42,5 @@ plugins:
  - jemoji
  - kramdown
  - jekyll-seo-tag
+ - jekyll-scholar
+ - jekyll-katex
