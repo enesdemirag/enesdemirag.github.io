@@ -17,7 +17,7 @@ and sensors are used in many industrial areas such as medical sensing and roboti
 
 The catched light generates electrons which carry electrical current so the conductivity of the detector material changes proportional to the intensity of the coming light. Photoconductive detectors are fabricated from semiconductor materials like silicon. 
 
-#### Photodiodes
+#### **Photodiodes**
 
 Photodiodes are designed to detect light particles called photons to be used to detect light and measure the intensity. Phototransistors are internal amplified photodiodes.
 
@@ -49,7 +49,7 @@ Responsivity of the photodiodes with different materials under different wavelen
 
 p-i-n photodiode widely used across different applications because of its simple structure which makes its cost efficient. But for more precise applications on industry or academic research, under ideal conditions and high quality materials design with Q.E. of 80% can be accessed.
 
-#### Infrared Sensors
+#### **Infrared Sensors**
 
 Infrared light contains less energy per photon compared to the visible light band. For this reason, an infrared photon often lacks the energy required to trigger the detection threshold of a photodetector. Infrared is often measured using a thermal detector, such as a thermopile, which is a heat sensitive device that measures radiated heat.
 
@@ -67,7 +67,7 @@ This type of detectors contains a pn junction. Voltage is generated when light e
 <img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/solar.png" width="500">
 </p>
 
-#### Photovoltaic Cell
+#### **Photovoltaic Cell**
 
 A photovoltaic cell is made from semiconductor materials which can absorb the light particles and generates an electron flow to the circuit. When a photon hit a semiconductor material like silicon, it releases an electron from its atom. The free electrons move and fill a electron hole. But electrons must flow in the same direction, not randomly, in order to produce a current on the circuit. In order to achieve this two different types of silicone used. The layer with the surface facing to the light is doped with phosphorus which have more electrons than silicon or boron doped sides. This sandwich structure is similar to a battery. The layer with more free electrons becomes negative terminal (n) and the other layer with less free electrons becomes positive terminal (p). At the junction between these n and p layers an electric field is created. When electrons are triggered by photons, the electric field is goes to the n layer while the holes are goes to the p layer as seen in the figure above.
 
@@ -121,13 +121,13 @@ Those dielectric mirrors provide a high degree of wavelength selective reflectio
 
 ---
 
-#### Acknowledgment
+#### **Acknowledgment**
 
 ```
 I would like to thank my advisor _Associate Professor Onur Ferhanoğlu._
 ```
 
-#### References
+#### **References**
 ```
 Hunsperger, Robert G., _Integrated Optics: Theory and Technology_, Springer Berlin Heidelberg, 2002.
 
