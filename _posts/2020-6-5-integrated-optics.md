@@ -34,6 +34,7 @@ A photodiode acts as a photo controlled current source in parallel with the semi
 $$
 I_{d} = I_{do}(e^{qV_{d}/2kT}-1)+I_{p}
 $$
+<img src="https://latex.codecogs.com/gif.latex?I_{d} = I_{do}(e^{qV_{d}/2kT}-1)+I_{p}" />
 
 The ability of a photodiode to convert light energy into electricity is measured by Quantum Efficiency. $$\eta$$ is the ratio between the number of electrons collected as $$I_{p}/sec$$ and number of incident $$photons/sec$$. Efficiency also depends on absorption coefficient, thickness, doping, temperature, geometry, etc.
 
