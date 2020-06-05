@@ -1,5 +1,6 @@
 ---
 title: "Integrated Optics"
+use_math : true
 ---
 
 ## Introduction
