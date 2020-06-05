@@ -32,7 +32,9 @@ A photodiode acts as a photo controlled current source in parallel with the semi
 
 $I_{d} = I_{do}(e^{qV_{d}/2kT}-1)+I_{p}$
 
-<img align="right" src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/photodiode.png" width=200>
+<p align="right">
+<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/photodiode.png" width="200">
+</p>
 
 The ability of a photodiode to convert light energy into electricity is measured by Quantum Efficiency. $\eta$ is the ratio between the number of electrons collected as $I_{p}/sec$ and number of incident $photons/sec$. Efficiency also depends on absorption coefficient, thickness, doping, temperature, geometry, etc.
 
@@ -63,8 +65,9 @@ Infrared is much more difficult to manage than visible light. It is harder to fo
 
 This type of detectors contains a pn junction. Voltage is generated when light energy captured.
 
-<img align="right" src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/solar.png" width=400>
-
+<p align="right">
+<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/solar.png" width="400">
+</p>
 
 **Photovoltaic Cell**<br>
 A photovoltaic cell is made from semiconductor materials which can absorb the light particles and generates an electron flow to the circuit. When a photon hit a semiconductor material like silicon, it releases an electron from its atom. The free electrons move and fill a electron hole. But electrons must flow in the same direction, not randomly, in order to produce a current on the circuit. In order to achieve this two different types of silicone used. The layer with the surface facing to the light is doped with phosphorus which have more electrons than silicon or boron doped sides. This sandwich structure is similar to a battery. The layer with more free electrons becomes negative terminal (n) and the other layer with less free electrons becomes positive terminal (p). At the junction between these n and p layers an electric field is created. When electrons are triggered by photons, the electric field is goes to the n layer while the holes are goes to the p layer as seen in the figure above.
@@ -83,7 +86,9 @@ Semiconductor laser diodes are fabricated from direct band gap materials, using 
 
 #### Double Heterostructure Lasers
 
-<img align="left" src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/dh_laser_diode.png" width=300>
+<p align="left">
+<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/dh_laser_diode.png" width="300">
+</p>
 
 In double heterostructure semiconductor laser diode, a narrow band gap material layer like gallium arsenide (GaAs) is placed between the two high band gap layers like aluminum gallium arsenite (AlGaAs). It is called the "double heterostructure laser" aka. DH laser because both of the junction points between the layers is called a heterostructure.
 
@@ -91,19 +96,25 @@ One of the advantages of the double heterostructure laser is the region of the f
 
 #### Quantum Well Lasers
 
-<img align="right" src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/qw_laser_diode.png" width=300>
+<p align="right">
+<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/qw_laser_diode.png" width="300">
+</p>
 
 In Quantum Well Lasers, middle layer is thin enough to acts as a quantum well which means the output energy boosted because of the electron's wave function. The efficiency of a quantum well laser is better than a solid state bulk lasers with crystals because the density of the electrons in the quantum well.
 
 #### Separate Confinement Heterostructure Lasers
 
-<img align="left" src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/sch_laser_diode.png" width=300>
+<p align="left">
+<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/sch_laser_diode.png" width="300">
+</p>
 
 One of the disadgentages of the quantum well laser diode is that the thin layer is too small to effectively restain the light. To compensate, another two layers are added outside. These layers have a lower refractive index than the layers inside, so restain the light more efficiently. This design is called a separate confinement heterostructure (SCH) laser diode. Almost all of the commercial laser diodes after 90s have been separate confinement heterostructure quantum well diodes.
 
 #### Vertical-Cavity Surface-Emitting Lasers
 
-<img align="right" src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/vcsel.png" width=300>
+<p align="right">
+<img src="https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/vcsel.png" width="300">
+</p>
 
 Vertical-cavity surface-emitting lasers (VCSEL) have optical gap along the direction of the current flow, not perpendicular to the direction if the current flow, as in conventional laser diodes. The active zone size is shorter than the side dimensions, thus radiation exits from the surface of the cavity, not from the edge of it just like in the figure. There are upper and lower reflectors at both ends of the cavity using dielectric mirrors with an alternative high and low refractive index.
 
