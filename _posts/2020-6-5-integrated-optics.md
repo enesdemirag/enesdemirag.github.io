@@ -31,22 +31,20 @@ Current through photodiodes is directly proportional to the intensity of the lig
 
 A photodiode acts as a photo controlled current source in parallel with the semiconductor diode and can be examined with the standard diode equation where $$I_{p}$$ is the photocurrent.
 
-$$
-I_{d} = I_{do}(e^{qV_{d}/2kT}-1)+I_{p}
-$$
-<img src="https://latex.codecogs.com/gif.latex?I_{d} = I_{do}(e^{qV_{d}/2kT}-1)+I_{p}" />
+<img src="https://latex.codecogs.com/gif.latex?I_{d} = I_{do}(e^{qV_{d}/2kT}-1)+I_{p}"/>
 
 The ability of a photodiode to convert light energy into electricity is measured by Quantum Efficiency. $$\eta$$ is the ratio between the number of electrons collected as $$I_{p}/sec$$ and number of incident $$photons/sec$$. Efficiency also depends on absorption coefficient, thickness, doping, temperature, geometry, etc.
 
-$$
+<img src="https://latex.codecogs.com/gif.latex?Q.E. = \eta = r_{e}/r_{p}"/>
+
+```math
 Q.E. = \eta = r_{e}/r_{p}
-$$
+```
 
 Responsivity of the photodiode $$R_{\lambda}$$ defined as the ratio of output current in amperes to the radiated energy in watts. (A/W)
 
-$$
-R_{\lambda} = I_{p}/P
-$$
+<img src="https://latex.codecogs.com/gif.latex?R_{\lambda} = I_{p}/P"/>
+
 
 Responsivity of the photodiodes with different materials under different wavelenghts of light can be seen in figure below.
 
