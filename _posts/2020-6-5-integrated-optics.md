@@ -124,19 +124,18 @@ Those dielectric mirrors provide a high degree of wavelength selective reflectio
 
 #### **Acknowledgment**
 
-```
 I would like to thank my advisor _Associate Professor Onur Ferhanoğlu._
-```
 
 #### **References**
-```
-Hunsperger, Robert G., _Integrated Optics: Theory and Technology_, Springer Berlin Heidelberg, 2002.
 
-Wei-Chih Wang, _Optical Detectors_, Department of Power Mechanical Engineering, National Tsing Hua University.
+* Hunsperger, Robert G., _Integrated Optics: Theory and Technology_, Springer Berlin Heidelberg, 2002.
 
-Coldren, L.A. and Corzine, S.W. and Mashanovitch, M.L., _Diode Lasers and Photonic Integrated Circuits_, Wiley, 2012.
+* Wei-Chih Wang, _Optical Detectors_, Department of Power Mechanical Engineering, National Tsing Hua University.
 
-Sala A., _Integrated Photonics_, OP-TEC, 2016.
-```
+* Coldren, L.A. and Corzine, S.W. and Mashanovitch, M.L., _Diode Lasers and Photonic Integrated Circuits_, Wiley, 2012.
 
-* You can access to the real paper from [here](https://github.com/enesdemirag/enesdemirag.github.io/raw/master/docs/integrated-optic.pdf). 
+* Sala A., _Integrated Photonics_, OP-TEC, 2016.
+
+---
+
+> You can access to the real paper from [here](https://github.com/enesdemirag/enesdemirag.github.io/raw/master/docs/integrated-optic.pdf). 
