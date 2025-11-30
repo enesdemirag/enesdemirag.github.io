@@ -26,16 +26,28 @@ export default function ProfileCard() {
 
       <div className="pt-20 p-6 text-center">
         <h1 className="text-3xl font-bold text-blue-900 mb-2">Enes Demirağ</h1>
-        <h2 className="text-xl text-blue-700 mb-4">Software Engineer</h2>
+        <h2 className="text-xl text-blue-700 mb-4">AI Engineer</h2>
 
         <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-          Hey! I'm Enes. I'm someone who loves exploring and trying new things.
+          I am an AI Engineer with a strong background in computer vision, deep learning, LLMs, and real-time AI systems. Over the past several years, I have built and deployed production-grade AI applications at scale, leading teams focused on high-performance solutions.
           <br /><br />
-          I studied Engineering at Istanbul Technical University and currently work as an Software Engineer at Chooch, where I get to combine my love for AI and technology with problem-solving.
+          I have hands-on experience with modern AI frameworks and agentic tools. My work bridges machine learning and backend engineering, with a focus on designing scalable, production-ready AI systems.
           <br /><br />
-          I'm really into AI and technology. I love discussing new technologies and what the future might look like. I'm also talking about finance and investing. It's exciting to learn how things work and share ideas. I also enjoy playing video games. It's my favorite way to relax and have fun.
-          Traveling is a big passion of mine. I enjoy visiting new places and experiencing different cultures. I also bring my drone along to capture amazing views from the sky.
+          Beyond work, I'm passionate about AI, technology, and discussing what the future might hold. I enjoy traveling to new places, capturing amazing views with my drone, and relaxing with video games.
         </p>
+
+        <div className="mb-6 max-w-3xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-2">
+            {['Python', 'LLMs', 'Computer Vision', 'MLOps', 'Backend', 'Agentic AI'].map((skill) => (
+              <span
+                key={skill}
+                className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
 
         <div className="flex justify-center mb-6">
           <SocialLinks />
