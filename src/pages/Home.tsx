@@ -18,15 +18,15 @@ const experiences = [
     period: 'Nov 2025 - Present',
     description: 'Klyft is a mobile app company based in UK. Working as one of the founding engineers, developing agentic AI systems using Google ADK.',
     logo: '🚀',
-    url: 'https://www.klyft-technologies.com/',
+    url: 'https://klyft-technologies.com',
   },
   {
-    company: 'Atlastek (DiAS)',
-    role: 'AI Engineer',
+    company: 'DiAS',
+    role: 'Senior AI Engineer',
     period: 'Feb 2025 - Nov 2025',
-    description: 'Technology company for the Product Tracking Platform by DiAS Group. Built multiple ML services including OCR (Tesseract), QR code decoding, watermark resolving, and text extraction tools.',
+    description: 'Atlastek is a Technology company for the Product Tracking Platform by DiAS Group. Built multiple ML services including OCR (Tesseract), QR code decoding, watermark resolving, and text extraction tools.',
     logo: '/images/dias.jpg',
-    url: 'https://www.dias.com/',
+    url: 'https://dias.com',
   },
   {
     company: 'Chooch',
@@ -39,7 +39,7 @@ const experiences = [
   {
     company: 'Scale AI',
     role: 'AI Model Training Engineer',
-    period: '2022',
+    period: 'Nov 2024 - Present',
     description: 'Worked on data labeling, model evaluation, and training data quality assurance for various AI applications.',
     logo: '/images/scaleai.jpg',
     url: 'https://scale.com',
@@ -59,7 +59,7 @@ const projects = [
     name: 'DermaGlow',
     description: 'AI-powered skin analysis Flutter app with personalized skincare recommendations.',
     period: '2025',
-    url: 'https://derma-glow.web.app/',
+    url: 'https://derma-glow.web.app',
     repo: '',
     logo: '/images/dermaglow.svg',
   },
@@ -67,7 +67,7 @@ const projects = [
     name: 'Hudux AI',
     description: 'AI-powered visual monitoring platform with VLMs and natural language commands. (Discontinued)',
     period: '2025',
-    url: 'https://hudux.tech/',
+    url: 'https://hudux.tech',
     repo: '',
     logo: '/images/hudux.png',
   },
@@ -75,7 +75,7 @@ const projects = [
     name: 'Maaş Dedektifi',
     description: 'Website where anyone can submit job/paycheck details anonymously and browse all entries. (Discontinued)',
     period: 'Jan - Feb 2025',
-    url: 'https://maasdedektifi.com/',
+    url: 'https://maasdedektifi.com',
     repo: '',
     logo: '/images/maasdedektifi.png',
   },
@@ -114,7 +114,7 @@ const education = [
     school: 'Liverpool John Moores University',
     degree: 'Erasmus Exchange Program',
     period: '2019',
-    logo: '🇬🇧',
+    logo: '/images/ljmu_logo.svg',
   },
 ];
 
@@ -221,7 +221,7 @@ export default function Home() {
               </a>
             ))}
             <a
-              href="/files/enesdemirag-resume.pdf"
+              href="/docs/enesdemirag-resume.pdf"
               target="_blank"
               className="h-10 flex items-center gap-2 px-5 bg-indigo-600 hover:bg-indigo-500 rounded-full text-white text-sm font-medium transition-colors"
             >
