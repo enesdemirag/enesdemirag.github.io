@@ -67,7 +67,7 @@ const projects = [
     name: 'Hudux AI',
     description: 'AI-powered visual monitoring platform with VLMs and natural language commands. (Discontinued)',
     period: '2025',
-    url: 'https://hudux.tech',
+    url: 'https://landing-hudux-ai.web.app',
     repo: '',
     logo: '/images/hudux.png',
   },
