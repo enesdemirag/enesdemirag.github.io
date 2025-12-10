@@ -83,7 +83,7 @@ const projects = [
     name: 'ShelfScan',
     description: 'Mobile app for scanning product barcodes to get nutritional information and health recommendations.',
     period: '2025',
-    url: 'https://shelfscan.app',
+    url: 'https://shelf-scan-4358b.web.app',
     repo: '',
     logo: '/images/shelfscan.png',
   },
