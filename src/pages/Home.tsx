@@ -57,7 +57,7 @@ const experiences = [
 const projects = [
   {
     name: 'DermaGlow',
-    description: 'AI-powered skin analysis Flutter app with personalized skincare recommendations.',
+    description: 'AI-powered skin analysis Flutter app with personalized skincare recommendations. (Discontinued)',
     period: '2025',
     url: 'https://derma-glow.web.app',
     repo: '',
