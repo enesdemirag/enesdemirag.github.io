@@ -21,6 +21,14 @@ const experiences = [
     url: 'https://klyft-technologies.com',
   },
   {
+    company: 'Destek Chat',
+    role: 'Founder',
+    period: 'Nov 2025 - Present',
+    description: 'AI Customer Service Assistant for small businesses.',
+    logo: '/images/destekchat.png',
+    url: 'https://destek.chat',
+  },
+  {
     company: 'ShelfScan',
     role: 'Co-Founder',
     period: 'Jan. 2025 - Nov. 2025',
