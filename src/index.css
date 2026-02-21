@@ -17,6 +17,7 @@ body {
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -30,4 +31,23 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #475569;
+}
+
+/* Flowchart node selection prevention */
+.flowchart-node {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .mobile-scroll-hint {
+    display: block !important;
+  }
 }

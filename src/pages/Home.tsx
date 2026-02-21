@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { ExternalLink, MapPin, Calendar, ChevronDown, FileText, Mail } from 'lucide-react';
+import { FileText, MapPin, Mail } from 'lucide-react';
 import { FaGithub, FaLinkedinIn, FaMediumM, FaYoutube } from 'react-icons/fa';
+import FlowchartCanvas from '../components/FlowchartCanvas';
 
 const socialLinks = [
   { icon: FaGithub, href: 'https://github.com/enesdemirag', label: 'GitHub' },
@@ -10,171 +10,7 @@ const socialLinks = [
   { icon: Mail, href: 'mailto:enesdmrg@gmail.com', label: 'Email' },
 ];
 
-// Data
-const experiences = [
-  {
-    company: 'Klyft',
-    role: 'Lead AI Engineer',
-    period: 'Nov 2025 - Present',
-    description: 'Building agentic AI systems for a mobile product using Google ADK. Responsible for core AI architecture, integrations, and reliability for production rollout.',
-    logo: '/images/klyft.jpeg',
-    url: 'https://klyft-technologies.com',
-  },
-  {
-    company: 'Destek Chat',
-    role: 'Founder',
-    period: 'Nov 2025 - Present',
-    description: 'AI Customer Service Assistant for small businesses.',
-    logo: '/images/destekchat.png',
-    url: 'https://destek.chat',
-  },
-  {
-    company: 'ShelfScan',
-    role: 'Co-Founder',
-    period: 'Jan. 2025 - Nov. 2025',
-    description: 'Mobile app for ingredient scanning and calorie analysis; integrates Gemini API. Built with Firebase Auth, Firestore, and Cloud Storage integrations.',
-    logo: '/images/shelfscan.png',
-    url: 'https://shelf-scan-4358b.web.app',
-  },
-  {
-    company: 'DiAS',
-    role: 'Senior AI Engineer',
-    period: 'Feb 2025 - Nov 2025',
-    description: 'Built ML services for document understanding: OCR, QR decoding, watermark handling, and robust text extraction pipelines. Delivered production-ready Python services with clean APIs and maintainable deployment patterns.',
-    logo: '/images/dias.jpg',
-    url: 'https://dias.com',
-  },
-  {
-    company: 'Outlier',
-    role: 'AI Contributer',
-    period: 'Nov 2024 - Present',
-    description: 'Enhanced AI model performance by curating high-quality training data, evaluating model outputs for RLHF, and conducting adversarial testing to improve safety and robustness.',
-    logo: '/images/outlier.png',
-    url: 'https://outlier.ai',
-  },
-  {
-    company: 'Chooch',
-    role: 'MLOps Team Leader',
-    period: 'Jul 2022 - Feb 2025',
-    description: 'Led deployment of real-time inference systems and backend APIs for CV + LLM workloads across edge and cloud (AWS, GCP, Azure). Served and optimized models using ONNX, TensorRT, Triton, and DeepStream. Strong engineering practices: testing, packaging, code reviews, CI/CD. Messaging/infra with Kafka, MQTT, Redis, RabbitMQ, MinIO.',
-    logo: '/images/chooch.jpg',
-    url: 'https://chooch.com',
-  },
-  {
-    company: 'Baykar ',
-    role: 'Software Engineer',
-    period: 'Aug 2020 - Jul 2022',
-    description: 'Developed augmented reality and real-time video decoding systems; implemented image processing and enhancement with OpenCV and OpenGL. Led 10+ computer vision projects with real-time performance and reliability. Production C++/C# development.',
-    logo: '/images/baykar.jpg',
-    url: 'https://baykartech.com',
-  },
-];
-
-const projects = [
-  {
-    name: 'DermaGlow',
-    description: 'AI-powered skin analysis Flutter app with personalized skincare recommendations. (Discontinued)',
-    period: '2025',
-    url: 'https://derma-glow.web.app',
-    repo: '',
-    logo: '/images/dermaglow.svg',
-  },
-  {
-    name: 'Hudux AI',
-    description: 'AI-powered visual monitoring platform with VLMs and natural language commands. (Discontinued)',
-    period: '2025',
-    url: 'https://landing-hudux-ai.web.app',
-    repo: '',
-    logo: '/images/hudux.png',
-  },
-  {
-    name: 'Maaş Dedektifi',
-    description: 'Website where anyone can submit job/paycheck details anonymously and browse all entries. (Discontinued)',
-    period: 'Jan - Feb 2025',
-    url: 'https://maasdedektifi.com',
-    repo: '',
-    logo: '/images/maasdedektifi.png',
-  },
-];
-
-const education = [
-  {
-    school: 'Istanbul Technical University',
-    degree: "Master's in Computer Engineering",
-    period: '2021 - 2024',
-    logo: '/images/itu.png',
-  },
-  {
-    school: 'Liverpool John Moores University',
-    degree: 'Erasmus Exchange Program',
-    period: '2019',
-    logo: '/images/ljmu_logo.svg',
-  },
-  {
-    school: 'Istanbul Technical University',
-    degree: "Bachelor's in Electronics & Communication",
-    period: '2016 - 2021',
-    logo: '/images/itu.png',
-  },
-];
-
-const certificates = [
-  { name: 'Azure Fundamentals', issuer: 'Microsoft', file: '/docs/certificates/azure_fundamentals_certificate.pdf' },
-  { name: 'Machine Learning Certificate', issuer: 'Google', file: '/docs/certificates/google_ml_certificate.pdf' },
-  { name: 'Deep Learning Specialization', issuer: 'Coursera', file: '/docs/certificates/deeplearning_course.pdf' },
-  { name: 'Python Certificate', issuer: 'Online Course', file: '/docs/certificates/python_certificate.pdf' },
-];
-
-// Collapsible Section Component
-interface CollapsibleSectionProps {
-  title: string;
-  color: string;
-  isOpen: boolean;
-  onToggle: () => void;
-  count: number;
-  children: React.ReactNode;
-}
-
-function CollapsibleSection({ title, color, isOpen, onToggle, count, children }: CollapsibleSectionProps) {
-  return (
-    <section>
-      <button
-        onClick={onToggle}
-        className="w-full flex items-center justify-between gap-3 group cursor-pointer"
-      >
-        <h2 className="text-2xl font-bold text-white flex items-center gap-3">
-          <span className={`w-8 h-1 ${color} rounded-full`} />
-          {title}
-          <span className="text-sm font-normal text-slate-500">({count})</span>
-        </h2>
-        <ChevronDown 
-          size={24} 
-          className={`text-slate-500 group-hover:text-slate-300 transition-all duration-300 ${isOpen ? 'rotate-180' : ''}`} 
-        />
-      </button>
-      <div 
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-[2000px] opacity-100 mt-8' : 'max-h-0 opacity-0 mt-0'
-        }`}
-      >
-        {children}
-      </div>
-    </section>
-  );
-}
-
 export default function Home() {
-  const [openSections, setOpenSections] = useState({
-    experience: true,
-    projects: false,
-    education: false,
-    certificates: false,
-  });
-
-  const toggleSection = (section: keyof typeof openSections) => {
-    setOpenSections(prev => ({ ...prev, [section]: !prev[section] }));
-  };
-
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       {/* Hero / About Section */}
@@ -200,11 +36,10 @@ export default function Home() {
           </div>
 
           <p className="mt-8 text-slate-300 leading-relaxed max-w-2xl mx-auto text-center">
-            AI Engineer with a strong background in computer vision, LLMs, backend development and real-time AI systems. 
+            AI Engineer with a strong background in computer vision, LLMs, backend development and real-time AI systems.
             I build and deploy production-grade AI applications at scale.
           </p>
 
-          
           {/* Social Links */}
           <div className="flex flex-wrap items-center justify-center gap-3 mt-8">
             {socialLinks.map(({ icon: Icon, href, label }) => (
@@ -232,186 +67,14 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-4xl mx-auto px-4 pb-20 space-y-6">
-        {/* Experience */}
-        <CollapsibleSection
-          title="Experience"
-          color="bg-indigo-500"
-          isOpen={openSections.experience}
-          onToggle={() => toggleSection('experience')}
-          count={experiences.length}
-        >
-          <div className="space-y-6">
-            {experiences.map((exp, i) => (
-              <div
-                key={i}
-                className="group p-5 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-slate-700 transition-colors"
-              >
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    {exp.logo.startsWith('/') || exp.logo.startsWith('http') ? (
-                      <img src={exp.logo} alt={exp.company} className="w-12 h-12 rounded-lg object-contain bg-white p-1" />
-                    ) : (
-                      <div className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center text-2xl">
-                        {exp.logo}
-                      </div>
-                    )}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-                      <h3 className="font-semibold text-white">{exp.company}</h3>
-                      <span className="text-sm text-slate-500 flex items-center gap-1">
-                        <Calendar size={12} />
-                        {exp.period}
-                      </span>
-                    </div>
-                    <p className="text-indigo-400 text-sm mt-0.5">{exp.role}</p>
-                    <p className="text-slate-400 text-sm mt-2 leading-relaxed">{exp.description}</p>
-                    {exp.url && (
-                      <a
-                        href={exp.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-indigo-400 mt-2 transition-colors"
-                      >
-                        <ExternalLink size={12} />
-                        {exp.url.replace('https://', '')}
-                      </a>
-                    )}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </CollapsibleSection>
-
-        {/* Projects */}
-        <CollapsibleSection
-          title="Projects"
-          color="bg-emerald-500"
-          isOpen={openSections.projects}
-          onToggle={() => toggleSection('projects')}
-          count={projects.length}
-        >
-          <div className="grid sm:grid-cols-2 gap-4">
-            {projects.map((project, i) => (
-              <div
-                key={i}
-                className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-slate-700 transition-colors"
-              >
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0">
-                    {project.logo.startsWith('/') ? (
-                      <img src={project.logo} alt={project.name} className="w-10 h-10 rounded-lg object-contain bg-white p-1" />
-                    ) : (
-                      <div className="w-10 h-10 rounded-lg bg-slate-800 flex items-center justify-center text-xl">
-                        {project.logo}
-                      </div>
-                    )}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center justify-between gap-2">
-                      <h3 className="font-semibold text-white">{project.name}</h3>
-                      <span className="text-xs text-slate-500">{project.period}</span>
-                    </div>
-                    <p className="text-slate-400 text-sm mt-1 leading-relaxed">{project.description}</p>
-                    <div className="flex items-center gap-3 mt-3">
-                      {project.url && (
-                        <a
-                          href={project.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-emerald-400 transition-colors"
-                        >
-                          <ExternalLink size={12} />
-                          Website
-                        </a>
-                      )}
-                      {project.repo && (
-                        <a
-                          href={project.repo}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-emerald-400 transition-colors"
-                        >
-                          <FaGithub size={12} />
-                          Repo
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </CollapsibleSection>
-
-        {/* Education */}
-        <CollapsibleSection
-          title="Education"
-          color="bg-amber-500"
-          isOpen={openSections.education}
-          onToggle={() => toggleSection('education')}
-          count={education.length}
-        >
-          <div className="space-y-4">
-            {education.map((edu, i) => (
-              <div
-                key={i}
-                className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-slate-700 transition-colors"
-              >
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    {edu.logo.startsWith('/') ? (
-                      <img src={edu.logo} alt={edu.school} className="w-12 h-12 rounded-lg object-contain bg-white p-1" />
-                    ) : (
-                      <div className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center text-2xl">
-                        {edu.logo}
-                      </div>
-                    )}
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-                      <h3 className="font-semibold text-white">{edu.school}</h3>
-                      <span className="text-sm text-slate-500">{edu.period}</span>
-                    </div>
-                    <p className="text-amber-400/80 text-sm mt-0.5">{edu.degree}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </CollapsibleSection>
-
-        {/* Certificates */}
-        <CollapsibleSection
-          title="Certificates"
-          color="bg-rose-500"
-          isOpen={openSections.certificates}
-          onToggle={() => toggleSection('certificates')}
-          count={certificates.length}
-        >
-          <div className="grid sm:grid-cols-2 gap-4">
-            {certificates.map((cert, i) => (
-              <a
-                key={i}
-                href={cert.file}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-rose-500/50 transition-colors group"
-              >
-                <div className="w-10 h-10 rounded-lg bg-rose-500/10 flex items-center justify-center text-rose-400 group-hover:bg-rose-500/20 transition-colors">
-                  📜
-                </div>
-                <div className="flex-1 min-w-0">
-                  <h3 className="font-medium text-white text-sm truncate">{cert.name}</h3>
-                  <p className="text-slate-500 text-xs">{cert.issuer}</p>
-                </div>
-                <ExternalLink size={14} className="text-slate-600 group-hover:text-rose-400 transition-colors" />
-              </a>
-            ))}
-          </div>
-        </CollapsibleSection>
+      {/* Career Flowchart */}
+      <main className="pb-20 pt-8 px-4">
+        <h2 className="text-2xl font-bold text-white text-center mb-8">
+          <span className="bg-gradient-to-r from-indigo-400 to-emerald-400 bg-clip-text text-transparent">
+            Career Journey
+          </span>
+        </h2>
+        <FlowchartCanvas />
       </main>
 
       {/* Footer */}
