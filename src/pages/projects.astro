@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { nodes } from "../data/careerData";
+
+const projectNodes = nodes.filter(node => node.category === 'project');
+---
+
+<Layout
+  title="Enes Demirag - Projects"
+  description="Projects built by Enes Demirag"
+>
+  <main class="w-screen h-screen flex flex-col justify-start items-start max-w-3xl mx-auto p-8">
+    <a href="/" class="text-white bg-neutral-900 hover:bg-neutral-800 px-4 py-2 mb-8 border-1 border-solid border-neutral-600 rounded-lg">
+      Back
+    </a>
+    <h1 class="text-4xl font-bold mb-4 text-white">Projects</h1>
+    <div class="flex flex-col gap-6 w-full mt-4">
+      {projectNodes.map(proj => (
+        <div class="bg-neutral-900 p-6 rounded-lg border-1 border-solid border-neutral-800 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          {proj.logo && (
+            <img src={proj.logo} alt={proj.title} class="w-16 h-16 rounded-md object-cover flex-shrink-0" />
+          )}
+          <div class="flex-1">
+            <h2 class="text-xl font-bold text-white mb-1">
+              {proj.url ? <a href={proj.url} target="_blank" class="hover:text-red-500">{proj.title}</a> : proj.title}
+            </h2>
+            <p class="text-sm font-semibold text-neutral-400 mb-2">{proj.subtitle} <span class="text-neutral-500 font-normal ml-2">({proj.timeRange})</span></p>
+            <p class="text-sm text-neutral-300 mb-3">{proj.description}</p>
+            <div class="flex flex-wrap gap-2">
+              {proj.tags.map(tag => (
+                <span class="text-xs bg-neutral-800 text-neutral-300 px-2 py-1 rounded-md">{tag}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </main>
+</Layout>

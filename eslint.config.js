@@ -1,28 +1,23 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import reactHooks from 'eslint-plugin-react-hooks';
-import reactRefresh from 'eslint-plugin-react-refresh';
-import tseslint from 'typescript-eslint';
+import eslintPluginAstro from "eslint-plugin-astro";
 
-export default tseslint.config(
-  { ignores: ['dist'] },
+export default [
+  ...eslintPluginAstro.configs.base,
+  ...eslintPluginAstro.configs.recommended,
   {
-    extends: [js.configs.recommended, ...tseslint.configs.recommended],
-    files: ['**/*.{ts,tsx}'],
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-    },
-    plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
-    },
+    files: ["**/*.{js,astro}"],
     rules: {
-      ...reactHooks.configs.recommended.rules,
-      'react-refresh/only-export-components': [
-        'warn',
-        { allowConstantExport: true },
-      ],
+      // Basic JS rules
+      "no-unused-vars": "warn",
+      "no-undef": "error",
+      "no-console": "warn",
+      "no-debugger": "error",
+
+      // Astro-specific rules
+      // "astro/no-conflict-set-directives": "error",
+      "astro/no-unused-define-vars-in-style": "error",
+      "astro/valid-compile": "error",
+
+      // You can add more rules here as needed
     },
-  }
-);
+  },
+];

@@ -1,0 +1,18 @@
+---
+import Card from "./Card/index.astro";
+import { nodes } from "../data/careerData";
+
+// Filter for only project nodes
+const projectNodes = nodes.filter(node => node.category === 'project').slice(0, 4); // Top 4 recent
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-2" title="Projects" href="/projects">
+  <div class="mt-2 space-y-4">
+    {projectNodes.map(proj => (
+      <div>
+        <h3 class="text-sm font-semibold text-white">{proj.title}</h3>
+        <p class="text-xs text-neutral-400">{proj.subtitle}</p>
+      </div>
+    ))}
+  </div>
+</Card>
