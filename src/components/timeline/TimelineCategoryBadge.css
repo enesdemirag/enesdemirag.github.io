@@ -1,0 +1,41 @@
+.timeline-category-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.2rem 0.64rem;
+  border: 1px solid transparent;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.timeline-category-badge--education {
+  color: #075985;
+  background-color: #e0f2fe;
+  border-color: #bae6fd;
+}
+
+.timeline-category-badge--work {
+  color: #14532d;
+  background-color: #dcfce7;
+  border-color: #bbf7d0;
+}
+
+.timeline-category-badge--project {
+  color: #92400e;
+  background-color: #fef3c7;
+  border-color: #fde68a;
+}
+
+.timeline-category-badge--award {
+  color: #6b21a8;
+  background-color: #f3e8ff;
+  border-color: #e9d5ff;
+}
+
+.timeline-category-badge--life {
+  color: #be123c;
+  background-color: #ffe4e6;
+  border-color: #fecdd3;
+}

@@ -1,0 +1,28 @@
+.portfolio-page {
+  min-height: 100vh;
+}
+
+.portfolio-page__main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+}
+
+.portfolio-page__footer {
+  border-top: 1px solid var(--line-soft);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .portfolio-page__main {
+    padding: 0 0.75rem 2rem;
+  }
+
+  .portfolio-page__footer {
+    margin-top: 1rem;
+  }
+}

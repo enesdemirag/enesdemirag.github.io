@@ -1,0 +1,17 @@
+.timeline-image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.6rem;
+}
+
+.timeline-image-gallery__item {
+  margin: 0;
+}
+
+.timeline-image-gallery__image {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--line-soft);
+}

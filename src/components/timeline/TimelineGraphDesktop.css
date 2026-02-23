@@ -1,0 +1,161 @@
+.timeline-interval {
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+.timeline-interval__scroller {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.timeline-interval__frame {
+  position: relative;
+  display: grid;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.timeline-interval__axis {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+  background: #f8fafc;
+  border-right: 1px solid #dbe2ea;
+}
+
+.timeline-interval__month {
+  position: absolute;
+  right: 0.35rem;
+  transform: translateY(-50%);
+  color: #5a6472;
+  font-size: 0.53rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.timeline-interval__month--year-start {
+  color: #3f4c5e;
+  font-weight: 700;
+}
+
+.timeline-interval__plot {
+  position: relative;
+  background: #ffffff;
+}
+
+.timeline-interval__grid,
+.timeline-interval__bars {
+  position: absolute;
+  inset: 0;
+}
+
+.timeline-interval__grid-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #ebeff4;
+}
+
+.timeline-interval__grid-line--year-start {
+  border-top-color: #d7dee8;
+}
+
+.timeline-interval__grid-column {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid #ebeff4;
+}
+
+.timeline-interval__bars {
+  z-index: 2;
+}
+
+.timeline-interval__bar {
+  position: absolute;
+  border: 1px solid #8ea0b5;
+  border-radius: 3px;
+  background: #f3f7fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.28rem;
+  text-align: center;
+  cursor: pointer;
+  transition: filter 120ms ease;
+}
+
+.timeline-interval__bar:hover {
+  filter: brightness(0.97);
+}
+
+.timeline-interval__bar:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: -1px;
+}
+
+.timeline-interval__bar-title {
+  color: #0f172a;
+  font-size: 0.62rem;
+  font-weight: 600;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.timeline-interval__bar--work {
+  background: #cfe5fa;
+  border-color: #7eaad4;
+}
+
+.timeline-interval__bar--project {
+  background: #fde4bf;
+  border-color: #d7a258;
+}
+
+.timeline-interval__bar--education {
+  background: #cfe9bd;
+  border-color: #90bd72;
+}
+
+.timeline-interval__bar--award {
+  background: #e4d3f2;
+  border-color: #af8dce;
+}
+
+.timeline-interval__bar--life {
+  background: #f6c8cb;
+  border-color: #ce8f95;
+}
+
+@media (max-width: 767px) {
+  .timeline-interval {
+    border-radius: 8px;
+  }
+
+  .timeline-interval__month {
+    font-size: 0.49rem;
+    right: 0.28rem;
+  }
+
+  .timeline-interval__bar {
+    padding: 0.35rem 0.22rem;
+  }
+
+  .timeline-interval__bar-title {
+    font-size: 0.56rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline-interval__bar {
+    transition: none;
+  }
+}

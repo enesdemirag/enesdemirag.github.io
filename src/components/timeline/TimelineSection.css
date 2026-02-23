@@ -1,0 +1,41 @@
+.timeline-section {
+  padding: 0.6rem 0 0;
+}
+
+.timeline-section__header {
+  margin: 0 0 1rem;
+}
+
+.timeline-section__eyebrow {
+  margin: 0;
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.timeline-section__title {
+  margin: 0.3rem 0 0;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.timeline-section__subtitle {
+  margin: 0.42rem 0 0;
+  color: var(--text-secondary);
+  max-width: 62ch;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 767px) {
+  .timeline-section {
+    padding-top: 0.25rem;
+  }
+
+  .timeline-section__subtitle {
+    font-size: 0.9rem;
+  }
+}
