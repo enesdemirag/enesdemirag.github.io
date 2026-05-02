@@ -54,7 +54,8 @@ export default function Home() {
               </a>
             ))}
             <a
-              href="/docs/enesdemirag-resume.pdf"
+              href="/docs/enesdemirag_resume.pdf"
+              download="enesdemirag_resume.pdf"
               target="_blank"
               className="social-icon-animate h-10 flex items-center gap-2 px-5 bg-indigo-600 hover:bg-indigo-500 rounded-full text-white text-sm font-medium transition-colors"
               style={{ animationDelay: `${socialLinks.length * 80}ms` }}
