@@ -16,8 +16,8 @@ The curated files live directly under `public/` in folders such as `images/`, `d
 - Change social links and résumé link in `src/data/site.ts`; edit the ordered experience list in `src/data/experience.ts`.
 - Add a local post as `src/content/blog/post-slug.md` with `title` and `date` frontmatter. It opens on this site.
 - Add a post hosted elsewhere to `src/data/external-posts.json` with `slug`, `title`, `date` (`YYYY-MM-DD`), `platform`, and the original `url`. It opens in a new tab. The slug also keeps old `/blog/slug/` links working for previously local posts.
-- List each publication in one place only. If a local post is published elsewhere, remove its Markdown file and add its original URL to the external list.
-- Keep post images in `public/images/blog/` and refer to them with `/images/blog/...`.
+- List each publication in one place only. If a local post is published elsewhere, remove its Markdown file and add its original URL to the external list. Matching local slugs or titles are excluded from the writing list and local page generation.
+- Add images for future local posts to `public/images/` only when a post uses them.
 - Use kebab-case for files and folders under `public/`. Keep the required `CNAME` filename unchanged.
 - Review [OPEN_ITEMS.md](OPEN_ITEMS.md) for unresolved links and copy.
 

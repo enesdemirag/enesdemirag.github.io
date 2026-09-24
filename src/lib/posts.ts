@@ -10,8 +10,19 @@ export type Post = {
   external: boolean;
 };
 
+const externalSlugs = new Set(externalPosts.map((post) => post.slug));
+const externalTitles = new Set(externalPosts.map((post) => post.title.trim().toLocaleLowerCase()));
+
+export async function getLocalPosts() {
+  return getCollection("blog", (post) =>
+    !post.data.draft &&
+    !externalSlugs.has(post.id) &&
+    !externalTitles.has(post.data.title.trim().toLocaleLowerCase()),
+  );
+}
+
 export async function getPosts(): Promise<Post[]> {
-  const localPosts = await getCollection("blog", ({ data }) => !data.draft);
+  const localPosts = await getLocalPosts();
   return [
     ...localPosts.map((post) => ({
       title: post.data.title,
