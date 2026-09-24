@@ -8,12 +8,11 @@ export const site = {
   resume: "/assets/documents/enesdemirag_resume_final.pdf",
   socials: [
     { label: "GitHub", href: "https://github.com/enesdemirag" },
+    { label: "X", href: "https://x.com/ensdmrg" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/enesdemirag" },
     { label: "Medium", href: "https://ensdmrg.medium.com" },
     { label: "YouTube", href: "https://www.youtube.com/@enes-demirag" },
   ],
-  // Confirm the current handle before adding X to the rendered links.
-  xPlaceholder: "https://x.com/YOUR_HANDLE",
 } as const;
 
 export type Project = {
@@ -42,7 +41,7 @@ export const projects: Project[] = [
     description: "An inbound voice agent platform for businesses, built around practical phone and browser conversations.",
     image: "/assets/images/hudux.png",
     monogram: "H",
-    href: null,
+    href: "https://linkedin.com/company/Hudux",
     featured: true,
   },
   {
@@ -52,6 +51,15 @@ export const projects: Project[] = [
     image: "/assets/images/destek_chat.png",
     monogram: "D",
     href: "https://destek.chat",
+    featured: true,
+  },
+  {
+    name: "DiyetChat",
+    eyebrow: "Nutrition AI · Product",
+    description: "A WhatsApp-based AI nutrition coach for meal plans, food logging, and daily guidance.",
+    image: "/assets/images/diyetchat_logo.png",
+    monogram: "DC",
+    href: "https://wa.me/905356509181?text=Merhaba%2C%20DiyetChat%20kullanmaya%20ba%C5%9Flamak%20istiyorum.",
     featured: true,
   },
   {
@@ -82,7 +90,7 @@ export const projects: Project[] = [
 ];
 
 export const experience = [
-  { role: "Lead AI Engineer", company: "Klyft", period: "2025 — now", href: "https://klyft-technologies.com" },
+  { role: "Lead AI Engineer", company: "Klyft", period: "2025 — now", href: "https://www.klyft-technologies.com" },
   { role: "Senior AI Engineer", company: "DiAS", period: "2025", href: "https://dias.com" },
   { role: "Lead MLOps Engineer", company: "Chooch", period: "2022 — 2025", href: "https://chooch.com" },
   { role: "Software Engineer", company: "Baykar", period: "2020 — 2022", href: "https://baykartech.com" },
