@@ -1,0 +1,69 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { formatDate } from "../../lib/posts";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => !data.draft && !data.url);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Base title={post.data.title} description={post.data.description}>
+  <p class="back"><a href="/blog/">← All writing</a></p>
+  <article>
+    <h1>{post.data.title}</h1>
+    <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+    <div class="prose"><Content /></div>
+  </article>
+</Base>
+
+<style>
+  .back {
+    margin: 0 0 2rem;
+    font-size: 0.95rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 0.4rem;
+  }
+  time {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .prose {
+    margin-top: 2rem;
+  }
+  .prose :global(pre) {
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.875rem;
+  }
+  .prose :global(code) {
+    font-size: 0.9em;
+  }
+  .prose :global(img) {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .prose > :global(table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .prose :global(figure) {
+    margin: 0;
+  }
+  .prose :global(blockquote) {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid var(--line);
+    color: var(--muted);
+  }
+</style>

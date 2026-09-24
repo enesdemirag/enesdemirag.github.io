@@ -1,0 +1,69 @@
+---
+import { siGithub, siX, siMedium, siInstagram, siYoutube, siSubstack, siTiktok, siThreads, siBluesky, siRss } from "simple-icons";
+import type { IconSpec } from "../site.config";
+
+interface Props {
+  icon: IconSpec;
+}
+
+// LinkedIn isn't in simple-icons, so its glyph is drawn here.
+const linkedinPath =
+  "M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z";
+const mailPath =
+  "M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.2V17h16V7.2l-8 5.3-8-5.3zM5.4 7l6.6 4.4L18.6 7H5.4z";
+
+const brands: Record<string, { path: string; bg: string }> = {
+  github: { path: siGithub.path, bg: "#181717" },
+  x: { path: siX.path, bg: "#000000" },
+  medium: { path: siMedium.path, bg: "#000000" },
+  instagram: { path: siInstagram.path, bg: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285aeb 90%)" },
+  youtube: { path: siYoutube.path, bg: "#ff0033" },
+  substack: { path: siSubstack.path, bg: "#ff6719" },
+  tiktok: { path: siTiktok.path, bg: "#000000" },
+  threads: { path: siThreads.path, bg: "#000000" },
+  bluesky: { path: siBluesky.path, bg: "#1185fe" },
+  rss: { path: siRss.path, bg: "#f26522" },
+  linkedin: { path: linkedinPath, bg: "#0a66c2" },
+  email: { path: mailPath, bg: "#6b7280" },
+};
+
+const { icon } = Astro.props;
+const brand = "brand" in icon ? brands[icon.brand] : undefined;
+if ("brand" in icon && !brand) throw new Error(`Unknown brand icon "${icon.brand}"`);
+---
+
+{brand && (
+  <span class="tile" style={`background:${brand.bg}`}>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d={brand.path} fill="#fff" /></svg>
+  </span>
+)}
+{"image" in icon && <img class="tile image" src={icon.image} alt="" loading="lazy" />}
+{"letter" in icon && (
+  <span class="tile letter" style={`background:${icon.color}`}>{icon.letter}</span>
+)}
+
+<style>
+  .tile {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 24%;
+    object-fit: cover;
+    box-shadow: inset 0 0 0 1px var(--tile-ring);
+  }
+  .image {
+    padding: 2px;
+    background: #fff;
+    object-fit: contain;
+  }
+  svg {
+    width: 58%;
+    height: 58%;
+  }
+  .letter {
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95em;
+  }
+</style>

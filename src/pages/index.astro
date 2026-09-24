@@ -1,0 +1,70 @@
+---
+import Base from "../layouts/Base.astro";
+import IconStack from "../components/IconStack.astro";
+import PostList from "../components/PostList.astro";
+import { site } from "../site.config";
+import { getAllPosts } from "../lib/posts";
+
+const recent = (await getAllPosts()).slice(0, 5);
+---
+
+<Base>
+  <p class="line">
+    Hi, my name is {site.name}
+    <img class="avatar" src={site.avatar} alt="" width="36" height="36" />
+  </p>
+
+  {site.intro.map((line) => (
+    <p class:list={["line", { gap: line.gap }]}>
+      {line.text}
+      {line.items && <IconStack items={line.items} />}
+    </p>
+  ))}
+
+  <div class="ctas">
+    {site.ctas.map((cta) => (
+      <p>{cta.text} <a href={cta.href}>Click here.</a></p>
+    ))}
+  </div>
+
+  {recent.length > 0 && (
+    <>
+      <hr />
+      <section>
+        <h2>Writing</h2>
+        <PostList posts={recent} />
+        <p class="more"><a href="/blog/">All posts →</a></p>
+      </section>
+    </>
+  )}
+</Base>
+
+<style>
+  .line {
+    margin: 0.25rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 0.5rem;
+    min-height: 44px;
+  }
+  .gap {
+    margin-top: 1.75rem;
+  }
+  .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .ctas {
+    margin-top: 1.75rem;
+  }
+  .ctas p {
+    margin: 0.35rem 0;
+  }
+  .more {
+    margin: 1.5rem 0 0;
+    font-size: 0.95rem;
+  }
+</style>
