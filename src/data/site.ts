@@ -3,6 +3,7 @@ export const site = {
   title: "Enes Demirağ — AI engineer & product builder",
   description: "I build AI products and the systems behind them. Notes on software, computer vision, and things I've learned while building.",
   email: "enesdmrg@gmail.com",
+  calendar: "https://cal.com/enesdemirag/meet",
   location: "Istanbul, Türkiye",
   portrait: "/images/profile.jpg",
   resume: "/documents/enesdemirag-resume.pdf",

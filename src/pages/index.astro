@@ -57,7 +57,10 @@ const posts = (await getPosts()).slice(0, 4);
 
   <section class="contact-panel">
     <div><p class="eyebrow">Have something in mind?</p><h2>Let's make it real.</h2><p>I'm always happy to hear about an interesting product, technical problem, or collaboration.</p></div>
-    <a class="button-link" href={`mailto:${site.email}`}>Get in touch ↗</a>
+    <div class="contact-actions">
+      <a class="button-link" href={site.calendar} target="_blank" rel="noopener noreferrer">Book a meeting ↗</a>
+      <a class="text-link" href={`mailto:${site.email}`}>Email me ↗</a>
+    </div>
   </section>
 </SiteLayout>
 
@@ -103,6 +106,6 @@ const posts = (await getPosts()).slice(0, 4);
   .section-note { max-width: 560px; margin: -5px 0 23px; font-size: .92rem; }
   .contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 10px 0 85px; padding: 32px 36px; border: 1px solid #dbe5eb; border-radius: 17px; background: #edf3f7; }
   .contact-panel .eyebrow { margin-bottom: 9px; }.contact-panel h2 { margin-bottom: 7px; }.contact-panel p:last-child { max-width: 510px; margin: 0; font-size: .89rem; }
-  .contact-panel .button-link { flex: none; }
+  .contact-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; flex: none; }
   @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 35px; padding: 58px 0 60px; } .portrait-frame { grid-row: 1; width: 128px; height: 128px; border-radius: 22px; } .portrait-frame img { border-radius: 16px; } .intro-strip { align-items: start; flex-direction: column; margin-bottom: 60px; } .about-grid { grid-template-columns: 1fr; gap: 30px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
 </style>
