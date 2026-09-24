@@ -2,7 +2,7 @@
 import SiteLayout from "../layouts/SiteLayout.astro";
 import ProjectRow from "../components/ProjectRow.astro";
 import PostRow from "../components/PostRow.astro";
-import { site, projects, experience } from "../data/site";
+import { site, projects, teamProjects, experience } from "../data/site";
 import { getPosts } from "../lib/posts";
 
 const posts = (await getPosts()).slice(0, 4);
@@ -14,7 +14,7 @@ const posts = (await getPosts()).slice(0, 4);
       <div class="availability"><span class="availability-dot"></span> AI Engineer & Product Builder</div>
       <h1>Hi, I'm Enes <span>Demirağ.</span></h1>
       <p class="hero-lead">I build AI products and the systems behind them.</p>
-      <p class="hero-detail">Based in Istanbul. Leading AI at <a href="https://www.klyft-technologies.com" target="_blank" rel="noopener noreferrer">Klyft</a>, after working on machine learning and real-time systems at DiAS, Chooch, and Baykar.</p>
+      <p class="hero-detail">Based in Istanbul. Leading AI at <a href="https://www.klyft-technologies.com" target="_blank" rel="noopener noreferrer">Klyft</a> while building my own products, including CallsReady and Destek Chat.</p>
       <div class="hero-actions">
         <a class="button-link" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
         <a class="quiet-link" href={`mailto:${site.email}`}>Say hello <span aria-hidden="true">→</span></a>
@@ -33,6 +33,8 @@ const posts = (await getPosts()).slice(0, 4);
     <div>{projects.filter((project) => project.featured).map((project) => <ProjectRow project={project} />)}</div>
     <h3 class="subheading">More Explorations</h3>
     <div>{projects.filter((project) => !project.featured).map((project) => <ProjectRow project={project} />)}</div>
+    <h3 class="subheading">University Teams</h3>
+    <div>{teamProjects.map((project) => <ProjectRow project={project} />)}</div>
     <p class="work-note">More code and experiments live on <a href="https://github.com/enesdemirag" target="_blank" rel="noopener noreferrer">GitHub ↗</a>.</p>
   </section>
 
@@ -41,12 +43,12 @@ const posts = (await getPosts()).slice(0, 4);
     <div class="about-grid">
       <div class="about-copy">
         <p>I’m an AI engineer based in Istanbul. I like turning messy, real-world problems into useful products and reliable software.</p>
-        <p>My work spans AI agents, computer vision, MLOps, backend systems, and product engineering. Today I lead AI engineering at Klyft and build products of my own. Before that I worked at DiAS, Chooch, and Baykar.</p>
-        <p>I studied Electronics and Communication Engineering at Istanbul Technical University and spent an Erasmus semester at Liverpool John Moores University.</p>
+        <p>My work spans agentic systems, voice AI, computer vision, MLOps, and product engineering. I lead AI engineering at Klyft, founded CallsReady and Destek Chat, and co-founded ShelfScan. Earlier roles took me through DiAS, Chooch AI, Outlier, Baykar, and university robotics teams.</p>
+        <p>I studied Electronics and Communication Engineering at Istanbul Technical University, then Computer Engineering at the master's level. I also spent an Erasmus semester at Liverpool John Moores University.</p>
         <div class="about-links"><a href={site.resume} target="_blank" rel="noopener noreferrer">View résumé ↗</a><a href={`mailto:${site.email}`}>Email me ↗</a></div>
       </div>
-      <div class="experience"><h3>Experience</h3>{experience.map((item) => <div class="experience-row"><div><strong>{item.role}</strong><a href={item.href} target="_blank" rel="noopener noreferrer">{item.company} ↗</a></div><time>{item.period}</time></div>)}</div>
     </div>
+    <div class="experience"><h3>Experience</h3><div class="experience-list">{experience.map((item) => <div class="experience-row"><div><strong>{item.role}</strong>{item.href ? <a href={item.href} target="_blank" rel="noopener noreferrer">{item.company} ↗</a> : <span>{item.company}</span>}<span class="experience-focus">{item.focus}</span></div><time>{item.period}</time></div>)}</div></div>
   </section>
 
   <section class="content-section writing-section">
@@ -91,21 +93,24 @@ const posts = (await getPosts()).slice(0, 4);
   .work-note a { font-weight: 700; text-decoration: none; }
   .about-section { padding-top: 36px; border-top: 1px solid var(--line); scroll-margin-top: 30px; }
   #work { scroll-margin-top: 30px; }
-  .about-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 54px; align-items: start; }
+  .about-copy { max-width: 700px; }
   .about-copy p { font-size: .94rem; line-height: 1.83; }
   .about-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; font-size: .85rem; font-weight: 700; }
   .about-links a { text-decoration: none; }
+  .experience { margin-top: 48px; }
   .experience h3 { margin: 2px 0 16px; color: var(--faint); font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+  .experience-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 34px; }
   .experience-row { display: flex; justify-content: space-between; gap: 12px; padding: 13px 0; border-top: 1px solid var(--line); }
-  .experience-row:last-child { border-bottom: 1px solid var(--line); }
+  .experience-row:nth-last-child(-n + 2) { border-bottom: 1px solid var(--line); }
   .experience-row div { display: grid; gap: 1px; }
   .experience-row strong { font-size: .84rem; font-weight: 680; }
-  .experience-row a, .experience-row time { color: var(--muted); font-size: .76rem; text-decoration: none; }
+  .experience-row a, .experience-row span, .experience-row time { color: var(--muted); font-size: .76rem; text-decoration: none; }
+  .experience-row .experience-focus { color: var(--faint); font-size: .72rem; }
   .experience-row a:hover { color: var(--accent); }
   .experience-row time { white-space: nowrap; }
   .section-note { max-width: 560px; margin: -5px 0 23px; font-size: .92rem; }
   .contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 10px 0 85px; padding: 32px 36px; border: 1px solid #dbe5eb; border-radius: 17px; background: #edf3f7; }
   .contact-panel .eyebrow { margin-bottom: 9px; }.contact-panel h2 { margin-bottom: 7px; }.contact-panel p:last-child { max-width: 510px; margin: 0; font-size: .89rem; }
   .contact-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; flex: none; }
-  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 35px; padding: 58px 0 60px; } .portrait-frame { grid-row: 1; width: 128px; height: 128px; border-radius: 22px; } .portrait-frame img { border-radius: 16px; } .intro-strip { align-items: start; flex-direction: column; margin-bottom: 60px; } .about-grid { grid-template-columns: 1fr; gap: 30px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
+  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 35px; padding: 58px 0 60px; } .portrait-frame { grid-row: 1; width: 128px; height: 128px; border-radius: 22px; } .portrait-frame img { border-radius: 16px; } .intro-strip { align-items: start; flex-direction: column; margin-bottom: 60px; } .experience-list { grid-template-columns: 1fr; } .experience-row:nth-last-child(2) { border-bottom: none; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
 </style>

@@ -90,9 +90,45 @@ export const projects: Project[] = [
   },
 ];
 
+export const teamProjects: Project[] = [
+  {
+    name: "ITU AUV Team",
+    eyebrow: "University Team · 2018–2020",
+    description: "Developed computer vision and ROS software for autonomous underwater vehicles.",
+    image: null,
+    monogram: "AUV",
+    href: null,
+  },
+  {
+    name: "ITU Racing Team",
+    eyebrow: "University Team · 2017–2018",
+    description: "Worked on lane detection, LiDAR, and ECU and ignition systems for racing and driverless cars.",
+    image: null,
+    monogram: "RT",
+    href: null,
+  },
+  {
+    name: "ITU ROV Team",
+    eyebrow: "University Team · 2016–2018",
+    description: "Software team member, lead, and mentor; won the MATE ROV regional competition in 2017 and 2018.",
+    image: null,
+    monogram: "ROV",
+    href: null,
+  },
+];
+
 export const experience = [
-  { role: "Lead AI Engineer", company: "Klyft", period: "2025 — now", href: "https://www.klyft-technologies.com" },
-  { role: "Senior AI Engineer", company: "DiAS", period: "2025", href: "https://dias.com" },
-  { role: "Lead MLOps Engineer", company: "Chooch", period: "2022 — 2025", href: "https://chooch.com" },
-  { role: "Software Engineer", company: "Baykar", period: "2020 — 2022", href: "https://baykartech.com" },
+  { role: "Lead AI Engineer", company: "Klyft", period: "Nov 2025 — Present", focus: "Agentic AI · Google ADK", href: "https://www.klyft-technologies.com" },
+  { role: "Founder", company: "CallsReady", period: "Sep 2026 — Present", focus: "Voice AI · Agentic AI", href: "https://callsready.com" },
+  { role: "Founder", company: "Destek Chat", period: "Nov 2025 — Present", focus: "AI audio models · Text-to-speech", href: "https://destek.chat" },
+  { role: "Senior AI Engineer", company: "DiAS Teknoloji", period: "Feb — Nov 2025", focus: "OCR · .NET Core", href: "https://dias.com" },
+  { role: "Co-Founder", company: "ShelfScan", period: "Jan — Nov 2025", focus: "Firebase · OpenAI API", href: "https://shelf-scan-4358b.web.app" },
+  { role: "Lead MLOps Engineer", company: "Chooch AI", period: "Oct 2024 — Nov 2025", focus: "LLMs · Vision-language models", href: "https://chooch.com" },
+  { role: "AI Trainer (RLHF & Red Teaming)", company: "Outlier", period: "Nov 2024 — Apr 2025", focus: "RLHF · Prompt engineering", href: "https://outlier.ai" },
+  { role: "MLOps Engineer", company: "Chooch AI", period: "Jul 2022 — Oct 2024", focus: "MLOps · Computer vision", href: "https://chooch.com" },
+  { role: "Software Engineer", company: "Baykar Technologies", period: "Mar 2021 — Jul 2022", focus: "C# · OpenCV", href: "https://baykartech.com" },
+  { role: "Software Engineer (Part-Time)", company: "Baykar Technologies", period: "Oct 2020 — Mar 2021", focus: "C++ · OpenGL", href: "https://baykartech.com" },
+  { role: "Software Intern", company: "Baykar Technologies", period: "Aug — Oct 2020", focus: "C++", href: "https://baykartech.com" },
+  { role: "Software Developer", company: "ITU AUV Team", period: "Sep 2018 — Apr 2020", focus: "Computer vision · ROS", href: null },
+  { role: "Python Tutor", company: "ITU Robotics Club", period: "Oct — Nov 2019", focus: "Introductory Python classes", href: null },
 ] as const;
