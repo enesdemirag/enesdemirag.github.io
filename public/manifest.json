@@ -4177,6 +4177,46 @@
           "path": "_posts/materials/sir-model/expo.py"
         }
       ]
+    },
+    {
+      "file": "images/beneluxsoft-logo.png",
+      "kind": "images",
+      "git_blob": "b2d382956e4aa9c244c027c5acb1516f54ad3dd6",
+      "bytes": 7027,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://beneluxsoft.com/wp-content/uploads/2024/02/cropped-Varlik-3-192x192.png"
+    },
+    {
+      "file": "images/desi-logo.png",
+      "kind": "images",
+      "git_blob": "14839d3ccf5930a0378c28e1f2f74d5ec6eb31c7",
+      "bytes": 40365,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://endesi.tsoft.biz/Data/EditorFiles/fingerprintsari.png"
+    },
+    {
+      "file": "images/itu-racing-logo.png",
+      "kind": "images",
+      "git_blob": "b81c6829bc138ae9dddfe04aac1921ea21865d70",
+      "bytes": 1725,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://ituracing.com/icon-192.png"
+    },
+    {
+      "file": "images/ravinspect-logo.jpg",
+      "kind": "images",
+      "git_blob": "460e172d17d62bba9755029280f63d0c05371bfe",
+      "bytes": 3965,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://www.linkedin.com/company/ravinspect/"
     }
   ]
 }

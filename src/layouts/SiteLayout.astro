@@ -9,7 +9,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 const path = Astro.url.pathname;
 const nav = [
   { label: "Home", href: "/", active: path === "/" },
-  { label: "Work", href: "/#work", active: false },
+  { label: "Experience", href: "/experience/", active: path.startsWith("/experience") },
   { label: "About", href: "/#about", active: false },
   { label: "Writing", href: "/blog/", active: path.startsWith("/blog") },
 ];

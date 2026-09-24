@@ -1,0 +1,18 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ExperienceRow from "../../components/ExperienceRow.astro";
+import { experience } from "../../data/experience";
+---
+
+<SiteLayout title="Experience" description="Work, products, and teams from Enes Demirağ's career.">
+  <div class="page-intro">
+    <p class="eyebrow">Work, Products & Teams</p>
+    <h1>Experience.</h1>
+    <p>The companies, products, and teams I've worked with, built, and learned from.</p>
+  </div>
+  <section class="content-section" aria-label="All Experience">
+    {experience.map((item) => <ExperienceRow item={item} />)}
+  </section>
+</SiteLayout>
+
+<style>.page-intro .eyebrow { margin-bottom: 15px; }</style>
