@@ -4217,6 +4217,56 @@
       "sources": [],
       "origin": "local_asset",
       "downloaded_from": "https://www.linkedin.com/company/ravinspect/"
+    },
+    {
+      "file": "images/social-github.svg",
+      "kind": "images",
+      "git_blob": "538ec5bf2a9a5724899daf728577cd0b8beaae90",
+      "bytes": 822,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg"
+    },
+    {
+      "file": "images/social-x.svg",
+      "kind": "images",
+      "git_blob": "a7c37cff5b0c39b56bb0eb04a2242b002a128598",
+      "bytes": 299,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/x.svg"
+    },
+    {
+      "file": "images/social-linkedin.svg",
+      "kind": "images",
+      "git_blob": "30fc0e34cb1966a33110db305cf1ce56fe599deb",
+      "bytes": 666,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/icons/linkedin.svg"
+    },
+    {
+      "file": "images/social-medium.svg",
+      "kind": "images",
+      "git_blob": "875b4e568d61b5f9a6264c0ae3aef1be764231c4",
+      "bytes": 979,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/medium.svg"
+    },
+    {
+      "file": "images/social-youtube.svg",
+      "kind": "images",
+      "git_blob": "0492366a2be42c6f0372a64b8c6f4f6b2cb660f7",
+      "bytes": 459,
+      "redacted_expired_github_image_tokens": false,
+      "sources": [],
+      "origin": "local_asset",
+      "downloaded_from": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/youtube.svg"
     }
   ]
 }

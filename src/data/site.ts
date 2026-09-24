@@ -5,13 +5,12 @@ export const site = {
   email: "enesdmrg@gmail.com",
   calendar: "https://cal.com/enesdemirag/meet",
   location: "Istanbul, Türkiye",
-  portrait: "/images/profile.jpg",
   resume: "/documents/enesdemirag-resume.pdf",
   socials: [
-    { label: "GitHub", href: "https://github.com/enesdemirag" },
-    { label: "X", href: "https://x.com/ensdmrg" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/enesdemirag" },
-    { label: "Medium", href: "https://ensdmrg.medium.com" },
-    { label: "YouTube", href: "https://www.youtube.com/@enes-demirag" },
+    { label: "GitHub", href: "https://github.com/enesdemirag", icon: "/images/social-github.svg" },
+    { label: "X", href: "https://x.com/ensdmrg", icon: "/images/social-x.svg" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/enesdemirag", icon: "/images/social-linkedin.svg" },
+    { label: "Medium", href: "https://ensdmrg.medium.com", icon: "/images/social-medium.svg" },
+    { label: "YouTube", href: "https://www.youtube.com/@enes-demirag", icon: "/images/social-youtube.svg" },
   ],
 } as const;
