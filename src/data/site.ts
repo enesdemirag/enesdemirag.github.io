@@ -5,7 +5,7 @@ export const site = {
   email: "enesdmrg@gmail.com",
   location: "Istanbul, Türkiye",
   portrait: "/assets/images/profile.jpg",
-  resume: "/assets/documents/enesdemirag_resume_final.pdf",
+  resume: "/assets/documents/enesdemirag-resume.pdf",
   socials: [
     { label: "GitHub", href: "https://github.com/enesdemirag" },
     { label: "X", href: "https://x.com/ensdmrg" },

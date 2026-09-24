@@ -13,10 +13,6 @@
       "after": "readme.md"
     },
     {
-      "before": "documents/Enes - Career.pdf",
-      "after": "documents/enes_career.pdf"
-    },
-    {
       "before": "documents/certificates/python_certificate-0199a94b.pdf",
       "after": "documents/certificates/python_certificate_0199a94b.pdf"
     },
@@ -25,24 +21,12 @@
       "after": "documents/language_certificate.pdf"
     },
     {
-      "before": "documents/enesdemirag-resume.pdf",
-      "after": "documents/enesdemirag_resume_baaaf8ee.pdf"
-    },
-    {
       "before": "documents/enesdemirag_resume _final.pdf",
-      "after": "documents/enesdemirag_resume_final.pdf"
+      "after": "documents/enesdemirag-resume.pdf"
     },
     {
       "before": "documents/integrated-optic.pdf",
       "after": "documents/integrated_optic.pdf"
-    },
-    {
-      "before": "documents/ozgecmis-574ae227.pdf",
-      "after": "documents/turkish_resume_574ae227.pdf"
-    },
-    {
-      "before": "documents/ozgecmis.pdf",
-      "after": "documents/turkish_resume.pdf"
     },
     {
       "before": "documents/transcript-lisans.pdf",

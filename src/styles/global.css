@@ -24,7 +24,6 @@ button, input { font: inherit; }
 .site-shell { width: min(100% - 44px, 872px); margin: 0 auto; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 28px; height: 98px; border-bottom: 1px solid var(--line); }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); font-family: Manrope, sans-serif; font-size: .91rem; font-weight: 800; letter-spacing: -.035em; text-decoration: none; white-space: nowrap; }
-.wordmark-mark { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 9px; background: var(--ink); color: #fff; font-size: 1.18rem; line-height: 1; }
 .site-header nav { display: flex; align-items: center; gap: clamp(12px, 2.8vw, 30px); }
 .site-header nav a { color: var(--muted); font-size: .84rem; font-weight: 600; text-decoration: none; transition: color .18s; }
 .site-header nav a:hover, .site-header nav a[aria-current="page"] { color: var(--ink); }

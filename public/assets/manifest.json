@@ -402,87 +402,7 @@
       "origin": "local_asset"
     },
     {
-      "file": "documents/cv.pdf",
-      "kind": "documents",
-      "git_blob": "ac4c94df02757843764e17d8acb01616ee756fc3",
-      "bytes": 120086,
-      "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "origin/portfolio",
-          "path": "docs/cv.pdf"
-        },
-        {
-          "branch": "origin/resume",
-          "path": "docs/cv.pdf"
-        }
-      ]
-    },
-    {
-      "file": "documents/enes_career.pdf",
-      "kind": "documents",
-      "git_blob": "4f52a680f32d121c356be1f2ac1a5eed326ae7f1",
-      "bytes": 44512,
-      "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "origin/sheet",
-          "path": "Enes - Career.pdf"
-        }
-      ]
-    },
-    {
-      "file": "documents/enesdemirag_resume.pdf",
-      "kind": "documents",
-      "git_blob": "c70ffac74be2c801e15cad34c10d1e8aad4a2308",
-      "bytes": 188145,
-      "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "minimal",
-          "path": "public/docs/enesdemirag_resume.pdf"
-        },
-        {
-          "branch": "main",
-          "path": "public/docs/enesdemirag_resume.pdf"
-        },
-        {
-          "branch": "origin/main",
-          "path": "public/docs/enesdemirag_resume.pdf"
-        },
-        {
-          "branch": "origin/cloudflare/workers-autoconfig",
-          "path": "public/docs/enesdemirag_resume.pdf"
-        }
-      ]
-    },
-    {
-      "file": "documents/enesdemirag_resume_baaaf8ee.pdf",
-      "kind": "documents",
-      "git_blob": "37a6c6c581f1bef8710c5700aa6b183ee4ac2b9a",
-      "bytes": 187803,
-      "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "origin/bento",
-          "path": "public/docs/enesdemirag-resume.pdf"
-        },
-        {
-          "branch": "origin/flowchart",
-          "path": "public/docs/enesdemirag-resume.pdf"
-        },
-        {
-          "branch": "origin/latest_with_details",
-          "path": "public/docs/enesdemirag-resume.pdf"
-        },
-        {
-          "branch": "origin/sheet",
-          "path": "public/docs/enesdemirag-resume.pdf"
-        }
-      ]
-    },
-    {
-      "file": "documents/enesdemirag_resume_final.pdf",
+      "file": "documents/enesdemirag-resume.pdf",
       "kind": "documents",
       "git_blob": "2f296d4807f992bae7ee8a27fcbd01ada1791486",
       "bytes": 187582,
@@ -642,23 +562,6 @@
       ]
     },
     {
-      "file": "documents/resume.pdf",
-      "kind": "documents",
-      "git_blob": "2f600591372e7ba3a81397c652d77aaec5c74ffc",
-      "bytes": 122110,
-      "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "origin/blog",
-          "path": "docs/resume.pdf"
-        },
-        {
-          "branch": "origin/dark",
-          "path": "docs/resume.pdf"
-        }
-      ]
-    },
-    {
       "file": "documents/transcript_masters.pdf",
       "kind": "documents",
       "git_blob": "2f563aa8a2afa3c5771aaec501f947106fd55130",
@@ -666,40 +569,6 @@
       "redacted_expired_github_image_tokens": false,
       "sources": [],
       "origin": "local_asset"
-    },
-    {
-      "file": "documents/turkish_resume.pdf",
-      "kind": "documents",
-      "git_blob": "6ec53e4379483290482754c1b70b21184efc8dfd",
-      "bytes": 129820,
-      "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "origin/blog",
-          "path": "docs/ozgecmis.pdf"
-        },
-        {
-          "branch": "origin/dark",
-          "path": "docs/ozgecmis.pdf"
-        }
-      ]
-    },
-    {
-      "file": "documents/turkish_resume_574ae227.pdf",
-      "kind": "documents",
-      "git_blob": "574ae22755bb7c2fea295cfa0571d68fb142aca4",
-      "bytes": 127220,
-      "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "origin/portfolio",
-          "path": "docs/ozgecmis.pdf"
-        },
-        {
-          "branch": "origin/resume",
-          "path": "docs/ozgecmis.pdf"
-        }
-      ]
     },
     {
       "file": "documents/undergraduate_transcript.pdf",
@@ -1792,95 +1661,12 @@
     {
       "file": "images/favicon.png",
       "kind": "images",
-      "git_blob": "6615c91f7aafdec3f480ab7d0086df78b6ba7a19",
-      "bytes": 129514,
+      "git_blob": "6c8682671bc1d145f829b7626bd994139f655528",
+      "bytes": 8957,
       "redacted_expired_github_image_tokens": false,
-      "sources": [
-        {
-          "branch": "minimal",
-          "path": "public/favicon.png"
-        },
-        {
-          "branch": "minimal",
-          "path": "public/images/bb8.png"
-        },
-        {
-          "branch": "main",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "main",
-          "path": "public/images/bb8.png"
-        },
-        {
-          "branch": "origin/main",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/main",
-          "path": "public/images/bb8.png"
-        },
-        {
-          "branch": "origin/bento",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/bento",
-          "path": "public/images/bb8.png"
-        },
-        {
-          "branch": "origin/blog",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/blog",
-          "path": "images/bb8.png"
-        },
-        {
-          "branch": "origin/dark",
-          "path": "images/bb8.png"
-        },
-        {
-          "branch": "origin/flowchart",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/flowchart",
-          "path": "public/images/bb8.png"
-        },
-        {
-          "branch": "origin/latest_with_details",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/latest_with_details",
-          "path": "public/images/bb8.png"
-        },
-        {
-          "branch": "origin/master",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/master",
-          "path": "images/bb8.png"
-        },
-        {
-          "branch": "origin/sheet",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/sheet",
-          "path": "public/images/bb8.png"
-        },
-        {
-          "branch": "origin/cloudflare/workers-autoconfig",
-          "path": "favicon.png"
-        },
-        {
-          "branch": "origin/cloudflare/workers-autoconfig",
-          "path": "public/images/bb8.png"
-        }
-      ]
+      "sources": [],
+      "origin": "local_asset",
+      "derived_from": "images/profile.jpg"
     },
     {
       "file": "images/favicon_e5c91e43.ico",
