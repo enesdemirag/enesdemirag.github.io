@@ -6,8 +6,8 @@ const posts = await getPosts();
 ---
 
 <SiteLayout title="Writing" description="Essays and notes by Enes Demirağ on software, AI, computer vision, and engineering.">
-  <div class="page-intro"><p class="eyebrow">Notes from the workbench</p><h1>Writing.</h1><p>Ideas, experiments, and things I learned along the way. The archive includes my early writing on robotics, mathematics, and computer vision.</p></div>
-  <section class="content-section"><div class="section-heading"><h2>All posts <span>{posts.length}</span></h2><a class="text-link" href="/rss.xml">RSS feed ↗</a></div>{posts.map((post) => <PostRow post={post} />)}</section>
+  <div class="page-intro"><p class="eyebrow">Notes from the Workbench</p><h1>Writing.</h1><p>Ideas, experiments, and things I learned along the way. The archive includes my early writing on robotics, mathematics, and computer vision.</p></div>
+  <section class="content-section"><div class="section-heading"><h2>All Posts <span>{posts.length}</span></h2><a class="text-link" href="/rss.xml">RSS Feed ↗</a></div>{posts.map((post) => <PostRow post={post} />)}</section>
 </SiteLayout>
 
 <style>.page-intro .eyebrow { margin-bottom: 15px; }.section-heading h2 span { margin-left: 4px; color: var(--faint); font-size: .85rem; vertical-align: 3px; }</style>

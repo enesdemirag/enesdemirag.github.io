@@ -1,5 +1,5 @@
 ---
-title: "Searching cleverly with Fuzzy Search"
+title: "Searching Cleverly with Fuzzy Search"
 date: 2019-09-28
 ---
 

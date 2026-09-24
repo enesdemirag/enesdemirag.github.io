@@ -1,5 +1,5 @@
 ---
-title: "Text Generation using Markov Chains"
+title: "Text Generation Using Markov Chains"
 date: 2019-03-25
 ---
 

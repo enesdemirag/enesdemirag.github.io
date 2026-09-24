@@ -1,6 +1,6 @@
 export const site = {
   name: "Enes Demirağ",
-  title: "Enes Demirağ — AI engineer & product builder",
+  title: "Enes Demirağ — AI Engineer & Product Builder",
   description: "I build AI products and the systems behind them. Notes on software, computer vision, and things I've learned while building.",
   email: "enesdmrg@gmail.com",
   calendar: "https://cal.com/enesdemirag/meet",
@@ -47,7 +47,7 @@ export const projects: Project[] = [
   },
   {
     name: "Destek Chat",
-    eyebrow: "Customer support · Product",
+    eyebrow: "Customer Support · Product",
     description: "An AI customer service assistant for small businesses.",
     image: "/images/destek-chat.png",
     monogram: "D",
@@ -74,7 +74,7 @@ export const projects: Project[] = [
   },
   {
     name: "DermaGlow",
-    eyebrow: "Computer vision · Project",
+    eyebrow: "Computer Vision · Project",
     description: "An experiment in AI-assisted skin analysis.",
     image: "/images/derma-glow.svg",
     monogram: "D",
