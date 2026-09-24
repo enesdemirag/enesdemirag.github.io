@@ -11,14 +11,12 @@ Bu dizin, sitedeki eski branch'lerden yeni site için derlenen içerikleri topla
 | `links-inventory.json` | Branch metinlerinde bulunan bağlantıların kaynaklı dökümü |
 | `images/` | Fotoğraflar, logolar, proje ve yazı görselleri |
 | `documents/` | Seçilen güncel CV, sertifikalar, transkript ve teknik PDF'ler |
-| `writing/published/` | Blog yazılarının farklı yayın sürümleri |
 | `writing/drafts/` | Üç eski taslak |
 | `writing/materials/` | Eski blog yazılarının örnek kod ve veri dosyaları |
-| `writing/legacy-html/` | İki HTML yazı sürümü |
 | `manifest.json` | Her arşiv dosyasının kaynak branch/yolu ve Git blob kimliği |
 | `rename-map.json` | Eski ve yeni dosya yollarının eşlemesi |
 
-Dosyalar içerik kimliğine göre tekilleştirildi. Aynı adlı ama farklı içerikli dosyalar kısa blob kimliği eklenerek ayrı tutuldu. Eski Jekyll yazıları ve mevcut Astro yazıları ayrı sürümler olarak korundu. `bento` branch'indeki üç örnek “Hello, World” yazısı kişisel içerik olmadığı için alınmadı. Font Awesome/KaTeX gibi üçüncü taraf kütüphane dosyaları alınmadı.
+Dosyalar içerik kimliğine göre tekilleştirildi. Aynı adlı ama farklı içerikli dosyalar kısa blob kimliği eklenerek ayrı tutuldu. Medium'da yayımlanan yazıların yerel Markdown ve HTML kopyaları kaldırıldı; kanonik bağlantıları sitenin `src/data/external-posts.json` dosyasındadır. `bento` branch'indeki üç örnek “Hello, World” yazısı kişisel içerik olmadığı için alınmadı. Font Awesome/KaTeX gibi üçüncü taraf kütüphane dosyaları alınmadı.
 
 Arşiv dosyaları doğrudan `public/` altındadır. Her dosyaya dağıtımdan sonra kök URL'den erişilebilir; örneğin CV `/documents/enesdemirag-resume.pdf` yolundadır. Eski CV ve özgeçmiş PDF'leri kaldırılmıştır. Transkript, dil belgesi, kişisel telefon ve özel hayat girdileri hâlâ arşivde bulunabilir. Eski kaynaklarda görünen GitHub görsel URL'lerindeki `?token=` sorguları arşiv kopyalarından çıkarıldı; bu işlem `manifest.json` içinde işaretlidir.
 

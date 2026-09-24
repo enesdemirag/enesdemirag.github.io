@@ -1,6 +1,6 @@
 # enesdemirag.com
 
-Personal site built with Astro. Home, work, and about live on one page; the blog is separate. Personal and product data lives in `src/data/site.ts`, and the 13 published posts live in `src/content/blog/`.
+Personal site built with Astro. Home, work, and about live on one page; the writing list is separate. Personal and product data lives in `src/data/site.ts`. Published posts on other platforms are listed once in `src/data/external-posts.json`.
 
 ```bash
 npm install
@@ -14,7 +14,9 @@ The curated files live directly under `public/` in folders such as `images/`, `d
 ## Editing
 
 - Change bio, social links, product cards, experience, and résumé link in `src/data/site.ts`.
-- Add a post as `src/content/blog/post-slug.md` with `title` and `date` frontmatter.
+- Add a local post as `src/content/blog/post-slug.md` with `title` and `date` frontmatter. It opens on this site.
+- Add a post hosted elsewhere to `src/data/external-posts.json` with `slug`, `title`, `date` (`YYYY-MM-DD`), `platform`, and the original `url`. It opens in a new tab. The slug also keeps old `/blog/slug/` links working for previously local posts.
+- List each publication in one place only. If a local post is published elsewhere, remove its Markdown file and add its original URL to the external list.
 - Keep post images in `public/images/blog/` and refer to them with `/images/blog/...`.
 - Use kebab-case for files and folders under `public/`. Keep the required `CNAME` filename unchanged.
 - Review [OPEN_ITEMS.md](OPEN_ITEMS.md) for unresolved links and copy.

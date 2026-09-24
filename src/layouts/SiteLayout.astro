@@ -25,7 +25,6 @@ const nav = [
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     <link rel="icon" href="/images/favicon.png" type="image/png" />
-    <link rel="alternate" type="application/rss+xml" title={`${site.name} — Writing`} href="/rss.xml" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
@@ -43,7 +42,7 @@ const nav = [
       <main id="main"><slot /></main>
       <footer class="site-footer">
         <span>© {new Date().getFullYear()} Enes Demirağ</span>
-        <div><a href={`mailto:${site.email}`}>Email</a><a href="https://github.com/enesdemirag" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="/rss.xml">RSS</a></div>
+        <div><a href={`mailto:${site.email}`}>Email</a><a href="https://github.com/enesdemirag" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
       </footer>
     </div>
   </body>

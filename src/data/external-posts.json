@@ -1,0 +1,15 @@
+[
+  { "slug": "fuzzy-search", "title": "Searching Cleverly with Fuzzy Search", "date": "2020-12-01", "platform": "Medium", "url": "https://ensdmrg.medium.com/searching-cleverly-with-fuzzy-search-f837e1ada22e" },
+  { "slug": "fibonacci-finder", "title": "Thinking Backwards with Fibonacci", "date": "2020-11-30", "platform": "Medium", "url": "https://ensdmrg.medium.com/thinking-backwards-with-fibonacci-efe4fd76a604" },
+  { "slug": "integrated-optics", "title": "Integrated Optics", "date": "2020-06-05", "platform": "Medium", "url": "https://ensdmrg.medium.com/integrated-optics-bddbb0b2da50" },
+  { "slug": "linear-regression", "title": "Linear Regression & Least Squares Method", "date": "2019-10-25", "platform": "Medium", "url": "https://ensdmrg.medium.com/linear-regression-least-squares-method-a4389c917e1e" },
+  { "slug": "image-kernels", "title": "Origin of Computer Vision, Kernels", "date": "2019-10-24", "platform": "Medium", "url": "https://ensdmrg.medium.com/origin-of-computer-vision-kernels-d17aeba6a48e" },
+  { "slug": "perlin-noise", "title": "Perlin Noise and Cool Applications", "date": "2019-10-24", "platform": "Medium", "url": "https://ensdmrg.medium.com/perlin-noise-and-cool-applications-fcb2de5fbf64" },
+  { "slug": "symbolic-programming", "title": "Symbolic Programming", "date": "2019-09-28", "platform": "Medium", "url": "https://ensdmrg.medium.com/symbolic-programming-2978ebfe56dc" },
+  { "slug": "yapay-sinir-aglari", "title": "Yapay Sinir Ağları", "date": "2019-09-15", "platform": "Medium", "url": "https://ensdmrg.medium.com/yapay-sinir-a%C4%9Flar%C4%B1-72ec889241a5" },
+  { "slug": "markov-chains", "title": "Text Generation Using Markov Chains", "date": "2019-03-25", "platform": "Medium", "url": "https://ensdmrg.medium.com/text-generation-using-markov-chains-7417bcbf76bc" },
+  { "slug": "mass-spring-damper-simulation", "title": "Mass Spring Damper Simulation", "date": "2019-03-14", "platform": "Medium", "url": "https://ensdmrg.medium.com/mass-spring-damper-simulation-ed5f5e3b50d6" },
+  { "slug": "approximating-pi", "title": "Approximating Pi with Monte Carlo Method", "date": "2019-03-10", "platform": "Medium", "url": "https://ensdmrg.medium.com/approximating-pi-with-monte-carlo-method-fb7f9dfc116a" },
+  { "slug": "caesar-cipher", "title": "Origin of Cryptography, Caesar Cipher", "date": "2019-03-10", "platform": "Medium", "url": "https://ensdmrg.medium.com/origin-of-cryptography-caesar-cipher-25a3582a523a" },
+  { "slug": "underwater-3d-vision", "title": "Underwater 3D Vision", "date": "2018-01-25", "platform": "Medium", "url": "https://ensdmrg.medium.com/underwater-3d-vision-a09412a03ad7" }
+]

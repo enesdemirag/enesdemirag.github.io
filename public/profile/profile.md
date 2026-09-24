@@ -27,7 +27,7 @@ Son ana sayfa Destek Chat, ShelfScan, Hudux AI, DermaGlow ve Maaş Dedektifi'ni 
 
 ## Sertifika ve yazılar
 
-PDF arşivinde Azure Fundamentals, Google Machine Learning Crash Course, Python/PCAP, deep learning, security training ve eski C/C#/HTML/Python eğitim belgeleri bulunuyor. `writing/published/` altında 13 konulu blog yazısının Jekyll ve Astro sürümleri, ayrıca eski sualtı görüş yazısının üçüncü Markdown sürümü var. `writing/drafts/` altında inverse factorial, path finding ve SIR model taslakları bulunuyor.
+PDF arşivinde Azure Fundamentals, Google Machine Learning Crash Course, Python/PCAP, deep learning, security training ve eski C/C#/HTML/Python eğitim belgeleri bulunuyor. Medium'da yayımlanan 13 yazının yerel kopyaları kaldırıldı; bağlantıları sitenin `src/data/external-posts.json` dosyasında tutuluyor. `writing/drafts/` altında inverse factorial, path finding ve SIR model taslakları bulunuyor.
 
 ## Yayımlamadan önce
 
