@@ -1,0 +1,580 @@
+{
+  "renamed_paths": [
+    {
+      "before": "LINKS.md",
+      "after": "links.md"
+    },
+    {
+      "before": "MANIFEST.json",
+      "after": "manifest.json"
+    },
+    {
+      "before": "README.md",
+      "after": "readme.md"
+    },
+    {
+      "before": "documents/certificates/python_certificate-0199a94b.pdf",
+      "after": "documents/certificates/python-certificate-0199a94b.pdf"
+    },
+    {
+      "before": "documents/dil-belgesi.pdf",
+      "after": "documents/language-certificate.pdf"
+    },
+    {
+      "before": "documents/enesdemirag_resume _final.pdf",
+      "after": "documents/enesdemirag-resume.pdf"
+    },
+    {
+      "before": "documents/integrated-optic.pdf",
+      "after": "documents/integrated-optic.pdf"
+    },
+    {
+      "before": "documents/transcript-lisans.pdf",
+      "after": "documents/undergraduate-transcript.pdf"
+    },
+    {
+      "before": "images/blog/3d-simplex.png",
+      "after": "images/blog/3d-simplex.png"
+    },
+    {
+      "before": "images/blog/image-kernels.png",
+      "after": "images/blog/image-kernels.png"
+    },
+    {
+      "before": "images/blog/integrated-optics",
+      "after": "images/blog/integrated-optics"
+    },
+    {
+      "before": "images/blog/integrated-optics/dh_laser_diode.png",
+      "after": "images/blog/integrated-optics/dh-laser-diode.png"
+    },
+    {
+      "before": "images/blog/integrated-optics/qw_laser_diode.png",
+      "after": "images/blog/integrated-optics/qw-laser-diode.png"
+    },
+    {
+      "before": "images/blog/integrated-optics/responsivity.png",
+      "after": "images/blog/integrated-optics/responsivity.png"
+    },
+    {
+      "before": "images/blog/integrated-optics/sch_laser_diode.png",
+      "after": "images/blog/integrated-optics/sch-laser-diode.png"
+    },
+    {
+      "before": "images/blog/integrated-optics/sensitivity.png",
+      "after": "images/blog/integrated-optics/sensitivity.png"
+    },
+    {
+      "before": "images/blog/integrated-optics/solar.png",
+      "after": "images/blog/integrated-optics/solar.png"
+    },
+    {
+      "before": "images/blog/integrated-optics/vcsel.png",
+      "after": "images/blog/integrated-optics/vcsel.png"
+    },
+    {
+      "before": "images/blog/least-squares-regression.png",
+      "after": "images/blog/least-squares-regression.png"
+    },
+    {
+      "before": "images/blog/markov-chain.gif",
+      "after": "images/blog/markov-chain.gif"
+    },
+    {
+      "before": "images/blog/monte-carlo.gif",
+      "after": "images/blog/monte-carlo.gif"
+    },
+    {
+      "before": "images/blog/msd-simulation.gif",
+      "after": "images/blog/msd-simulation.gif"
+    },
+    {
+      "before": "images/blog/pi-calc.png",
+      "after": "images/blog/pi-calc.png"
+    },
+    {
+      "before": "images/blog/randomvsperlin.png",
+      "after": "images/blog/random-vs-perlin.png"
+    },
+    {
+      "before": "images/blog/regression-result.png",
+      "after": "images/blog/regression-result.png"
+    },
+    {
+      "before": "images/blog/simple-regression.png",
+      "after": "images/blog/simple-regression.png"
+    },
+    {
+      "before": "images/blog/sir-model.png",
+      "after": "images/blog/sir-model.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision",
+      "after": "images/blog/underwater-3d-vision"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/1-2114acc5.png",
+      "after": "images/blog/underwater-3d-vision/1-2114acc5.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/1.png",
+      "after": "images/blog/underwater-3d-vision/1.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/2.png",
+      "after": "images/blog/underwater-3d-vision/2.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/3-3d1a69b9.png",
+      "after": "images/blog/underwater-3d-vision/3-3d1a69b9.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/3.png",
+      "after": "images/blog/underwater-3d-vision/3.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/depth_image.png",
+      "after": "images/blog/underwater-3d-vision/depth-image.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/point_cloud.png",
+      "after": "images/blog/underwater-3d-vision/point-cloud.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/raw_image.png",
+      "after": "images/blog/underwater-3d-vision/raw-image.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/refraction.png",
+      "after": "images/blog/underwater-3d-vision/refraction.png"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/top_image-079ae1e5.jpg",
+      "after": "images/blog/underwater-3d-vision/top-image-079ae1e5.jpg"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/top_image.jpg",
+      "after": "images/blog/underwater-3d-vision/top-image.jpg"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/zed-fb46d1ad.jpg",
+      "after": "images/blog/underwater-3d-vision/zed-fb46d1ad.jpg"
+    },
+    {
+      "before": "images/blog/underwater-3d-vision/zed.jpg",
+      "after": "images/blog/underwater-3d-vision/zed.jpg"
+    },
+    {
+      "before": "images/cv-983f7768.png",
+      "after": "images/cv-983f7768.png"
+    },
+    {
+      "before": "images/dermaglow.svg",
+      "after": "images/derma-glow.svg"
+    },
+    {
+      "before": "images/destekchat.png",
+      "after": "images/destek-chat.png"
+    },
+    {
+      "before": "images/email-fd83a8dc.png",
+      "after": "images/email-fd83a8dc.png"
+    },
+    {
+      "before": "images/favicon-e5c91e43.ico",
+      "after": "images/favicon-e5c91e43.ico"
+    },
+    {
+      "before": "images/github-5e2a2bec.png",
+      "after": "images/github-5e2a2bec.png"
+    },
+    {
+      "before": "images/linkedin-0fbde152.png",
+      "after": "images/linkedin-0fbde152.png"
+    },
+    {
+      "before": "images/maasdedektifi.png",
+      "after": "images/salary-detective.png"
+    },
+    {
+      "before": "images/og-image.png",
+      "after": "images/social-preview-image.png"
+    },
+    {
+      "before": "images/profile-2be4851f.jpg",
+      "after": "images/profile-2be4851f.jpg"
+    },
+    {
+      "before": "images/profile-949bc907.jpg",
+      "after": "images/profile-949bc907.jpg"
+    },
+    {
+      "before": "images/profile-bg.png",
+      "after": "images/profile-background.png"
+    },
+    {
+      "before": "images/profile-dcd8d5a1.jpg",
+      "after": "images/profile-dcd8d5a1.jpg"
+    },
+    {
+      "before": "images/shelfscan.png",
+      "after": "images/shelf-scan.png"
+    },
+    {
+      "before": "images/simpcl/otopark_passthrough.png",
+      "after": "images/simpcl/parking-lot-passthrough.png"
+    },
+    {
+      "before": "images/simpcl/otopark_raw.png",
+      "after": "images/simpcl/parking-lot-raw.png"
+    },
+    {
+      "before": "images/simpcl/otopark_statistical.png",
+      "after": "images/simpcl/parking-lot-statistical.png"
+    },
+    {
+      "before": "images/simpcl/otopark_voxel.png",
+      "after": "images/simpcl/parking-lot-voxel.png"
+    },
+    {
+      "before": "links-inventory.json",
+      "after": "links-inventory.json"
+    },
+    {
+      "before": "profile/PROFILE.md",
+      "after": "profile/profile.md"
+    },
+    {
+      "before": "profile/career-timeline.json",
+      "after": "profile/career-timeline.json"
+    },
+    {
+      "before": "profile/sources/main/src/pages/Home.tsx",
+      "after": "profile/sources/main/src/pages/home.tsx"
+    },
+    {
+      "before": "profile/sources/minimal/src/site.config.ts",
+      "after": "profile/sources/minimal/src/site-config.ts"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/components/AboutMe.astro",
+      "after": "profile/sources/origin-bento/src/components/about-me.astro"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/components/ContactsCard.astro",
+      "after": "profile/sources/origin-bento/src/components/contacts-card.astro"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/components/ExperienceCard.astro",
+      "after": "profile/sources/origin-bento/src/components/experience-card.astro"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/components/IntroCard.astro",
+      "after": "profile/sources/origin-bento/src/components/intro-card.astro"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/components/MyStack.astro",
+      "after": "profile/sources/origin-bento/src/components/my-stack.astro"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/components/Now.astro",
+      "after": "profile/sources/origin-bento/src/components/now.astro"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/components/ProjectsCard.astro",
+      "after": "profile/sources/origin-bento/src/components/projects-card.astro"
+    },
+    {
+      "before": "profile/sources/origin_bento/src/data/careerData.ts",
+      "after": "profile/sources/origin-bento/src/data/career-data.ts"
+    },
+    {
+      "before": "profile/sources/origin_blog/_config.yml",
+      "after": "profile/sources/origin-blog/config.yml"
+    },
+    {
+      "before": "profile/sources/origin_flowchart/src/pages/Home.tsx",
+      "after": "profile/sources/origin-flowchart/src/pages/home.tsx"
+    },
+    {
+      "before": "profile/sources/origin_latest_with_details/src/pages/Home.tsx",
+      "after": "profile/sources/origin-latest-with-details/src/pages/home.tsx"
+    },
+    {
+      "before": "profile/sources/origin_main/src/pages/Home.tsx",
+      "after": "profile/sources/origin-main/src/pages/home.tsx"
+    },
+    {
+      "before": "profile/sources/origin_master/_config.yml",
+      "after": "profile/sources/origin-master/config.yml"
+    },
+    {
+      "before": "profile/sources/origin_old-website",
+      "after": "profile/sources/origin-old-website"
+    },
+    {
+      "before": "profile/sources/origin_old-website/_config.yml",
+      "after": "profile/sources/origin-old-website/config.yml"
+    },
+    {
+      "before": "profile/sources/origin_old-website/_data",
+      "after": "profile/sources/origin-old-website/data"
+    },
+    {
+      "before": "profile/sources/origin_old-website/_data/education.yml",
+      "after": "profile/sources/origin-old-website/data/education.yml"
+    },
+    {
+      "before": "profile/sources/origin_old-website/_data/experience.yml",
+      "after": "profile/sources/origin-old-website/data/experience.yml"
+    },
+    {
+      "before": "profile/sources/origin_old-website/_data/projects.yml",
+      "after": "profile/sources/origin-old-website/data/projects.yml"
+    },
+    {
+      "before": "profile/sources/origin_old-website/blog.md",
+      "after": "profile/sources/origin-old-website/blog.md"
+    },
+    {
+      "before": "profile/sources/origin_portfolio/index-eng.html",
+      "after": "profile/sources/origin-portfolio/index-english.html"
+    },
+    {
+      "before": "profile/sources/origin_sheet/src/data/timelineData.ts",
+      "after": "profile/sources/origin-sheet/src/data/timeline-data.ts"
+    },
+    {
+      "before": "profile/sources/origin_sheet/src/pages/PortfolioPage.tsx",
+      "after": "profile/sources/origin-sheet/src/pages/portfolio-page.tsx"
+    },
+    {
+      "before": "writing/drafts/inverse-factorial.md",
+      "after": "writing/drafts/inverse-factorial.md"
+    },
+    {
+      "before": "writing/drafts/path-finding.md",
+      "after": "writing/drafts/path-finding.md"
+    },
+    {
+      "before": "writing/drafts/sir-model.md",
+      "after": "writing/drafts/sir-model.md"
+    },
+    {
+      "before": "writing/legacy-html",
+      "after": "writing/legacy-html"
+    },
+    {
+      "before": "writing/legacy-html/underwater-3d-vision",
+      "after": "writing/legacy-html/underwater-3d-vision"
+    },
+    {
+      "before": "writing/legacy-html/underwater-3d-vision/index.html",
+      "after": "writing/legacy-html/underwater-3d-vision/index.html"
+    },
+    {
+      "before": "writing/legacy-html/yapay-sinir-aglari",
+      "after": "writing/legacy-html/artificial-neural-networks"
+    },
+    {
+      "before": "writing/legacy-html/yapay-sinir-aglari/index.html",
+      "after": "writing/legacy-html/artificial-neural-networks/index.html"
+    },
+    {
+      "before": "writing/materials/approximating-pi",
+      "after": "writing/materials/approximating-pi"
+    },
+    {
+      "before": "writing/materials/approximating-pi/simulation.py",
+      "after": "writing/materials/approximating-pi/simulation.py"
+    },
+    {
+      "before": "writing/materials/fuzzy-search",
+      "after": "writing/materials/fuzzy-search"
+    },
+    {
+      "before": "writing/materials/fuzzy-search/movielist.txt",
+      "after": "writing/materials/fuzzy-search/movie-list.txt"
+    },
+    {
+      "before": "writing/materials/fuzzy-search/search.py",
+      "after": "writing/materials/fuzzy-search/search.py"
+    },
+    {
+      "before": "writing/materials/image-kernels",
+      "after": "writing/materials/image-kernels"
+    },
+    {
+      "before": "writing/materials/image-kernels/demo.py",
+      "after": "writing/materials/image-kernels/demo.py"
+    },
+    {
+      "before": "writing/materials/image-kernels/image.txt",
+      "after": "writing/materials/image-kernels/image.txt"
+    },
+    {
+      "before": "writing/materials/linear-regression",
+      "after": "writing/materials/linear-regression"
+    },
+    {
+      "before": "writing/materials/linear-regression/regression.py",
+      "after": "writing/materials/linear-regression/regression.py"
+    },
+    {
+      "before": "writing/materials/markov-chains",
+      "after": "writing/materials/markov-chains"
+    },
+    {
+      "before": "writing/materials/markov-chains/demo.py",
+      "after": "writing/materials/markov-chains/demo.py"
+    },
+    {
+      "before": "writing/materials/markov-chains/file.txt",
+      "after": "writing/materials/markov-chains/file.txt"
+    },
+    {
+      "before": "writing/materials/mass-spring-damper-simulation",
+      "after": "writing/materials/mass-spring-damper-simulation"
+    },
+    {
+      "before": "writing/materials/mass-spring-damper-simulation/demo.py",
+      "after": "writing/materials/mass-spring-damper-simulation/demo.py"
+    },
+    {
+      "before": "writing/materials/mass-spring-damper-simulation/visualizer.py",
+      "after": "writing/materials/mass-spring-damper-simulation/visualizer.py"
+    },
+    {
+      "before": "writing/materials/perlin-noise",
+      "after": "writing/materials/perlin-noise"
+    },
+    {
+      "before": "writing/materials/perlin-noise/demo2.py",
+      "after": "writing/materials/perlin-noise/demo2.py"
+    },
+    {
+      "before": "writing/materials/perlin-noise/opensimplex-demo.py",
+      "after": "writing/materials/perlin-noise/opensimplex-demo.py"
+    },
+    {
+      "before": "writing/materials/sir-model",
+      "after": "writing/materials/sir-model"
+    },
+    {
+      "before": "writing/materials/sir-model/demo.py",
+      "after": "writing/materials/sir-model/demo.py"
+    },
+    {
+      "before": "writing/materials/sir-model/expo.py",
+      "after": "writing/materials/sir-model/expo.py"
+    },
+    {
+      "before": "writing/published/2018-1-25-underwater-3d-vision.md",
+      "after": "writing/published/2018-1-25-underwater-3d-vision.md"
+    },
+    {
+      "before": "writing/published/2018-10-31-underwater-3d-vision.md",
+      "after": "writing/published/2018-10-31-underwater-3d-vision.md"
+    },
+    {
+      "before": "writing/published/2019-10-24-image-kernels.md",
+      "after": "writing/published/2019-10-24-image-kernels.md"
+    },
+    {
+      "before": "writing/published/2019-10-24-perlin-noise.md",
+      "after": "writing/published/2019-10-24-perlin-noise.md"
+    },
+    {
+      "before": "writing/published/2019-10-25-linear-regression.md",
+      "after": "writing/published/2019-10-25-linear-regression.md"
+    },
+    {
+      "before": "writing/published/2019-3-10-approximating-pi.md",
+      "after": "writing/published/2019-3-10-approximating-pi.md"
+    },
+    {
+      "before": "writing/published/2019-3-10-caesar-cipher.md",
+      "after": "writing/published/2019-3-10-caesar-cipher.md"
+    },
+    {
+      "before": "writing/published/2019-3-10-fibonacci-finder.md",
+      "after": "writing/published/2019-3-10-fibonacci-finder.md"
+    },
+    {
+      "before": "writing/published/2019-3-14-mass-spring-damper-simulation.md",
+      "after": "writing/published/2019-3-14-mass-spring-damper-simulation.md"
+    },
+    {
+      "before": "writing/published/2019-3-25-markov-chains.md",
+      "after": "writing/published/2019-3-25-markov-chains.md"
+    },
+    {
+      "before": "writing/published/2019-9-15-yapay-sinir-aglari.md",
+      "after": "writing/published/2019-9-15-artificial-neural-networks.md"
+    },
+    {
+      "before": "writing/published/2019-9-28-fuzzy-search.md",
+      "after": "writing/published/2019-9-28-fuzzy-search.md"
+    },
+    {
+      "before": "writing/published/2019-9-28-symbolic-programming.md",
+      "after": "writing/published/2019-9-28-symbolic-programming.md"
+    },
+    {
+      "before": "writing/published/2020-6-5-integrated-optics.md",
+      "after": "writing/published/2020-6-5-integrated-optics.md"
+    },
+    {
+      "before": "writing/published/approximating-pi.md",
+      "after": "writing/published/approximating-pi.md"
+    },
+    {
+      "before": "writing/published/caesar-cipher.md",
+      "after": "writing/published/caesar-cipher.md"
+    },
+    {
+      "before": "writing/published/fibonacci-finder.md",
+      "after": "writing/published/fibonacci-finder.md"
+    },
+    {
+      "before": "writing/published/fuzzy-search.md",
+      "after": "writing/published/fuzzy-search.md"
+    },
+    {
+      "before": "writing/published/image-kernels.md",
+      "after": "writing/published/image-kernels.md"
+    },
+    {
+      "before": "writing/published/integrated-optics.md",
+      "after": "writing/published/integrated-optics.md"
+    },
+    {
+      "before": "writing/published/linear-regression.md",
+      "after": "writing/published/linear-regression.md"
+    },
+    {
+      "before": "writing/published/markov-chains.md",
+      "after": "writing/published/markov-chains.md"
+    },
+    {
+      "before": "writing/published/mass-spring-damper-simulation.md",
+      "after": "writing/published/mass-spring-damper-simulation.md"
+    },
+    {
+      "before": "writing/published/perlin-noise.md",
+      "after": "writing/published/perlin-noise.md"
+    },
+    {
+      "before": "writing/published/symbolic-programming.md",
+      "after": "writing/published/symbolic-programming.md"
+    },
+    {
+      "before": "writing/published/underwater-3d-vision.md",
+      "after": "writing/published/underwater-3d-vision.md"
+    },
+    {
+      "before": "writing/published/yapay-sinir-aglari.md",
+      "after": "writing/published/artificial-neural-networks.md"
+    }
+  ]
+}

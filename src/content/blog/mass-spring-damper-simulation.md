@@ -71,10 +71,10 @@ def set(arg):
 Visualizer(callback=set, interval=dt * 1000, simulation_time=30, initial=(position, 0, velocity, 0, acceleration, 0))
 ```
 
-The result should be like this. You can find the full code from [here](/assets/writing/materials/mass_spring_damper_simulation/demo.py).
+The result should be like this. You can find the full code from [here](/writing/materials/mass-spring-damper-simulation/demo.py).
 
 <p align="center">
-  <img src="/assets/images/blog/msd_simulation.gif">
+  <img src="/images/blog/msd-simulation.gif">
 </p>
 
 _Thanks to **[@senceryazici](https://github.com/senceryazici)** for his *[Visualizer](https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/mass-spring-damper-simulation/visualizer.py)* module._

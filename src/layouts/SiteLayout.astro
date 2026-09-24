@@ -24,13 +24,13 @@ const nav = [
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/assets/images/favicon.png" type="image/png" />
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
     <link rel="alternate" type="application/rss+xml" title={`${site.name} — Writing`} href="/rss.xml" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:type" content={article ? "article" : "website"} />
-    <meta property="og:image" content={new URL("/assets/images/social_preview_image.png", Astro.site)} />
+    <meta property="og:image" content={new URL("/images/social-preview-image.png", Astro.site)} />
   </head>
   <body>
     <div class="site-shell">

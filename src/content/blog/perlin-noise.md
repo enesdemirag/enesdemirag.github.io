@@ -7,7 +7,7 @@ date: 2019-10-24
 
 Difference between random numbers and perlin noise shown below.
 <p align="center">
-  <img width="751" height="422" src="/assets/images/blog/random_vs_perlin.png">
+  <img width="751" height="422" src="/images/blog/random-vs-perlin.png">
 </p>
 
 Ken Perlin developed this algorithm for Disney's computer animated sci-fi motion picture [Tron (1982)](https://www.imdb.com/title/tt0084827/). In 1997, he won an Academy Award for Technical Achievement from the Academy of Motion Picture Arts and Sciences for this contribution to CGI.
@@ -76,7 +76,7 @@ mlab.show()
 The result should be like this. You can find the full code from [here](https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/perlin-noise/opensimplex-demo.py).
 
 <p align="center">
-  <img src="/assets/images/blog/3d_simplex.png">
+  <img src="/images/blog/3d-simplex.png">
 </p>
 
 You can use higher dimensional noise functions to make organic looking visuals. [Here](https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/) is and example of using perlin noise to make animated loop GIFs.

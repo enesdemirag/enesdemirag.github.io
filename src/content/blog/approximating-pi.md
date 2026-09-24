@@ -22,7 +22,7 @@ If we count up the darts that landed within the circle and compare to the total 
 From the figure, it's clear that the length of the square **L** is twice the radius of the circle **r**. So we can calculate the ratio between the areas of circle and square as following.
 
 <p align="center">
-<img src="/assets/images/blog/pi_calc.png">
+<img src="/images/blog/pi-calc.png">
 </p>
 
 So if we randomly throw the darts, the ratio should approximate to **&#960; / 4**. Therefore we can just multiply the ratio by 4 to get an estimate for &#960;.
@@ -89,7 +89,7 @@ def distance(x, y):
 I also made an animation using [PyGame](https://www.pygame.org/). Code is [here](https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/approximating-pi/simulation.py).
 
 <p align="center">
-<img src="/assets/images/blog/monte_carlo.gif">
+<img src="/images/blog/monte-carlo.gif">
 </p>
 
 [Here](https://editor.p5js.org/ChrisOrban/sketches/ByERjxMKG) is a great visual explanation of what we tried to do using Javascript. Also in [this video](https://thecodingtrain.com/CodingChallenges/095-approximating-pi.html) Processing (Java) used.

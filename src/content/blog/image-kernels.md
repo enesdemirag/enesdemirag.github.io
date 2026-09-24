@@ -75,6 +75,6 @@ def filter(image, kernel):
 
 **Result:**
 
-<p align="center"><img src="/assets/images/blog/image_kernels.png"></p>
+<p align="center"><img src="/images/blog/image-kernels.png"></p>
 
 _Full code is [here](https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/image-kernels/demo.py)._

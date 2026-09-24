@@ -25,7 +25,7 @@ Photodiodes are designed to detect light particles called photons to be used to 
 A photodiode acts as a photo-controlled current source in parallel with the semiconductor diode. Basically, a photodiode is a current generator. If light falls on the photodiode, the reverse current begins to flow. If the photons stimulate the carriers in a reverse-biased pn junction, a very small current flows over the diode with proportional to the intensity of the light.
 
 <p align="center">
-<img src="/assets/images/blog/integrated_optics/sensitivity.png" width="300">
+<img src="/images/blog/integrated-optics/sensitivity.png" width="300">
 </p>
 
 Current through photodiodes is directly proportional to the intensity of the light. Light sensitivity to the wavelength is illustrated in figure above.
@@ -46,7 +46,7 @@ Responsivity of the photodiode R<sub>λ</sub> defined as the ratio of output cur
 Responsivity of the photodiodes with different materials under different wavelenghts of light can be seen in figure below.
 
 <p align="center">
-<img src="/assets/images/blog/integrated_optics/responsivity.png" width="300">
+<img src="/images/blog/integrated-optics/responsivity.png" width="300">
 </p>
 
 p-i-n photodiode widely used across different applications because of its simple structure which makes its cost efficient. But for more precise applications on industry or academic research, under ideal conditions and high quality materials design with Q.E. of 80% can be accessed.
@@ -66,7 +66,7 @@ Infrared is much more difficult to manage than visible light. It is harder to fo
 This type of detectors contains a pn junction. Voltage is generated when light energy captured.
 
 <p align="center">
-<img src="/assets/images/blog/integrated_optics/solar.png" width="500">
+<img src="/images/blog/integrated-optics/solar.png" width="500">
 </p>
 
 #### **Photovoltaic Cell**
@@ -88,7 +88,7 @@ Semiconductor laser diodes are fabricated from direct band gap materials, using 
 ### Double Heterostructure Lasers
 
 <p align="left">
-<img src="/assets/images/blog/integrated_optics/dh_laser_diode.png" width="400">
+<img src="/images/blog/integrated-optics/dh-laser-diode.png" width="400">
 </p>
 
 In double heterostructure semiconductor laser diode, a narrow band gap material layer like gallium arsenide (GaAs) is placed between the two high band gap layers like aluminum gallium arsenite (AlGaAs). It is called the "double heterostructure laser" aka. DH laser because both of the junction points between the layers is called a heterostructure.
@@ -98,7 +98,7 @@ One of the advantages of the double heterostructure laser is the region of the f
 ### Quantum Well Lasers
 
 <p align="left">
-<img src="/assets/images/blog/integrated_optics/qw_laser_diode.png" width="400">
+<img src="/images/blog/integrated-optics/qw-laser-diode.png" width="400">
 </p>
 
 In Quantum Well Lasers, middle layer is thin enough to acts as a quantum well which means the output energy boosted because of the electron's wave function. The efficiency of a quantum well laser is better than a solid state bulk lasers with crystals because the density of the electrons in the quantum well.
@@ -106,7 +106,7 @@ In Quantum Well Lasers, middle layer is thin enough to acts as a quantum well wh
 ### Separate Confinement Heterostructure Lasers
 
 <p align="left">
-<img src="/assets/images/blog/integrated_optics/sch_laser_diode.png" width="400">
+<img src="/images/blog/integrated-optics/sch-laser-diode.png" width="400">
 </p>
 
 One of the disadgentages of the quantum well laser diode is that the thin layer is too small to effectively restain the light. To compensate, another two layers are added outside. These layers have a lower refractive index than the layers inside, so restain the light more efficiently. This design is called a separate confinement heterostructure (SCH) laser diode. Almost all of the commercial laser diodes after 90s have been separate confinement heterostructure quantum well diodes.
@@ -114,7 +114,7 @@ One of the disadgentages of the quantum well laser diode is that the thin layer 
 ### Vertical-Cavity Surface-Emitting Lasers
 
 <p align="left">
-<img src="/assets/images/blog/integrated_optics/vcsel.png" width="400">
+<img src="/images/blog/integrated-optics/vcsel.png" width="400">
 </p>
 
 Vertical-cavity surface-emitting lasers (VCSEL) have optical gap along the direction of the current flow, not perpendicular to the direction if the current flow, as in conventional laser diodes. The active zone size is shorter than the side dimensions, thus radiation exits from the surface of the cavity, not from the edge of it just like in the figure. There are upper and lower reflectors at both ends of the cavity using dielectric mirrors with an alternative high and low refractive index.
@@ -139,4 +139,4 @@ I would like to thank my advisor _Associate Professor Onur Ferhanoğlu._
 
 ---
 
-> You can access to the real paper from [here](/assets/documents/integrated_optic.pdf). 
+> You can access to the real paper from [here](/documents/integrated-optic.pdf).
