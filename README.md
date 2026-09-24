@@ -1,30 +1,21 @@
-# enesdemirag.github.io
+# enesdemirag.com
 
-Personal site ([enesdemirag.com](https://enesdemirag.com)) built with [Astro](https://astro.build).
+Personal site built with Astro. The source is intentionally small: personal and product data lives in `src/data/site.ts`, pages in `src/pages/`, and the 13 published posts in `src/content/blog/`.
 
 ```bash
 npm install
-npm run dev      # http://localhost:4321
-npm run build    # outputs to dist/
+npm run dev
+npm run check
+npm run build
 ```
+
+The complete curated archive is under `public/assets/`. Every file there is publicly addressable at `/assets/...` after deployment, including documents and historical source material. The site only links to selected items.
 
 ## Editing
 
-- **Your details, products, projects, socials:** `src/site.config.ts`
-- **Blog post written here:** add `src/content/blog/my-post.md` with `title` and `date` frontmatter
-- **LinkedIn (or any external) article:** add a `.md` file with only frontmatter:
-  ```md
-  ---
-  title: My LinkedIn article
-  date: 2026-09-10
-  url: https://www.linkedin.com/pulse/...
-  source: linkedin
-  ---
-  ```
-- **Medium:** set `mediumUsername` in `src/site.config.ts`. Posts are pulled from the RSS feed on every build.
-- **Images:** put app icons or your photo in `public/` and reference them as `/filename.png`.
+- Change bio, social links, product cards, experience, and résumé link in `src/data/site.ts`.
+- Add a post as `src/content/blog/post-slug.md` with `title` and `date` frontmatter.
+- Keep post images in `public/assets/images/blog/` and refer to them with `/assets/images/blog/...`.
+- Review [OPEN_ITEMS.md](OPEN_ITEMS.md) for unresolved links and copy.
 
-## Deploy
-
-`.github/workflows/deploy.yml` builds the site and publishes `dist/` to GitHub Pages on every push to `main`.
-Re-run the workflow (Actions → Run workflow) to pick up new Medium posts.
+`.github/workflows/deploy.yml` builds and deploys when the new site is on `main`. This branch is local until pushed or merged.

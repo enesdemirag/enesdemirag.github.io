@@ -19,7 +19,7 @@ The consumed energy of the dynamic system is modelled through a one-dimensional 
 
 These three components, **mass, spring and damper** can model any dynamic response situation in a general sense. Where, **F** is the external force applied to the dynamic system. **m, b, and k** denotes the mass, damping coefficient, and spring coefficient. **x, x', and x''** denotes the displacement, velocity and acceleration vectors respectively.
 
-For more information, you can check [this website](http://www.sharetechnote.com/html/DE_Modeling_Example_SpringMass.html) and [this presentation](www.sharetechnote.com/html/DE_Modeling_Example_SpringMass.html) from Prof. R.G. Longoria, University of Texas.
+For more information, you can check [this website](http://www.sharetechnote.com/html/DE_Modeling_Example_SpringMass.html) and [this presentation](https://www.sharetechnote.com/html/DE_Modeling_Example_SpringMass.html) from Prof. R.G. Longoria, University of Texas.
 
 Lets create a physics simulation of a Mass-Spring-Damper System and plot the displacement, velocity and acceleration changes.
 
@@ -71,10 +71,10 @@ def set(arg):
 Visualizer(callback=set, interval=dt * 1000, simulation_time=30, initial=(position, 0, velocity, 0, acceleration, 0))
 ```
 
-The result should be like this. You can find the full code from [here](materials/mass-spring-damper-simulation/demo.py).
+The result should be like this. You can find the full code from [here](/assets/writing/materials/mass_spring_damper_simulation/demo.py).
 
 <p align="center">
-  <img src="/blog/images/msd-simulation.gif">
+  <img src="/assets/images/blog/msd_simulation.gif">
 </p>
 
 _Thanks to **[@senceryazici](https://github.com/senceryazici)** for his *[Visualizer](https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/mass-spring-damper-simulation/visualizer.py)* module._

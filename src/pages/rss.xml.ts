@@ -1,19 +1,12 @@
 import rss from "@astrojs/rss";
-import type { APIContext } from "astro";
-import { site } from "../site.config";
-import { getAllPosts } from "../lib/posts";
+import { getPosts } from "../lib/posts";
 
-export async function GET(context: APIContext) {
-  const posts = await getAllPosts();
+export async function GET(context: { site: URL }) {
+  const posts = await getPosts();
   return rss({
-    title: site.title,
-    description: site.description,
-    site: context.site!,
-    items: posts.map((p) => ({
-      title: p.title,
-      pubDate: p.date,
-      description: p.description,
-      link: p.href,
-    })),
+    title: "Enes Demirağ — Writing",
+    description: "Notes on software, AI, computer vision, and building products.",
+    site: context.site,
+    items: posts.map((post) => ({ title: post.data.title, pubDate: post.data.date, description: post.data.description ?? "", link: `/blog/${post.id}/` })),
   });
 }

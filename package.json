@@ -1,21 +1,20 @@
 {
   "name": "enesdemirag.com",
   "version": "1.0.0",
-  "description": "Personal site of Enes Demirag",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check": "astro check"
   },
-  "type": "module",
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
-    "astro": "^7.3.5",
-    "fast-xml-parser": "^5.11.1",
-    "simple-icons": "^16.32.0"
+    "astro": "^7.3.5"
   },
-  "allowScripts": {
-    "esbuild@0.28.2": true
-  },
-  "private": true
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "typescript": "^5.9.2"
+  }
 }

@@ -1,74 +1,13 @@
 ---
-import Base from "../../layouts/Base.astro";
-import PostList from "../../components/PostList.astro";
-import { getAllPosts, sourceLabel, type Source } from "../../lib/posts";
-
-const posts = await getAllPosts();
-const sources = [...new Set(posts.map((p) => p.source))] as Source[];
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PostRow from "../../components/PostRow.astro";
+import { getPosts } from "../../lib/posts";
+const posts = await getPosts();
 ---
 
-<Base title="Writing" description="Everything I've written, wherever it was published.">
-  <p class="back"><a href="/">← Home</a></p>
-  <h1>Writing</h1>
+<SiteLayout title="Writing" description="Essays and notes by Enes Demirağ on software, AI, computer vision, and engineering.">
+  <div class="page-intro"><p class="eyebrow">Notes from the workbench</p><h1>Writing.</h1><p>Ideas, experiments, and things I learned along the way. The archive includes my early writing on robotics, mathematics, and computer vision.</p></div>
+  <section class="content-section"><div class="section-heading"><h2>All posts <span>{posts.length}</span></h2><a class="text-link" href="/rss.xml">RSS feed ↗</a></div>{posts.map((post) => <PostRow post={post} />)}</section>
+</SiteLayout>
 
-  {sources.length > 1 && (
-    <div class="filters" role="group" aria-label="Filter by source">
-      <button type="button" data-filter="all" aria-pressed="true">All</button>
-      {sources.map((s) => (
-        <button type="button" data-filter={s} aria-pressed="false">{sourceLabel[s]}</button>
-      ))}
-    </div>
-  )}
-
-  <PostList posts={posts} />
-  <p class="rss"><a href="/rss.xml">RSS feed</a></p>
-</Base>
-
-<script>
-  const buttons = document.querySelectorAll<HTMLButtonElement>("[data-filter]");
-  const items = document.querySelectorAll<HTMLLIElement>("li[data-source]");
-  buttons.forEach((btn) =>
-    btn.addEventListener("click", () => {
-      const f = btn.dataset.filter;
-      buttons.forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
-      items.forEach((li) => (li.hidden = f !== "all" && li.dataset.source !== f));
-    }),
-  );
-</script>
-
-<style>
-  .back {
-    margin: 0 0 2rem;
-    font-size: 0.95rem;
-  }
-  h1 {
-    font-size: 1.75rem;
-    margin: 0 0 1.25rem;
-  }
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.75rem;
-  }
-  button {
-    font: inherit;
-    font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
-    min-height: 32px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    background: transparent;
-    color: var(--muted);
-    cursor: pointer;
-  }
-  button[aria-pressed="true"] {
-    background: var(--fg);
-    border-color: var(--fg);
-    color: var(--bg);
-  }
-  .rss {
-    margin-top: 2.5rem;
-    font-size: 0.875rem;
-  }
-</style>
+<style>.page-intro .eyebrow { margin-bottom: 15px; }.section-heading h2 span { margin-left: 4px; color: var(--faint); font-size: .85rem; vertical-align: 3px; }</style>

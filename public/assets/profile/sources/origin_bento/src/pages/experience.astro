@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { nodes } from "../data/careerData";
+
+const experienceNodes = nodes.filter(node => node.category === 'work');
+---
+
+<Layout
+  title="Enes Demirag - Experience"
+  description="Experience of Enes Demirag"
+>
+  <main class="w-screen h-screen flex flex-col justify-start items-start max-w-3xl mx-auto p-8">
+    <a href="/" class="text-white bg-neutral-900 hover:bg-neutral-800 px-4 py-2 mb-8 border-1 border-solid border-neutral-600 rounded-lg">
+      Back
+    </a>
+    <h1 class="text-4xl font-bold mb-4 text-white">Experience</h1>
+    <div class="flex flex-col gap-6 w-full mt-4">
+      {experienceNodes.map(exp => (
+        <div class="bg-neutral-900 p-6 rounded-lg border-1 border-solid border-neutral-800 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          {exp.logo && (
+            <img src={exp.logo} alt={exp.title} class="w-16 h-16 rounded-md object-cover flex-shrink-0" />
+          )}
+          <div class="flex-1">
+            <h2 class="text-xl font-bold text-white mb-1">
+              {exp.url ? <a href={exp.url} target="_blank" class="hover:text-red-500">{exp.title}</a> : exp.title}
+            </h2>
+            <p class="text-sm font-semibold text-neutral-400 mb-2">{exp.subtitle} <span class="text-neutral-500 font-normal ml-2">({exp.timeRange})</span></p>
+            <p class="text-sm text-neutral-300 mb-3">{exp.description}</p>
+            <div class="flex flex-wrap gap-2">
+              {exp.tags.map(tag => (
+                <span class="text-xs bg-neutral-800 text-neutral-300 px-2 py-1 rounded-md">{tag}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </main>
+</Layout>

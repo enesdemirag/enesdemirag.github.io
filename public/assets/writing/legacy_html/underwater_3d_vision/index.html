@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Underwater 3D Vision</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../index.css"></head>
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <a href="../../blogs.html" class="go_back"><i class="fas fa-arrow-left"></i></a>
+    <div id="background_overlay"></div>
+    <div id="background" style="background: url(top_image.jpg) center;"></div>
+    <table id="profile_blog">
+      <tbody>
+        <tr>
+          <td style="width:8vw;"><div id="profile_img_blog"></div></td>
+          <td style="width:52vw;">
+            <div id="username_blog"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="blog-display">
+      <h1 id="blog_title">Underwater 3D Vision</h1>
+      <h2 id="blog_sub_title">Disadventages of Distance Sensors and Power of Stereo Cameras</h2>
+      <div id="blog">
+        <p id="para_0_original">There are variety of sensors types for measuring distances. It is possible to measure distances using infra-red light, radio waves, lasers etc. Radars and Lidars are widespread because of their performance and accuracy. However, most of these sensors do not work well under water. Radio waves for instance; will be reduced, thus they cannot travel long distances under water.</p>
+        <p id="para_0_original">Other sensors such as IR light sensors also cannot operate properly due to the refraction caused by medium changes. I.e. the sensor transmits the light but the light does not come back to receiver. To get rid of this refraction we need to make the sensor waterproof. Yet refraction is not the only problem. According to this <b><a href="https://ieeexplore.ieee.org/document/7477644">article</a></b>, infra-red light is heavily attenuated in water, as a result their maximum range under water is 20-25cm. So from our point of view they are useless just like RF sensors.</p>
+        <p id="para_0_original"><b>Well then, what is being used for underwater applications?</b> you might ask. Of course there are underwater sensors for measuring distances and Sonar is most likely to be used. Sonars use acoustic waves (considered sound waves in water). Sonar can see obstacles from hundreds of meters away, therefore that makes sonar like Elvis of underwater sensors. Although sonars are especially developed for underwater use and can obtain perfect accuracy, they are costly to use for our student project.</p>
+        <p id="para_0_original">You can ask: <b>Is measuring distance really that hard? Even I can estimate distances with my eyes.</b> That's a great question. Most of the projects don't need to obtain millimeter level precision so they use cameras. Yes, with the help of computer vision algorithms we can predict distance fairly good. And yes, we decided to use a camera but we didn’t want to use just a regular camera, instead we decided to put a camera that sees like we do.</p>
+        <figure>
+          <img src="zed.jpg"> <!-- Source: https://cdn.stereolabs.com/img/product/ZED_product_main.jpg -->
+          <figcaption> <i>We see the world with two eyes. Cameras see the world with only one lens.</i> </figcaption>
+        </figure>
+        <p id="para_0_original">A company called Stereolabs developed a camera that can see the world in 3D. ZED Camera has two lenses and can capture depth for every single pixel in real time. ZED is not the only stereo camera of course, there are other cameras from different companies but the idea is the same. Our AUV can detect obstacles in water and plan its trajectory to avoid obstacles.</p>
+        <p id="para_0_original">In addition to that, ZED has 6-Axis Positional Tracking, thanks to visual odometry technology. It tracks the environment and calculates camera position and orientation in 3D space with high accuracy. This is an essential service for our AUV. The odometry data coming from ZED can help our autonomous navigation system. Using that data, it is possible to generate the 3D model of objects under water and make survey mapping.</p>
+        <p id="para_1_original">Here is our test results:</p>
+        <figure>
+          <img src="1.png"/>
+          <figcaption> Raw Image </figcaption>
+        </figure>
+        <hspace>
+        <figure>
+          <img src="2.png"/>
+          <figcaption> Depth Image </figcaption>
+        </figure>
+        <figure>
+          <img src="3.png"/>
+          <figcaption> Point Cloud </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div id="footer_blog">
+      If you have any question, please <a href="mailto:ensdmrg@gmail.com" target="_blank">contact me.</a>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("../../config.json", function(user) {
+        var icon = document.createElement("link");
+        icon.setAttribute("rel", "icon");
+        icon.setAttribute("href", user[0].userimg);
+        icon.setAttribute("type", "image/png");
+        document.getElementsByTagName("head")[0].appendChild(icon);
+        document.getElementById(
+          "profile_img_blog"
+        ).style.background = `url('${user[0].userimg}') center center`;
+        document.getElementById(
+          "username_blog"
+        ).innerHTML = `<span style="display:${
+          user[0].name == null || !user[0].name ? "none" : "block"
+        };">${user[0].name}</span>@${user[0].username}<b id="blog_time"></b>`;
+
+        if ((user[0].theme = "dark.css")) {
+          document.querySelector("#background_overlay").style.background =
+            "linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.1))";
+        } else {
+          document.querySelector("#background_overlay").style.background =
+            "linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1))";
+        }
+      });
+    </script>
+  
+
+</body></html>

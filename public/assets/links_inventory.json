@@ -1,0 +1,1648 @@
+[
+  {
+    "url": "demirag16@itu.edu.tr",
+    "sources": [
+      "origin/old-website:_config.yml",
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "enes.demirag00@gmail.com",
+    "sources": [
+      "origin/bento:src/components/ContactsCard.astro",
+      "origin/bento:src/lib/constants.ts"
+    ]
+  },
+  {
+    "url": "enesdmrg@gmail.com",
+    "sources": [
+      "minimal:src/site.config.ts"
+    ]
+  },
+  {
+    "url": "http://bidb.itu.edu.tr/",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "http://flafla2.github.io/2014/08/09/perlinnoise.html",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "http://fontawesome.com/icons",
+    "sources": [
+      "origin/blog:_config.yml",
+      "origin/master:_config.yml"
+    ]
+  },
+  {
+    "url": "http://localhost:4321",
+    "sources": [
+      "minimal:README.md"
+    ]
+  },
+  {
+    "url": "http://mathworld.wolfram.com/FibonacciNumber.html",
+    "sources": [
+      "minimal:src/content/blog/fibonacci-finder.md",
+      "origin/blog:_posts/2019-3-10-fibonacci-finder.md",
+      "origin/master:_posts/2019-3-10-fibonacci-finder.md"
+    ]
+  },
+  {
+    "url": "http://mathworld.wolfram.com/MonteCarloMethod.html",
+    "sources": [
+      "minimal:src/content/blog/approximating-pi.md",
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "http://meyerweb.com/eric/tools/css/reset/",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "http://racing.itu.edu.tr/",
+    "sources": [
+      "origin/dark:experience.html",
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "http://rov.itu.edu.tr/",
+    "sources": [
+      "origin/dark:experience.html",
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "http://schema.org",
+    "sources": [
+      "origin/bento:src/layouts/BasicLayout.astro"
+    ]
+  },
+  {
+    "url": "http://setosa.io/ev/image-kernels/",
+    "sources": [
+      "minimal:src/content/blog/image-kernels.md",
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md"
+    ]
+  },
+  {
+    "url": "http://setosa.io/ev/markov-chains/",
+    "sources": [
+      "minimal:src/content/blog/markov-chains.md",
+      "origin/blog:_posts/2019-3-25-markov-chains.md",
+      "origin/master:_posts/2019-3-25-markov-chains.md"
+    ]
+  },
+  {
+    "url": "http://shopify.github.io/liquid/filters/date/",
+    "sources": [
+      "origin/blog:_config.yml",
+      "origin/master:_config.yml"
+    ]
+  },
+  {
+    "url": "http://staffwww.itn.liu.se/~stegu/simplexnoise/simplexnoise.pdf",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "http://web.archive.org/web/20160530124230/http://freespace.virgin.net/hugo.elias/models/m_perlin.htm",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "http://www.chrisharrison.net/index.php/Visualizations/WebTrigrams",
+    "sources": [
+      "minimal:src/content/blog/markov-chains.md",
+      "origin/blog:_posts/2019-3-25-markov-chains.md",
+      "origin/master:_posts/2019-3-25-markov-chains.md"
+    ]
+  },
+  {
+    "url": "http://www.cs.carleton.edu/faculty/adalal/teaching/f04/117/notes/searchSort.pdf",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "http://www.cs.trincoll.edu/~crypto/historical/caesar.html",
+    "sources": [
+      "minimal:src/content/blog/caesar-cipher.md",
+      "origin/blog:_posts/2019-3-10-caesar-cipher.md",
+      "origin/master:_posts/2019-3-10-caesar-cipher.md"
+    ]
+  },
+  {
+    "url": "http://www.ravinspect.com",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "http://www.ravinspect.com/",
+    "sources": [
+      "origin/dark:experience.html"
+    ]
+  },
+  {
+    "url": "http://www.sharetechnote.com/html/DE_Modeling_Example_SpringMass.html",
+    "sources": [
+      "minimal:src/content/blog/mass-spring-damper-simulation.md",
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://app.netlify.com/start/deploy?repository=https://github.com/Ladvace/astro-bento-portfolio",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://avatars2.githubusercontent.com/u/26373568?v=4",
+    "sources": [
+      "origin/dark:blogs.html",
+      "origin/dark:certificates.html",
+      "origin/dark:config.json",
+      "origin/dark:education.html",
+      "origin/dark:experience.html",
+      "origin/dark:index.html",
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://baykartech.com",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://bidb.itu.edu.tr/",
+    "sources": [
+      "origin/dark:experience.html"
+    ]
+  },
+  {
+    "url": "https://bit.ly/2yfaapD",
+    "sources": [
+      "minimal:src/content/blog/image-kernels.md",
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md"
+    ]
+  },
+  {
+    "url": "https://books.google.com/ngrams",
+    "sources": [
+      "minimal:src/content/blog/markov-chains.md",
+      "origin/blog:_posts/2019-3-25-markov-chains.md",
+      "origin/master:_posts/2019-3-25-markov-chains.md"
+    ]
+  },
+  {
+    "url": "https://chooch.com",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://cmaher.github.io/posts/working-with-simplex-noise/",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://code.jquery.com/jquery-3.4.1.min.js",
+    "sources": [
+      "origin/dark:blog/underwater-3d-vision/index.html",
+      "origin/dark:blog/yapay-sinir-aglari/index.html",
+      "origin/dark:blogs.html",
+      "origin/dark:certificates.html",
+      "origin/dark:education.html",
+      "origin/dark:experience.html",
+      "origin/dark:index.html",
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://d3js.org/",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://derma-glow.web.app",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/latest_with_details:src/pages/Home.tsx"
+    ]
+  },
+  {
+    "url": "https://destek.chat",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://dias.com",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://discordapp.com/users/enesdemirag",
+    "sources": [
+      "origin/bento:src/lib/constants.ts"
+    ]
+  },
+  {
+    "url": "https://docs.enthought.com/mayavi/mayavi/",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://docs.gimp.org/en/gimp-filter-convolution-matrix.html",
+    "sources": [
+      "minimal:src/content/blog/image-kernels.md",
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md"
+    ]
+  },
+  {
+    "url": "https://docs.scipy.org/doc/numpy/user/whatisnumpy.html",
+    "sources": [
+      "minimal:src/content/blog/image-kernels.md",
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md"
+    ]
+  },
+  {
+    "url": "https://docs.sympy.org/1.5.1/tutorial",
+    "sources": [
+      "minimal:src/content/blog/symbolic-programming.md",
+      "origin/blog:_posts/2019-9-28-symbolic-programming.md",
+      "origin/master:_posts/2019-9-28-symbolic-programming.md"
+    ]
+  },
+  {
+    "url": "https://editor.p5js.org/ChrisOrban/sketches/ByERjxMKG",
+    "sources": [
+      "minimal:src/content/blog/approximating-pi.md",
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Approximate_string_matching",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Autonomous_underwater_vehicle",
+    "sources": [
+      "origin/old-website:_config.yml"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fibonacci_number",
+    "sources": [
+      "minimal:src/content/blog/fibonacci-finder.md",
+      "origin/blog:_posts/2019-3-10-fibonacci-finder.md",
+      "origin/master:_posts/2019-3-10-fibonacci-finder.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Least_squares",
+    "sources": [
+      "minimal:src/content/blog/linear-regression.md",
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Levenshtein_distance",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Linear_regression",
+    "sources": [
+      "minimal:src/content/blog/linear-regression.md",
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Perlin_noise",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Regression_analysis",
+    "sources": [
+      "minimal:src/content/blog/linear-regression.md",
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle",
+    "sources": [
+      "origin/old-website:_config.yml"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Simplex_noise",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.com",
+    "sources": [
+      "minimal:README.md"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io",
+    "sources": [
+      "main:package.json",
+      "origin/cloudflare/workers-autoconfig:package.json",
+      "origin/flowchart:package.json",
+      "origin/latest_with_details:package.json",
+      "origin/main:package.json",
+      "origin/sheet:package.json"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/",
+    "sources": [
+      "origin/dark:blogs.html",
+      "origin/dark:certificates.html",
+      "origin/dark:education.html",
+      "origin/dark:experience.html",
+      "origin/dark:index.html",
+      "origin/dark:repos.html",
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/c_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/csharp_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/deeplearning_course.pdf",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/google_ml_certificate.pdf",
+    "sources": [
+      "origin/blog:resume.md"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/html_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/python_academy_certificate.pdf",
+    "sources": [
+      "origin/dark:certificates.html",
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/python_certificate.pdf",
+    "sources": [
+      "origin/blog:resume.md",
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/certificates/python_course.pdf",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/cv.pdf",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/docs/ozgecmis.pdf",
+    "sources": [
+      "origin/portfolio:index.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/index-eng.html",
+    "sources": [
+      "origin/portfolio:index.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/index.html",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/resume:index-eng.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.github.io/resume",
+    "sources": [
+      "origin/blog:_config.yml"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.hithub.io/docs/certificates/c_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.hithub.io/docs/certificates/csharp_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.hithub.io/docs/certificates/deeplearning_course.pdf",
+    "sources": [
+      "origin/portfolio:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.hithub.io/docs/certificates/html_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.hithub.io/docs/certificates/python_academy_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.hithub.io/docs/certificates/python_certificate.pdf",
+    "sources": [
+      "origin/portfolio:index.html"
+    ]
+  },
+  {
+    "url": "https://enesdemirag.hithub.io/docs/certificates/python_course.pdf",
+    "sources": [
+      "origin/portfolio:index.html"
+    ]
+  },
+  {
+    "url": "https://ensdmrg.medium.com",
+    "sources": [
+      "minimal:src/site.config.ts"
+    ]
+  },
+  {
+    "url": "https://ensdmrg.medium.com/",
+    "sources": [
+      "main:src/pages/Home.tsx",
+      "origin/cloudflare/workers-autoconfig:src/pages/Home.tsx",
+      "origin/flowchart:src/pages/Home.tsx",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/main:src/pages/Home.tsx",
+      "origin/master:_config.yml",
+      "origin/sheet:src/components/hero/HeroSection.tsx"
+    ]
+  },
+  {
+    "url": "https://gianmarcocavallo.com",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://gist.github.com/eevee/26f547457522755cb1fb8739d0ea89a1",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://gist.github.com/enesdemirag/3f72f67fb5963d748a6234d79e213122",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/DijitalBeyin/schedule-manager",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/Ladvace",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Ladvace/astro-bento-portfolio",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://github.com/SametSahin10/CodingBat-Exercises",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag",
+    "sources": [
+      "main:src/pages/Home.tsx",
+      "minimal:src/site.config.ts",
+      "origin/bento:src/lib/constants.ts",
+      "origin/blog:_config.yml",
+      "origin/cloudflare/workers-autoconfig:src/pages/Home.tsx",
+      "origin/dark:blogs.html",
+      "origin/dark:certificates.html",
+      "origin/dark:education.html",
+      "origin/dark:experience.html",
+      "origin/dark:index.html",
+      "origin/dark:repos.html",
+      "origin/flowchart:src/pages/Home.tsx",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/main:src/pages/Home.tsx",
+      "origin/master:_config.yml",
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html",
+      "origin/resume:signature.html",
+      "origin/sheet:src/components/hero/HeroSection.tsx"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/ballistics",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/cv-notes",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/eAuctionSystem",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/3d-simplex.png",
+    "sources": [
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/image-kernels.png",
+    "sources": [
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/dh_laser_diode.png",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/qw_laser_diode.png",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/responsivity.png",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/sch_laser_diode.png",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/sensitivity.png",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/solar.png",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/integrated-optics/vcsel.png",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/least-squares-regression.png",
+    "sources": [
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/markov-chain.gif",
+    "sources": [
+      "origin/blog:_posts/2019-3-25-markov-chains.md",
+      "origin/master:_posts/2019-3-25-markov-chains.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/monte-carlo.gif",
+    "sources": [
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/msd-simulation.gif",
+    "sources": [
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/pi-calc.png",
+    "sources": [
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/randomvsperlin.png",
+    "sources": [
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/regression-result.png",
+    "sources": [
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/underwater-3d-vision/1.png",
+    "sources": [
+      "origin/blog:_posts/2018-1-25-underwater-3d-vision.md",
+      "origin/master:_posts/2018-1-25-underwater-3d-vision.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/underwater-3d-vision/2.png",
+    "sources": [
+      "origin/blog:_posts/2018-1-25-underwater-3d-vision.md",
+      "origin/master:_posts/2018-1-25-underwater-3d-vision.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/underwater-3d-vision/3.png",
+    "sources": [
+      "origin/blog:_posts/2018-1-25-underwater-3d-vision.md",
+      "origin/master:_posts/2018-1-25-underwater-3d-vision.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/underwater-3d-vision/top_image.jpg",
+    "sources": [
+      "origin/blog:_posts/2018-1-25-underwater-3d-vision.md",
+      "origin/master:_posts/2018-1-25-underwater-3d-vision.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/_posts/images/underwater-3d-vision/zed.jpg",
+    "sources": [
+      "origin/blog:_posts/2018-1-25-underwater-3d-vision.md",
+      "origin/master:_posts/2018-1-25-underwater-3d-vision.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/enesdemirag.github.io/raw/master/docs/integrated-optic.pdf",
+    "sources": [
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/gate-detection",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/keras-tutorial",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/neuraldart",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/opencv-notes",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/pixel-project",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/approximating-pi/simulation.py",
+    "sources": [
+      "minimal:src/content/blog/approximating-pi.md",
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/fuzzy-search/movielist.txt",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/fuzzy-search/search.py",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/markov-chains/demo.py",
+    "sources": [
+      "minimal:src/content/blog/markov-chains.md",
+      "origin/blog:_posts/2019-3-25-markov-chains.md",
+      "origin/master:_posts/2019-3-25-markov-chains.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/mass-spring-damper-simulation",
+    "sources": [
+      "minimal:src/content/blog/mass-spring-damper-simulation.md",
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/blob/master/exercises/materials/mass-spring-damper-simulation/visualizer.py",
+    "sources": [
+      "minimal:src/content/blog/mass-spring-damper-simulation.md",
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/image-kernels/",
+    "sources": [
+      "minimal:src/content/blog/image-kernels.md",
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/image-kernels/demo.py",
+    "sources": [
+      "minimal:src/content/blog/image-kernels.md",
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/linear-regression/regression.py",
+    "sources": [
+      "minimal:src/content/blog/linear-regression.md",
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/programming-exercises/tree/master/exercises/materials/perlin-noise/opensimplex-demo.py",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/python_lecture_notes",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/simpcl",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/enesdemirag/simpcl/tree/internship",
+    "sources": [
+      "origin/blog:resume.md"
+    ]
+  },
+  {
+    "url": "https://github.com/hfkboun/chess_game",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/itu-robotics/intro-to-python",
+    "sources": [
+      "origin/blog:resume.md",
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/ituracingteam/lane_detection",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/iturov",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://github.com/iturov/rov2018",
+    "sources": [
+      "origin/blog:resume.md",
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/iturov/rov2019",
+    "sources": [
+      "origin/blog:resume.md",
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://github.com/seatgeek/fuzzywuzzy",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://github.com/senceryazici",
+    "sources": [
+      "minimal:src/content/blog/mass-spring-damper-simulation.md",
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ztane/python-Levenshtein/",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://gitlab.com/itu-auv",
+    "sources": [
+      "origin/blog:resume.md",
+      "origin/dark:experience.html",
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://gitlab.com/itu-auv/electronics/mainboard-firmware",
+    "sources": [
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/document/7477644",
+    "sources": [
+      "minimal:src/content/blog/underwater-3d-vision.md",
+      "origin/blog:_posts/2018-1-25-underwater-3d-vision.md",
+      "origin/dark:blog/underwater-3d-vision/index.html",
+      "origin/master:_posts/2018-1-25-underwater-3d-vision.md",
+      "origin/old-website:_posts/2018-10-31-underwater-3d-vision.md"
+    ]
+  },
+  {
+    "url": "https://jekyllrb.com/docs/permalinks/",
+    "sources": [
+      "origin/blog:_config.yml",
+      "origin/master:_config.yml"
+    ]
+  },
+  {
+    "url": "https://klyft-technologies.com",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://landing-hudux-ai.web.app",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/latest_with_details:src/pages/Home.tsx"
+    ]
+  },
+  {
+    "url": "https://latex.codecogs.com/gif.latex?I_{d",
+    "sources": [
+      "minimal:src/content/blog/integrated-optics.md",
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://latex.codecogs.com/gif.latex?Q.E.=\\eta=r_{e",
+    "sources": [
+      "minimal:src/content/blog/integrated-optics.md",
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://latex.codecogs.com/gif.latex?R_{\\lambda",
+    "sources": [
+      "minimal:src/content/blog/integrated-optics.md",
+      "origin/blog:_posts/2020-6-5-integrated-optics.md",
+      "origin/master:_posts/2020-6-5-integrated-optics.md"
+    ]
+  },
+  {
+    "url": "https://linkedin.com/in/enesdemirag",
+    "sources": [
+      "main:src/pages/Home.tsx",
+      "origin/cloudflare/workers-autoconfig:src/pages/Home.tsx",
+      "origin/flowchart:src/pages/Home.tsx",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/main:src/pages/Home.tsx",
+      "origin/sheet:src/components/hero/HeroSection.tsx"
+    ]
+  },
+  {
+    "url": "https://maasdedektifi.com",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/latest_with_details:src/pages/Home.tsx"
+    ]
+  },
+  {
+    "url": "https://matplotlib.org/",
+    "sources": [
+      "minimal:src/content/blog/image-kernels.md",
+      "minimal:src/content/blog/mass-spring-damper-simulation.md",
+      "origin/blog:_posts/2019-10-24-image-kernels.md",
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-10-24-image-kernels.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://medium.com/@enesdemirag",
+    "sources": [
+      "origin/bento:src/lib/constants.ts"
+    ]
+  },
+  {
+    "url": "https://medium.com/feed/@${user",
+    "sources": [
+      "minimal:src/lib/posts.ts"
+    ]
+  },
+  {
+    "url": "https://motion.dev/",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://mrl.nyu.edu/~perlin/paper445.pdf",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://outlier.ai",
+    "sources": [
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://pypi.org/project/opensimplex/",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/enesdemirag/enesdemirag.github.io/master/images/cv.png",
+    "sources": [
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/enesdemirag/enesdemirag.github.io/master/images/email.png",
+    "sources": [
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/enesdemirag/enesdemirag.github.io/master/images/github.png",
+    "sources": [
+      "origin/dark:blogs.html",
+      "origin/dark:certificates.html",
+      "origin/dark:education.html",
+      "origin/dark:experience.html",
+      "origin/dark:index.html",
+      "origin/dark:repos.html",
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/enesdemirag/enesdemirag.github.io/master/images/linkedin.png",
+    "sources": [
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/enesdemirag/enesdemirag.github.io/master/images/phone.png",
+    "sources": [
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/enesdemirag/enesdemirag.github.io/master/images/telegram.png",
+    "sources": [
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://shelf-scan-4358b.web.app",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://sive.rs/nowff",
+    "sources": [
+      "origin/bento:src/components/Now.astro"
+    ]
+  },
+  {
+    "url": "https://sparkly-speculoos-0c9197.netlify.app/",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://study.com/academy/lesson/string-searching-algorithms-methods-types.html",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://t.me/enesdemirag",
+    "sources": [
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://theasciicode.com.ar",
+    "sources": [
+      "minimal:src/content/blog/caesar-cipher.md",
+      "origin/blog:_posts/2019-3-10-caesar-cipher.md",
+      "origin/master:_posts/2019-3-10-caesar-cipher.md"
+    ]
+  },
+  {
+    "url": "https://thecodingtrain.com/CodingChallenges/095-approximating-pi.html",
+    "sources": [
+      "minimal:src/content/blog/approximating-pi.md",
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "https://unocss.dev/",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mass-Spring-Damper.png",
+    "sources": [
+      "minimal:src/content/blog/mass-spring-damper-simulation.md",
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://use.fontawesome.com/releases/v5.0.12/css/all.css",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://use.fontawesome.com/releases/v5.7.1/css/all.css",
+    "sources": [
+      "origin/dark:blog/underwater-3d-vision/index.html",
+      "origin/dark:blog/yapay-sinir-aglari/index.html",
+      "origin/dark:blogs.html",
+      "origin/dark:certificates.html",
+      "origin/dark:education.html",
+      "origin/dark:experience.html",
+      "origin/dark:index.html",
+      "origin/dark:repos.html"
+    ]
+  },
+  {
+    "url": "https://wikimedia.org/api/rest_v1/media/math/render/svg/c51a9b486a6ef5a7a08b92d75e71a07888034a9a",
+    "sources": [
+      "minimal:src/content/blog/symbolic-programming.md",
+      "origin/blog:_posts/2019-9-28-symbolic-programming.md",
+      "origin/master:_posts/2019-9-28-symbolic-programming.md"
+    ]
+  },
+  {
+    "url": "https://www.asc.ohio-state.edu/orban.14/math_coding/pi_graphical/circle_square2.png",
+    "sources": [
+      "minimal:src/content/blog/approximating-pi.md",
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "https://www.cs.cmu.edu/~adamchik/15-121/lectures/Recursions/recursions.html",
+    "sources": [
+      "minimal:src/content/blog/fibonacci-finder.md",
+      "origin/blog:_posts/2019-3-10-fibonacci-finder.md",
+      "origin/master:_posts/2019-3-10-fibonacci-finder.md"
+    ]
+  },
+  {
+    "url": "https://www.csee.umbc.edu/~olano/s2002c36/ch02.pdf",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://www.desi.com.tr/",
+    "sources": [
+      "origin/dark:experience.html",
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://www.elastic.co/blog/found-fuzzy-search",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/searching-algorithms/",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://www.imdb.com/title/tt0084827/",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/iturobotics/",
+    "sources": [
+      "origin/dark:experience.html"
+    ]
+  },
+  {
+    "url": "https://www.itu.edu.tr",
+    "sources": [
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://www.ituauv.com/",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-noise/a/perlin-noise",
+    "sources": [
+      "minimal:src/content/blog/perlin-noise.md",
+      "origin/blog:_posts/2019-10-24-perlin-noise.md",
+      "origin/master:_posts/2019-10-24-perlin-noise.md"
+    ]
+  },
+  {
+    "url": "https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/caesar-cipher",
+    "sources": [
+      "minimal:src/content/blog/caesar-cipher.md",
+      "origin/blog:_posts/2019-3-10-caesar-cipher.md",
+      "origin/master:_posts/2019-3-10-caesar-cipher.md"
+    ]
+  },
+  {
+    "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-3/a/definite-integral-as-the-limit-of-a-riemann-sum",
+    "sources": [
+      "minimal:src/content/blog/mass-spring-damper-simulation.md",
+      "origin/blog:_posts/2019-3-14-mass-spring-damper-simulation.md",
+      "origin/master:_posts/2019-3-14-mass-spring-damper-simulation.md"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/in/enesdemirag",
+    "sources": [
+      "minimal:src/site.config.ts",
+      "origin/resume:signature.html"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/in/enesdemirag/",
+    "sources": [
+      "origin/bento:src/lib/constants.ts",
+      "origin/blog:_config.yml",
+      "origin/dark:blogs.html",
+      "origin/dark:certificates.html",
+      "origin/dark:education.html",
+      "origin/dark:experience.html",
+      "origin/dark:index.html",
+      "origin/dark:repos.html",
+      "origin/master:_config.yml",
+      "origin/old-website:_config.yml",
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/",
+    "sources": [
+      "minimal:README.md"
+    ]
+  },
+  {
+    "url": "https://www.ljmu.ac.uk",
+    "sources": [
+      "origin/bento:src/data/careerData.ts",
+      "origin/flowchart:src/data/careerData.ts",
+      "origin/sheet:src/data/timelineData.ts"
+    ]
+  },
+  {
+    "url": "https://www.mathsisfun.com/numbers/golden-ratio.html",
+    "sources": [
+      "minimal:src/content/blog/fibonacci-finder.md",
+      "origin/blog:_posts/2019-3-10-fibonacci-finder.md",
+      "origin/master:_posts/2019-3-10-fibonacci-finder.md"
+    ]
+  },
+  {
+    "url": "https://www.netlify.com/",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://www.netlify.com/img/deploy/button.svg",
+    "sources": [
+      "origin/bento:README.md"
+    ]
+  },
+  {
+    "url": "https://www.onlinemathlearning.com/image-files/xspecific-heat-capacity.png.pagespeed.ic.aKrNOuBNTl.webp",
+    "sources": [
+      "minimal:src/content/blog/symbolic-programming.md",
+      "origin/blog:_posts/2019-9-28-symbolic-programming.md",
+      "origin/master:_posts/2019-9-28-symbolic-programming.md"
+    ]
+  },
+  {
+    "url": "https://www.pygame.org/",
+    "sources": [
+      "minimal:src/content/blog/approximating-pi.md",
+      "origin/blog:_posts/2019-3-10-approximating-pi.md",
+      "origin/master:_posts/2019-3-10-approximating-pi.md"
+    ]
+  },
+  {
+    "url": "https://www.sympy.org/",
+    "sources": [
+      "minimal:src/content/blog/symbolic-programming.md",
+      "origin/blog:_posts/2019-9-28-symbolic-programming.md",
+      "origin/master:_posts/2019-9-28-symbolic-programming.md"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/@enes-demirag",
+    "sources": [
+      "main:src/pages/Home.tsx",
+      "minimal:src/site.config.ts",
+      "origin/cloudflare/workers-autoconfig:src/pages/Home.tsx",
+      "origin/flowchart:src/pages/Home.tsx",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/main:src/pages/Home.tsx",
+      "origin/sheet:src/components/hero/HeroSection.tsx"
+    ]
+  },
+  {
+    "url": "https://x.com/ensdmrg",
+    "sources": [
+      "minimal:src/site.config.ts"
+    ]
+  },
+  {
+    "url": "https://youtu.be/KsVBBJRb9TE",
+    "sources": [
+      "minimal:src/content/blog/linear-regression.md",
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://youtu.be/MiqoA-yF-0M",
+    "sources": [
+      "minimal:src/content/blog/fuzzy-search.md",
+      "origin/blog:_posts/2019-9-28-fuzzy-search.md",
+      "origin/master:_posts/2019-9-28-fuzzy-search.md"
+    ]
+  },
+  {
+    "url": "https://youtu.be/coQAAN4eY5s",
+    "sources": [
+      "minimal:src/content/blog/linear-regression.md",
+      "origin/blog:_posts/2019-10-25-linear-regression.md",
+      "origin/master:_posts/2019-10-25-linear-regression.md"
+    ]
+  },
+  {
+    "url": "https://youtu.be/eGFJ8vugIWA",
+    "sources": [
+      "minimal:src/content/blog/markov-chains.md",
+      "origin/blog:_posts/2019-3-25-markov-chains.md",
+      "origin/master:_posts/2019-3-25-markov-chains.md"
+    ]
+  },
+  {
+    "url": "mailto:${email",
+    "sources": [
+      "minimal:src/site.config.ts"
+    ]
+  },
+  {
+    "url": "mailto:demirag16@itu.edu.tr",
+    "sources": [
+      "origin/portfolio:index-eng.html",
+      "origin/portfolio:index.html",
+      "origin/resume:index-eng.html",
+      "origin/resume:index.html"
+    ]
+  },
+  {
+    "url": "mailto:enesdemirag1@gmail.com",
+    "sources": [
+      "origin/old-website:_posts/2018-10-31-underwater-3d-vision.md"
+    ]
+  },
+  {
+    "url": "mailto:enesdmrg@gmail.com",
+    "sources": [
+      "main:src/pages/Home.tsx",
+      "origin/cloudflare/workers-autoconfig:src/pages/Home.tsx",
+      "origin/flowchart:src/pages/Home.tsx",
+      "origin/latest_with_details:src/pages/Home.tsx",
+      "origin/main:src/pages/Home.tsx",
+      "origin/sheet:src/components/hero/HeroSection.tsx"
+    ]
+  },
+  {
+    "url": "mailto:ensdmrg@gmail.com",
+    "sources": [
+      "origin/blog:_config.yml",
+      "origin/dark:blog/underwater-3d-vision/index.html",
+      "origin/dark:blog/yapay-sinir-aglari/index.html",
+      "origin/dark:index.html",
+      "origin/master:_config.yml",
+      "origin/resume:signature.html"
+    ]
+  }
+]

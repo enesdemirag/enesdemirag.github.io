@@ -1,0 +1,18 @@
+---
+import Card from "./Card/index.astro";
+import { nodes } from "../data/careerData";
+
+// Filter for only work nodes
+const experienceNodes = nodes.filter(node => node.category === 'work').slice(0, 4); // Top 4 recent
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-2" title="Experience" href="/experience">
+  <div class="mt-2 space-y-4">
+    {experienceNodes.map(exp => (
+      <div>
+        <h3 class="text-sm font-semibold text-white">{exp.title}</h3>
+        <p class="text-xs text-neutral-400">{exp.subtitle} | {exp.timeRange}</p>
+      </div>
+    ))}
+  </div>
+</Card>

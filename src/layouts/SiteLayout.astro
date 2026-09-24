@@ -1,0 +1,50 @@
+---
+import { site } from "../data/site";
+import "../styles/global.css";
+
+type Props = { title?: string; description?: string; article?: boolean };
+const { title, description = site.description, article = false } = Astro.props as Props;
+const pageTitle = title ? `${title} — ${site.name}` : site.title;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const path = Astro.url.pathname;
+const nav = [
+  { label: "Home", href: "/", active: path === "/" },
+  { label: "Work", href: "/work/", active: path.startsWith("/work") },
+  { label: "Writing", href: "/blog/", active: path.startsWith("/blog") },
+  { label: "About", href: "/about/", active: path.startsWith("/about") },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f8f5" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png" />
+    <link rel="alternate" type="application/rss+xml" title={`${site.name} — Writing`} href="/rss.xml" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content={article ? "article" : "website"} />
+    <meta property="og:image" content={new URL("/assets/images/social_preview_image.png", Astro.site)} />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="/" aria-label="Enes Demirağ, home"><span class="wordmark-mark">e.</span><span>enes demirağ</span></a>
+        <nav aria-label="Main navigation">
+          {nav.map((item) => <a href={item.href} aria-current={item.active ? "page" : undefined}>{item.label}</a>)}
+        </nav>
+      </header>
+      <main id="main"><slot /></main>
+      <footer class="site-footer">
+        <span>© {new Date().getFullYear()} Enes Demirağ</span>
+        <div><a href={`mailto:${site.email}`}>Email</a><a href="https://github.com/enesdemirag" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="/rss.xml">RSS</a></div>
+      </footer>
+    </div>
+  </body>
+</html>
