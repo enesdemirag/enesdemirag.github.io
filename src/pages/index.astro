@@ -2,7 +2,7 @@
 import SiteLayout from "../layouts/SiteLayout.astro";
 import ProjectRow from "../components/ProjectRow.astro";
 import PostRow from "../components/PostRow.astro";
-import { site, projects } from "../data/site";
+import { site, projects, experience } from "../data/site";
 import { getPosts } from "../lib/posts";
 
 const posts = (await getPosts()).slice(0, 4);
@@ -16,7 +16,7 @@ const posts = (await getPosts()).slice(0, 4);
       <p class="hero-lead">I build AI products and the systems behind them.</p>
       <p class="hero-detail">Based in Istanbul. Leading AI at <a href="https://klyft-technologies.com" target="_blank" rel="noopener noreferrer">Klyft</a>, after working on machine learning and real-time systems at DiAS, Chooch, and Baykar.</p>
       <div class="hero-actions">
-        <a class="button-link" href="/work/">Explore my work <span aria-hidden="true">↗</span></a>
+        <a class="button-link" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
         <a class="quiet-link" href={`mailto:${site.email}`}>Say hello <span aria-hidden="true">→</span></a>
       </div>
     </div>
@@ -28,13 +28,29 @@ const posts = (await getPosts()).slice(0, 4);
     <div>{site.socials.map((link) => <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}</div>
   </section>
 
-  <section class="content-section">
-    <div class="section-heading"><div><p class="eyebrow">01 / Building</p><h2>Selected products</h2></div><a class="text-link" href="/work/">All work →</a></div>
+  <section class="content-section" id="work">
+    <div class="section-heading"><div><p class="eyebrow">01 / Building</p><h2>Products & projects</h2></div></div>
     <div>{projects.filter((project) => project.featured).map((project) => <ProjectRow project={project} />)}</div>
+    <h3 class="subheading">More explorations</h3>
+    <div>{projects.filter((project) => !project.featured).map((project) => <ProjectRow project={project} />)}</div>
+    <p class="work-note">More code and experiments live on <a href="https://github.com/enesdemirag" target="_blank" rel="noopener noreferrer">GitHub ↗</a>.</p>
+  </section>
+
+  <section class="content-section about-section" id="about">
+    <div class="section-heading"><div><p class="eyebrow">02 / The person behind the work</p><h2>A little about me</h2></div></div>
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>I’m an AI engineer based in Istanbul. I like turning messy, real-world problems into useful products and reliable software.</p>
+        <p>My work spans AI agents, computer vision, MLOps, backend systems, and product engineering. Today I lead AI engineering at Klyft and build products of my own. Before that I worked at DiAS, Chooch, and Baykar.</p>
+        <p>I studied Electronics and Communication Engineering at Istanbul Technical University and spent an Erasmus semester at Liverpool John Moores University.</p>
+        <div class="about-links"><a href={site.resume} target="_blank" rel="noopener noreferrer">View résumé ↗</a><a href={`mailto:${site.email}`}>Email me ↗</a></div>
+      </div>
+      <div class="experience"><h3>Experience</h3>{experience.map((item) => <div class="experience-row"><div><strong>{item.role}</strong><a href={item.href} target="_blank" rel="noopener noreferrer">{item.company} ↗</a></div><time>{item.period}</time></div>)}</div>
+    </div>
   </section>
 
   <section class="content-section writing-section">
-    <div class="section-heading"><div><p class="eyebrow">02 / Thinking out loud</p><h2>Writing</h2></div><a class="text-link" href="/blog/">All posts →</a></div>
+    <div class="section-heading"><div><p class="eyebrow">03 / Thinking out loud</p><h2>Writing</h2></div><a class="text-link" href="/blog/">All posts →</a></div>
     <p class="section-note">Notes and older essays about software, AI, computer vision, and the things I learn while building.</p>
     <div>{posts.map((post) => <PostRow post={post} />)}</div>
   </section>
@@ -67,9 +83,26 @@ const posts = (await getPosts()).slice(0, 4);
   .intro-strip a { color: var(--ink); font-size: .82rem; font-weight: 650; text-decoration: none; }
   .intro-strip a:hover { color: var(--accent); }
   .section-heading .eyebrow { margin: 0 0 8px; }
+  .subheading { margin: 34px 0 12px; color: var(--muted); font-size: .87rem; font-weight: 700; letter-spacing: -.015em; }
+  .work-note { margin: 17px 0 0; font-size: .86rem; }
+  .work-note a { font-weight: 700; text-decoration: none; }
+  .about-section { padding-top: 36px; border-top: 1px solid var(--line); scroll-margin-top: 30px; }
+  #work { scroll-margin-top: 30px; }
+  .about-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 54px; align-items: start; }
+  .about-copy p { font-size: .94rem; line-height: 1.83; }
+  .about-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; font-size: .85rem; font-weight: 700; }
+  .about-links a { text-decoration: none; }
+  .experience h3 { margin: 2px 0 16px; color: var(--faint); font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+  .experience-row { display: flex; justify-content: space-between; gap: 12px; padding: 13px 0; border-top: 1px solid var(--line); }
+  .experience-row:last-child { border-bottom: 1px solid var(--line); }
+  .experience-row div { display: grid; gap: 1px; }
+  .experience-row strong { font-size: .84rem; font-weight: 680; }
+  .experience-row a, .experience-row time { color: var(--muted); font-size: .76rem; text-decoration: none; }
+  .experience-row a:hover { color: var(--accent); }
+  .experience-row time { white-space: nowrap; }
   .section-note { max-width: 560px; margin: -5px 0 23px; font-size: .92rem; }
   .contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 10px 0 85px; padding: 32px 36px; border: 1px solid #dbe5eb; border-radius: 17px; background: #edf3f7; }
   .contact-panel .eyebrow { margin-bottom: 9px; }.contact-panel h2 { margin-bottom: 7px; }.contact-panel p:last-child { max-width: 510px; margin: 0; font-size: .89rem; }
   .contact-panel .button-link { flex: none; }
-  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 35px; padding: 58px 0 60px; } .portrait-frame { grid-row: 1; width: 128px; height: 128px; border-radius: 22px; } .portrait-frame img { border-radius: 16px; } .intro-strip { align-items: start; flex-direction: column; margin-bottom: 60px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
+  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 35px; padding: 58px 0 60px; } .portrait-frame { grid-row: 1; width: 128px; height: 128px; border-radius: 22px; } .portrait-frame img { border-radius: 16px; } .intro-strip { align-items: start; flex-direction: column; margin-bottom: 60px; } .about-grid { grid-template-columns: 1fr; gap: 30px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
 </style>

@@ -1,6 +1,6 @@
 # enesdemirag.com
 
-Personal site built with Astro. The source is intentionally small: personal and product data lives in `src/data/site.ts`, pages in `src/pages/`, and the 13 published posts in `src/content/blog/`.
+Personal site built with Astro. Home, work, and about live on one page; the blog is separate. Personal and product data lives in `src/data/site.ts`, and the 13 published posts live in `src/content/blog/`.
 
 ```bash
 npm install
