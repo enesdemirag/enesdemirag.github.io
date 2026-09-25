@@ -62,14 +62,16 @@ const posts = (await getPosts()).slice(0, 4);
 <style>
   .hero { padding: 92px 0 90px; }
   .hero h1 { margin-bottom: 7px; }
-  .hero-subtitle { margin-bottom: 15px; color: var(--ink); font-size: 1.15rem; font-weight: 660; letter-spacing: -.02em; }
+  .hero-subtitle { margin-bottom: 15px; color: var(--navy); font-size: 1.15rem; font-weight: 660; letter-spacing: -.02em; }
   .hero-description { max-width: 590px; margin-bottom: 24px; font-size: 1rem; line-height: 1.8; }
   .social-links { display: flex; align-items: center; gap: 10px; margin-bottom: 27px; }
   .social-links a { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); transition: border-color .2s, transform .2s; }
   .social-links a:hover { border-color: var(--accent); transform: translateY(-2px); }
-  .social-links img { width: 18px; height: 18px; opacity: .8; }
+  .social-links img { width: 18px; height: 18px; }
+  .social-links a[aria-label="LinkedIn"] { background: #f4f8fd; }
+  .social-links a[aria-label="YouTube"] { background: #fff6f5; }
   .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
-  .secondary-button { border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+  .secondary-button { border: 1px solid var(--line); background: var(--surface); color: var(--navy); }
   .secondary-button:hover { border-color: var(--accent); color: white; }
   .product-links { display: flex; flex-wrap: wrap; gap: 8px; }
   .product-links a { display: inline-flex; align-items: center; min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 9px; color: var(--muted); font-size: .78rem; font-weight: 650; text-decoration: none; }

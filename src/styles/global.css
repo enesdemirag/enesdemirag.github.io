@@ -4,6 +4,7 @@
   --paper: #f8f8f5;
   --surface: #fff;
   --ink: #17212b;
+  --navy: #1d3e63;
   --muted: #5e6872;
   --faint: #858d95;
   --line: #e1e5e4;
@@ -23,13 +24,13 @@ button, input { font: inherit; }
 ::selection { background: #cce1f6; }
 .site-shell { width: min(100% - 44px, 872px); margin: 0 auto; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 28px; height: 98px; border-bottom: 1px solid var(--line); }
-.wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); font-family: Manrope, sans-serif; font-size: .91rem; font-weight: 800; letter-spacing: -.035em; text-decoration: none; white-space: nowrap; }
+.wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--navy); font-family: Manrope, sans-serif; font-size: .91rem; font-weight: 800; letter-spacing: -.035em; text-decoration: none; white-space: nowrap; }
 .site-header nav { display: flex; align-items: center; gap: clamp(12px, 2.8vw, 30px); }
 .site-header nav a { color: var(--muted); font-size: .84rem; font-weight: 600; text-decoration: none; transition: color .18s; }
-.site-header nav a:hover, .site-header nav a[aria-current="page"] { color: var(--ink); }
+.site-header nav a:hover, .site-header nav a[aria-current="page"] { color: var(--navy); }
 main { min-height: 65vh; }
 h1, h2, h3, p { margin-top: 0; }
-h1, h2, h3 { font-family: Manrope, sans-serif; line-height: 1.22; letter-spacing: -.055em; }
+h1, h2, h3 { color: var(--navy); font-family: Manrope, sans-serif; line-height: 1.22; letter-spacing: -.055em; }
 h1 { font-size: clamp(2.4rem, 5vw, 4.15rem); font-weight: 800; }
 h2 { font-size: 1.33rem; font-weight: 760; }
 p { color: var(--muted); }
@@ -38,7 +39,7 @@ p { color: var(--muted); }
 .section-heading h2 { margin: 0; }
 .text-link { color: var(--accent); font-size: .85rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .text-link:hover { text-decoration: underline; }
-.button-link { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 16px; border-radius: 10px; background: var(--ink); color: white; font-size: .84rem; font-weight: 700; text-decoration: none; transition: transform .2s, background .2s; }
+.button-link { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 16px; border-radius: 10px; background: var(--navy); color: white; font-size: .84rem; font-weight: 700; text-decoration: none; transition: transform .2s, background .2s; }
 .button-link:hover { background: var(--accent); transform: translateY(-2px); }
 .page-intro { padding: 72px 0 45px; }
 .page-intro h1 { margin-bottom: 15px; }
