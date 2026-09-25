@@ -16,7 +16,7 @@ Bu liste branch'lerde kullanılan adreslerin okunabilir seçkisidir. Tam liste v
 | Discord | https://discordapp.com/users/enesdemirag | `bento:src/lib/constants.ts` |
 | Telegram | https://t.me/enesdemirag | `resume:signature.html` |
 
-En son sitede görünen iletişim adresi `enesdmrg@gmail.com`. Eski kaynaklarda `enes.demirag00@gmail.com`, `ensdmrg@gmail.com`, `enesdemirag1@gmail.com` ve `demirag16@itu.edu.tr` da geçiyor. Hangilerinin kullanılacağı yayımdan önce doğrulanmalı. Eski telefon numarası ve belgeler yalnızca kaynak arşivinde tutuldu.
+Güncel ve doğrulanmış iletişim adresi `ensdmrg@gmail.com`. Eski kaynaklarda `enes.demirag00@gmail.com`, `enesdmrg@gmail.com`, `enesdemirag1@gmail.com` ve `demirag16@itu.edu.tr` da geçiyor; bunlar tarihsel kayıtlardır. Eski telefon numarası ve belgeler yalnızca kaynak arşivinde tutuldu.
 
 ## İş ve ürünler
 
