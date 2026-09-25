@@ -10,7 +10,6 @@ export const site = {
     { label: "GitHub", href: "https://github.com/enesdemirag", icon: "/images/social-github.svg" },
     { label: "X", href: "https://x.com/ensdmrg", icon: "/images/social-x.svg" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/enesdemirag", icon: "/images/social-linkedin.svg" },
-    { label: "Medium", href: "https://ensdmrg.medium.com", icon: "/images/social-medium.svg" },
     { label: "YouTube", href: "https://www.youtube.com/@enes-demirag", icon: "/images/social-youtube.svg" },
   ],
 } as const;
