@@ -36,8 +36,9 @@ p { color: var(--muted); }
 .text-link:hover { text-decoration: underline; }
 .button-link { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 16px; border-radius: 10px; background: var(--navy); color: white; font-size: .84rem; font-weight: 700; text-decoration: none; transition: transform .2s, background .2s; }
 .button-link:hover { background: var(--accent); transform: translateY(-2px); }
-.page-intro { padding: 72px 0 45px; }
-.page-intro > .text-link { display: inline-block; margin-bottom: 22px; }
+.page-intro { padding: 28px 0 45px; }
+.back-home { display: inline-flex; align-items: center; min-height: 34px; margin-bottom: 40px; padding: 0 12px; border-radius: 8px; background: var(--accent-soft); color: var(--navy); font-size: .8rem; font-weight: 700; text-decoration: none; transition: background .2s; }
+.back-home:hover { background: #dcc9af; }
 .page-intro h1 { margin-bottom: 15px; }
 .page-intro p:last-child { max-width: 620px; font-size: 1.06rem; line-height: 1.8; }
 .content-section { margin: 0 0 76px; }
