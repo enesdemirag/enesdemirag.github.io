@@ -27,13 +27,13 @@ const posts = (await getPosts()).slice(0, 4);
   </section>
 
   <section class="content-section" id="experience">
-    <div class="section-heading"><div><p class="eyebrow">01 / Building</p><h2>Experience</h2></div></div>
+    <div class="section-heading"><h2>Experience</h2></div>
     <div>{experience.slice(0, 8).map((item) => <ExperienceRow item={item} />)}</div>
     <a class="button-link more-button" href="/experience/">More Experience <span aria-hidden="true">→</span></a>
   </section>
 
   <section class="content-section about-section" id="about">
-    <div class="section-heading"><div><p class="eyebrow">02 / The Person Behind the Work</p><h2>A Little About Me</h2></div></div>
+    <div class="section-heading"><h2>A Little About Me</h2></div>
     <div class="about-grid">
       <div class="about-copy">
         <p>I’m an AI engineer based in Istanbul. I like turning messy, real-world problems into useful products and reliable software.</p>
@@ -45,7 +45,7 @@ const posts = (await getPosts()).slice(0, 4);
   </section>
 
   <section class="content-section blog-section">
-    <div class="section-heading"><div><p class="eyebrow">03 / Thinking Out Loud</p><h2>Blog</h2></div><a class="text-link" href="/blog/">All Posts →</a></div>
+    <div class="section-heading"><h2>Blog</h2><a class="text-link" href="/blog/">All Posts →</a></div>
     <p class="section-note">Posts and essays about software, AI, computer vision, and the things I learn while building.</p>
     <div>{posts.map((post) => <PostRow post={post} />)}</div>
   </section>
@@ -75,7 +75,6 @@ const posts = (await getPosts()).slice(0, 4);
   .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
   .secondary-button { background: #e8dccb; color: var(--navy); }
   .secondary-button:hover { background: #dcc9af; color: var(--navy); }
-  .section-heading .eyebrow { margin: 0 0 8px; }
   .more-button { gap: 12px; margin-top: 24px; }
   .about-section { padding-top: 36px; border-top: 1px solid var(--line); scroll-margin-top: 30px; }
   #experience { scroll-margin-top: 30px; }
