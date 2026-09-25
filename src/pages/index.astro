@@ -60,7 +60,7 @@ const posts = (await getPosts()).slice(0, 4);
 </SiteLayout>
 
 <style>
-  .hero { display: grid; grid-template-columns: minmax(0, 1fr) 196px; align-items: center; gap: clamp(28px, 5vw, 56px); padding: 92px 0 78px; }
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr) 196px; align-items: center; gap: clamp(28px, 5vw, 56px); padding: 64px 0 78px; }
   .hero-copy { min-width: 0; }
   .hero-photo { display: block; width: 196px; height: 196px; object-fit: cover; border: 1px solid var(--line); border-radius: 20px; }
   .hero h1 { margin-bottom: 7px; }
@@ -86,5 +86,5 @@ const posts = (await getPosts()).slice(0, 4);
   .contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 10px 0 85px; padding: 32px 36px; border: 1px solid #ded0bc; border-radius: 17px; background: #eee4d5; }
   .contact-panel .eyebrow { margin-bottom: 9px; }.contact-panel h2 { margin-bottom: 7px; }.contact-panel p:last-child { max-width: 510px; margin: 0; font-size: .89rem; }
   .contact-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; flex: none; }
-  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 24px; padding: 58px 0 65px; } .hero-photo { grid-row: 1; width: 140px; height: 140px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
+  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 24px; padding: 42px 0 65px; } .hero-photo { grid-row: 1; width: 140px; height: 140px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
 </style>
