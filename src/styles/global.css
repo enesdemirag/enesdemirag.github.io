@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --paper: #f8f8f5;
-  --surface: #fff;
-  --ink: #17212b;
+  --paper: #f5efe5;
+  --surface: #fffcf7;
+  --ink: #222326;
   --navy: #1d3e63;
-  --muted: #5e6872;
-  --faint: #858d95;
-  --line: #e1e5e4;
-  --accent: #2c67b4;
-  --accent-soft: #eaf1f9;
+  --muted: #5d6064;
+  --faint: #686b70;
+  --line: #e1d7c9;
+  --accent: #315c86;
+  --accent-soft: #e9dfd1;
   color-scheme: light;
   font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-synthesis: none;
@@ -21,7 +21,7 @@ img { max-width: 100%; }
 a { color: var(--accent); text-underline-offset: 3px; }
 a:hover { text-decoration-thickness: 1.5px; }
 button, input { font: inherit; }
-::selection { background: #cce1f6; }
+::selection { background: #d7e2ed; }
 .site-shell { width: min(100% - 44px, 872px); margin: 0 auto; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 28px; height: 98px; border-bottom: 1px solid var(--line); }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--navy); font-family: Manrope, sans-serif; font-size: .91rem; font-weight: 800; letter-spacing: -.035em; text-decoration: none; white-space: nowrap; }
@@ -51,11 +51,11 @@ p { color: var(--muted); }
 .site-footer a:hover { color: var(--accent); }
 .prose { max-width: 720px; color: var(--ink); font-size: 1.03rem; line-height: 1.85; }
 .prose > :first-child { margin-top: 0; }
-.prose p, .prose li { color: #3c4650; }
+.prose p, .prose li { color: #414347; }
 .prose h2, .prose h3, .prose h4 { margin: 2.5em 0 .6em; scroll-margin-top: 30px; }
 .prose h2 { font-size: 1.55rem; }.prose h3 { font-size: 1.2rem; }
 .prose img { display: block; max-width: 100%; height: auto; margin: 28px auto; border-radius: 10px; }
-.prose pre { overflow-x: auto; padding: 19px; border-radius: 10px; background: #eef1f3 !important; }
+.prose pre { overflow-x: auto; padding: 19px; border-radius: 10px; background: #eee8df !important; }
 .prose code { font-size: .9em; }
 .prose blockquote { margin: 1.8em 0; padding-left: 20px; border-left: 3px solid #a5bdd5; }
 .prose blockquote p { color: var(--muted); }
