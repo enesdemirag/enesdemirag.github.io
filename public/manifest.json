@@ -1286,43 +1286,15 @@
       ]
     },
     {
-      "file": "images/klyft.jpeg",
+      "file": "images/klyft.png",
       "kind": "images",
-      "git_blob": "c28926ac9141473d3b2490503fb79779613e0959",
-      "bytes": 4826,
+      "git_blob": "28f5875c6be8bf554f4e6abbb40538a290c274e1",
+      "bytes": 348093,
       "redacted_expired_github_image_tokens": false,
       "sources": [
         {
-          "branch": "minimal",
-          "path": "public/images/klyft.jpeg"
-        },
-        {
           "branch": "main",
-          "path": "public/images/klyft.jpeg"
-        },
-        {
-          "branch": "origin/main",
-          "path": "public/images/klyft.jpeg"
-        },
-        {
-          "branch": "origin/bento",
-          "path": "public/images/klyft.jpeg"
-        },
-        {
-          "branch": "origin/flowchart",
-          "path": "public/images/klyft.jpeg"
-        },
-        {
-          "branch": "origin/latest_with_details",
-          "path": "public/images/klyft.jpeg"
-        },
-        {
-          "branch": "origin/sheet",
-          "path": "public/images/klyft.jpeg"
-        },
-        {
-          "branch": "origin/cloudflare/workers-autoconfig",
-          "path": "public/images/klyft.jpeg"
+          "path": "public/images/klyft.png"
         }
       ]
     },

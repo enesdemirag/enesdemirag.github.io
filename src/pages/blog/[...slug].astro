@@ -13,9 +13,9 @@ const { Content } = await render(post);
 ---
 
 <SiteLayout title={post.data.title} description={post.data.description ?? `${post.data.title} — a post by Enes Demirağ.`} article>
-  <div class="article-header"><a class="back-link" href="/blog/">← All Writing</a><p class="eyebrow">On This Site</p><h1>{post.data.title}</h1><time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time></div>
+  <div class="article-header"><a class="back-link" href="/blog/">← All Posts</a><p class="eyebrow">On This Site</p><h1>{post.data.title}</h1><time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time></div>
   <article class="prose"><Content /></article>
-  <div class="article-end"><a href="/blog/">← Back to Writing</a></div>
+  <div class="article-end"><a href="/blog/">← Back to Blog</a></div>
 </SiteLayout>
 
 <style>.article-header { max-width: 720px; padding: 62px 0 35px; border-bottom: 1px solid var(--line); }.back-link { display: inline-block; margin-bottom: 37px; color: var(--muted); font-size: .85rem; font-weight: 650; text-decoration: none; }.back-link:hover { color: var(--accent); }.article-header .eyebrow { margin-bottom: 12px; }.article-header h1 { margin-bottom: 14px; font-size: clamp(2.2rem, 5vw, 3.4rem); }.article-header time { color: var(--faint); font-size: .85rem; }.prose { padding: 35px 0 70px; }.article-end { max-width: 720px; margin-bottom: 75px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .88rem; font-weight: 700; }.article-end a { text-decoration: none; }</style>

@@ -41,10 +41,10 @@ export const timelineItems: TimelineItem[] = [
       "Mobile",
       "Python"
     ],
-    "icon": "/images/klyft.jpeg",
+    "icon": "/images/klyft.png",
     "url": "https://klyft-technologies.com",
     "images": [
-      "/images/klyft.jpeg"
+      "/images/klyft.png"
     ],
     "order": 1
   },

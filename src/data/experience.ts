@@ -15,7 +15,7 @@ export const experience: Experience[] = [
     subtitle: "Lead AI Engineer",
     period: "Nov 2025 — Present",
     description: "Leading AI engineering across agentic systems and product experiences.",
-    image: "/images/klyft.jpeg",
+    image: "/images/klyft.png",
     monogram: "K",
     href: "https://www.klyft-technologies.com",
   },

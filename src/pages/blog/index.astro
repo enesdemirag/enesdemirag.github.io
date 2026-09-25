@@ -5,8 +5,8 @@ import { getPosts } from "../../lib/posts";
 const posts = await getPosts();
 ---
 
-<SiteLayout title="Writing" description="Essays and notes by Enes Demirağ on software, AI, computer vision, and engineering.">
-  <div class="page-intro"><p class="eyebrow">Notes from the Workbench</p><h1>Writing.</h1><p>Ideas, experiments, and things I learned along the way. My writing lives here and on other platforms; each title opens the original post.</p></div>
+<SiteLayout title="Blog" description="Essays and notes by Enes Demirağ on software, AI, computer vision, and engineering.">
+  <div class="page-intro"><p class="eyebrow">Notes from the Workbench</p><h1>Blog.</h1><p>Ideas, experiments, and things I learned along the way. Posts live here and on other platforms; each title opens the original post.</p></div>
   <section class="content-section"><div class="section-heading"><h2>All Posts <span>{posts.length}</span></h2></div>{posts.map((post) => <PostRow post={post} />)}</section>
 </SiteLayout>
 

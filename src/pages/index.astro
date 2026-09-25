@@ -44,8 +44,8 @@ const posts = (await getPosts()).slice(0, 4);
     </div>
   </section>
 
-  <section class="content-section writing-section">
-    <div class="section-heading"><div><p class="eyebrow">03 / Thinking Out Loud</p><h2>Writing</h2></div><a class="text-link" href="/blog/">All Posts →</a></div>
+  <section class="content-section blog-section">
+    <div class="section-heading"><div><p class="eyebrow">03 / Thinking Out Loud</p><h2>Blog</h2></div><a class="text-link" href="/blog/">All Posts →</a></div>
     <p class="section-note">Posts and essays about software, AI, computer vision, and the things I learn while building.</p>
     <div>{posts.map((post) => <PostRow post={post} />)}</div>
   </section>
@@ -54,7 +54,7 @@ const posts = (await getPosts()).slice(0, 4);
     <div><p class="eyebrow">Have Something in Mind?</p><h2>Let's Make It Real.</h2><p>I'm always happy to hear about an interesting product, technical problem, or collaboration.</p></div>
     <div class="contact-actions">
       <a class="button-link" href={site.calendar} target="_blank" rel="noopener noreferrer">Book a meeting ↗</a>
-      <a class="text-link" href={`mailto:${site.email}`}>Email me ↗</a>
+      <a class="button-link secondary-button" href={`mailto:${site.email}`}>Email me ↗</a>
     </div>
   </section>
 </SiteLayout>
@@ -73,8 +73,8 @@ const posts = (await getPosts()).slice(0, 4);
   .social-links a[aria-label="LinkedIn"] { background: #f4f8fd; }
   .social-links a[aria-label="YouTube"] { background: #fff6f5; }
   .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-  .secondary-button { border: 1px solid var(--line); background: var(--surface); color: var(--navy); }
-  .secondary-button:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--navy); }
+  .secondary-button { background: #e8dccb; color: var(--navy); }
+  .secondary-button:hover { background: #dcc9af; color: var(--navy); }
   .section-heading .eyebrow { margin: 0 0 8px; }
   .more-button { gap: 12px; margin-top: 24px; }
   .about-section { padding-top: 36px; border-top: 1px solid var(--line); scroll-margin-top: 30px; }

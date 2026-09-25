@@ -17,7 +17,7 @@ const experiences = [
     role: 'Lead AI Engineer',
     period: 'Nov 2025 - Present',
     description: 'Building agentic AI systems for a mobile product using Google ADK. Responsible for core AI architecture, integrations, and reliability for production rollout.',
-    logo: '/images/klyft.jpeg',
+    logo: '/images/klyft.png',
     url: 'https://klyft-technologies.com',
   },
   {

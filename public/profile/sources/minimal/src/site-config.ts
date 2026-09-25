@@ -39,7 +39,7 @@ export const site = {
   intro: [
     {
       text: "I'm an AI engineer, leading AI at",
-      items: [{ label: "Klyft — Lead AI Engineer", href: "https://klyft-technologies.com", icon: { image: "/images/klyft.jpeg" } }],
+      items: [{ label: "Klyft — Lead AI Engineer", href: "https://klyft-technologies.com", icon: { image: "/images/klyft.png" } }],
       gap: true,
     },
     {
