@@ -1,6 +1,6 @@
 export const site = {
   name: "Enes Demirağ",
-  title: "Enes Demirağ — AI Engineer & Product Builder",
+  title: "Enes Demirağ — AI Engineer",
   description: "I build AI products and the systems behind them. Notes on software, computer vision, and things I've learned while building.",
   email: "ensdmrg@gmail.com",
   calendar: "https://cal.com/enesdemirag/meet",

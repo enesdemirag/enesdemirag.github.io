@@ -11,16 +11,19 @@ const posts = (await getPosts()).slice(0, 4);
 
 <SiteLayout>
   <section class="hero">
-    <h1>Enes Demirağ</h1>
-    <p class="hero-subtitle">AI Engineer & Product Builder</p>
-    <p class="hero-description">I build AI products and the systems behind them. Based in Istanbul, I lead AI engineering at Klyft and build products of my own.</p>
-    <nav class="social-links" aria-label="Social links">
-      {site.socials.map((link) => <a href={link.href} aria-label={link.label} title={link.label} target="_blank" rel="noopener noreferrer"><img src={link.icon} alt="" width="20" height="20" /></a>)}
-    </nav>
-    <div class="hero-actions">
-      <a class="button-link" href={`mailto:${site.email}`}>Email Me ↗</a>
-      <a class="button-link secondary-button" href={site.calendar} target="_blank" rel="noopener noreferrer">Book a Meeting ↗</a>
+    <div class="hero-copy">
+      <h1>Enes Demirağ</h1>
+      <p class="hero-subtitle">AI Engineer</p>
+      <p class="hero-description">I build AI products and the systems behind them. Based in Istanbul, I lead AI engineering at Klyft and build products of my own.</p>
+      <nav class="social-links" aria-label="Social links">
+        {site.socials.map((link) => <a href={link.href} aria-label={link.label} title={link.label} target="_blank" rel="noopener noreferrer"><img src={link.icon} alt="" width="20" height="20" /></a>)}
+      </nav>
+      <div class="hero-actions">
+        <a class="button-link" href={`mailto:${site.email}`}>Email Me ↗</a>
+        <a class="button-link secondary-button" href={site.calendar} target="_blank" rel="noopener noreferrer">Book a Meeting ↗</a>
+      </div>
     </div>
+    <img class="hero-photo" src="/images/profile.jpg" alt="Portrait of Enes Demirağ" width="196" height="196" decoding="async" />
   </section>
 
   <section class="content-section" id="experience">
@@ -57,7 +60,9 @@ const posts = (await getPosts()).slice(0, 4);
 </SiteLayout>
 
 <style>
-  .hero { padding: 92px 0 78px; }
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr) 196px; align-items: center; gap: clamp(28px, 5vw, 56px); padding: 92px 0 78px; }
+  .hero-copy { min-width: 0; }
+  .hero-photo { display: block; width: 196px; height: 196px; object-fit: cover; border: 1px solid var(--line); border-radius: 20px; }
   .hero h1 { margin-bottom: 7px; }
   .hero-subtitle { margin-bottom: 15px; color: var(--navy); font-size: 1.15rem; font-weight: 660; letter-spacing: -.02em; }
   .hero-description { max-width: 590px; margin-bottom: 24px; font-size: 1rem; line-height: 1.8; }
@@ -69,7 +74,7 @@ const posts = (await getPosts()).slice(0, 4);
   .social-links a[aria-label="YouTube"] { background: #fff6f5; }
   .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
   .secondary-button { border: 1px solid var(--line); background: var(--surface); color: var(--navy); }
-  .secondary-button:hover { border-color: var(--accent); color: white; }
+  .secondary-button:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--navy); }
   .section-heading .eyebrow { margin: 0 0 8px; }
   .more-button { gap: 12px; margin-top: 24px; }
   .about-section { padding-top: 36px; border-top: 1px solid var(--line); scroll-margin-top: 30px; }
@@ -82,5 +87,5 @@ const posts = (await getPosts()).slice(0, 4);
   .contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 10px 0 85px; padding: 32px 36px; border: 1px solid #ded0bc; border-radius: 17px; background: #eee4d5; }
   .contact-panel .eyebrow { margin-bottom: 9px; }.contact-panel h2 { margin-bottom: 7px; }.contact-panel p:last-child { max-width: 510px; margin: 0; font-size: .89rem; }
   .contact-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; flex: none; }
-  @media (max-width: 700px) { .hero { padding: 58px 0 65px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
+  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 24px; padding: 58px 0 65px; } .hero-photo { grid-row: 1; width: 140px; height: 140px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
 </style>
