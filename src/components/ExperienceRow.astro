@@ -20,13 +20,14 @@ const Tag = item.href ? "a" : "div";
   .experience-row { display: grid; grid-template-columns: 52px minmax(0, 1fr) 18px; align-items: center; gap: 17px; padding: 18px 0; border-top: 1px solid var(--line); color: inherit; text-decoration: none; }
   .experience-row:last-child { border-bottom: 1px solid var(--line); }
   a.experience-row:hover .experience-name { color: var(--accent); }
-  .experience-logo { display: grid; place-items: center; width: 52px; height: 52px; overflow: hidden; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); color: var(--accent); font-size: .86rem; font-weight: 780; letter-spacing: -.05em; }
+  .experience-logo { display: grid; place-items: center; width: 52px; height: 52px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); color: var(--accent); font-size: .86rem; font-weight: 750; letter-spacing: -.03em; }
   .experience-logo img { width: 100%; height: 100%; object-fit: contain; }
   .experience-copy { display: grid; gap: 2px; min-width: 0; }
-  .experience-name { color: var(--navy); font-weight: 720; letter-spacing: -.025em; transition: color .2s; }
-  .experience-subtitle { color: var(--navy); font-size: .8rem; font-weight: 600; }
+  .experience-name { color: var(--ink); font-weight: 650; letter-spacing: -.01em; transition: color .15s; }
+  .experience-subtitle { color: var(--ink); font-size: .82rem; font-weight: 500; }
   .experience-period { color: var(--faint); font-weight: 400; }
-  .experience-description { color: var(--muted); font-size: .84rem; line-height: 1.45; }
-  .experience-arrow { color: var(--accent); font-size: 1.1rem; }
+  .experience-description { color: var(--muted); font-size: .86rem; line-height: 1.45; }
+  .experience-arrow { color: var(--faint); font-size: 1.1rem; transition: color .15s; }
+  a.experience-row:hover .experience-arrow { color: var(--accent); }
   @media (max-width: 600px) { .experience-row { grid-template-columns: 46px minmax(0, 1fr) 16px; gap: 12px; } .experience-logo { width: 46px; height: 46px; } .experience-period { display: block; } }
 </style>

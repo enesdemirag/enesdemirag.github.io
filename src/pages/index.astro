@@ -50,26 +50,24 @@ const posts = (await getPosts()).slice(0, 4);
 </SiteLayout>
 
 <style>
-  .hero { display: grid; grid-template-columns: minmax(0, 1fr) 196px; align-items: center; gap: clamp(28px, 5vw, 56px); padding: 64px 0 78px; }
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr) 180px; align-items: center; gap: clamp(28px, 5vw, 56px); padding: 72px 0 80px; }
   .hero-copy { min-width: 0; }
-  .hero-photo { display: block; width: 196px; height: 196px; object-fit: cover; border: 1px solid var(--line); border-radius: 20px; }
-  .hero h1 { margin-bottom: 7px; }
-  .hero-subtitle { margin-bottom: 15px; color: var(--navy); font-size: 1.15rem; font-weight: 660; letter-spacing: -.02em; }
-  .hero-description { max-width: 590px; margin-bottom: 24px; font-size: 1rem; line-height: 1.8; }
-  .social-links { display: flex; align-items: center; gap: 10px; margin-bottom: 27px; }
-  .social-links a { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); transition: border-color .2s, transform .2s; }
-  .social-links a:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .hero-photo { display: block; width: 180px; height: 180px; object-fit: cover; border: 1px solid var(--line); border-radius: 18px; }
+  .hero h1 { margin-bottom: 8px; }
+  .hero-subtitle { margin-bottom: 16px; color: var(--ink); font-size: 1.15rem; font-weight: 600; }
+  .hero-description { max-width: 590px; margin-bottom: 24px; line-height: 1.75; }
+  .social-links { display: flex; align-items: center; gap: 8px; margin-bottom: 28px; }
+  .social-links a { display: grid; place-items: center; width: 40px; height: 40px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); transition: border-color .15s ease, background .15s ease; }
+  .social-links a:hover { border-color: var(--faint); background: var(--soft); }
   .social-links img { width: 18px; height: 18px; }
-  .social-links a[aria-label="LinkedIn"] { background: #f4f8fd; }
-  .social-links a[aria-label="YouTube"] { background: #fff6f5; }
-  .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-  .secondary-button { background: #e8dccb; color: var(--navy); }
-  .secondary-button:hover { background: #dcc9af; color: var(--navy); }
-  .more-button { gap: 12px; margin-top: 24px; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .secondary-button { border-color: var(--line); background: var(--bg); color: var(--ink); }
+  .secondary-button:hover { border-color: var(--faint); background: var(--soft); }
+  .more-button { gap: 10px; margin-top: 24px; }
   #experience { scroll-margin-top: 30px; }
-  .section-note { max-width: 560px; margin: -5px 0 23px; font-size: .92rem; }
-  .contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 10px 0 85px; padding: 32px 36px; border: 1px solid #ded0bc; border-radius: 17px; background: #eee4d5; }
-  .contact-panel .eyebrow { margin-bottom: 9px; }.contact-panel h2 { margin-bottom: 7px; }.contact-panel p:last-child { max-width: 510px; margin: 0; font-size: .89rem; }
-  .contact-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; flex: none; }
-  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 24px; padding: 42px 0 65px; } .hero-photo { grid-row: 1; width: 140px; height: 140px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
+  .section-note { max-width: 560px; margin: -5px 0 23px; font-size: .95rem; }
+  .contact-panel { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin: 10px 0 85px; padding: 32px 36px; border: 1px solid var(--line); border-radius: calc(var(--radius) + 6px); background: var(--soft); }
+  .contact-panel .eyebrow { margin-bottom: 6px; }.contact-panel h2 { margin-bottom: 7px; }.contact-panel p:last-child { max-width: 510px; margin: 0; font-size: .92rem; }
+  .contact-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; flex: none; }
+  @media (max-width: 700px) { .hero { grid-template-columns: 1fr; gap: 24px; padding: 40px 0 64px; } .hero-photo { grid-row: 1; width: 120px; height: 120px; } .contact-panel { align-items: start; flex-direction: column; padding: 26px; } }
 </style>

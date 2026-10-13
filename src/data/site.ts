@@ -11,5 +11,6 @@ export const site = {
     { label: "X", href: "https://x.com/ensdmrg", icon: "/images/social-x.svg" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/enesdemirag", icon: "/images/social-linkedin.svg" },
     { label: "YouTube", href: "https://www.youtube.com/@enes-demirag", icon: "/images/social-youtube.svg" },
+    { label: "dedicode", href: "https://dedicode.enesdemirag.com", icon: "/images/social-dedicode.svg" },
   ],
 } as const;
