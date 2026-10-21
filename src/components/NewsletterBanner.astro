@@ -1,0 +1,29 @@
+<aside class="newsletter-banner" lang="tr" aria-label="Ücretsiz newsletter" data-newsletter-banner>
+  <div class="newsletter-inner">
+    <a class="newsletter-badge" href="https://dedicode.tr" target="_blank" rel="noopener noreferrer">ÜCRETSİZ NEWSLETTER’A ABONE OL</a>
+    <button class="newsletter-close" type="button" aria-label="Newsletter bannerını kapat" data-newsletter-dismiss>×</button>
+  </div>
+</aside>
+
+<style>
+  [hidden] { display: none; }
+  .newsletter-banner { position: relative; background: #1b334e; color: #fff; }
+  .newsletter-inner { display: flex; justify-content: center; align-items: center; gap: 18px; width: min(100% - 40px, 1120px); min-height: 62px; margin: 0 auto; padding: 10px 40px; }
+  .newsletter-badge { flex: none; padding: 4px 8px; border: 1px solid #60758b; border-radius: 5px; color: #d2deeb; font-size: 9px; font-weight: 700; letter-spacing: .07em; text-decoration: none; white-space: nowrap; }
+  .newsletter-badge:hover { border-color: #fff; color: #fff; }
+  .newsletter-close { position: absolute; top: 50%; right: 12px; transform: translateY(-50%); display: grid; place-items: center; width: 36px; height: 36px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: #c5d1df; font-size: 25px; line-height: 1; cursor: pointer; }
+  .newsletter-close:hover { background: #304c68; color: #fff; }
+  .newsletter-banner :focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+  @media (max-width: 760px) {
+    .newsletter-inner { gap: 10px; width: calc(100% - 24px); min-height: 52px; padding: 8px 32px 8px 0; }
+    .newsletter-close { right: 8px; width: 28px; height: 32px; font-size: 22px; }
+  }
+</style>
+
+<script>
+  document.querySelector<HTMLButtonElement>("[data-newsletter-dismiss]")?.addEventListener("click", (event) => {
+    const button = event.currentTarget as HTMLButtonElement;
+    const banner = button.closest<HTMLElement>("[data-newsletter-banner]");
+    if (banner) banner.hidden = true;
+  });
+</script>

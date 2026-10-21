@@ -1,5 +1,6 @@
 ---
 import { site } from "../data/site";
+import NewsletterBanner from "../components/NewsletterBanner.astro";
 import "../styles/global.css";
 
 type Props = { title?: string; description?: string; article?: boolean };
@@ -25,6 +26,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:image" content={new URL("/images/social-preview-image.png", Astro.site)} />
   </head>
   <body>
+    <NewsletterBanner />
     <div class="site-shell">
       <main id="main"><slot /></main>
     </div>
