@@ -29,7 +29,7 @@ const posts = (await getPosts()).slice(0, 4);
 
   <section class="content-section" id="experience">
     <div class="section-heading"><h2>Experience</h2></div>
-    <div>{experience.slice(0, 8).map((item) => <ExperienceRow item={item} />)}</div>
+    <div>{experience.slice(0, 6).map((item) => <ExperienceRow item={item} />)}</div>
     <a class="button-link more-button" href="/experience/">More Experience <span aria-hidden="true">→</span></a>
   </section>
 

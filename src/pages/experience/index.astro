@@ -1,7 +1,7 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import ExperienceRow from "../../components/ExperienceRow.astro";
-import { experience } from "../../data/experience";
+import { experience, communityExperience } from "../../data/experience";
 ---
 
 <SiteLayout title="Experience" description="Work, products, and teams from Enes Demirağ's career.">
@@ -13,6 +13,10 @@ import { experience } from "../../data/experience";
   </div>
   <section class="content-section" aria-label="All Experience">
     {experience.map((item) => <ExperienceRow item={item} />)}
+  </section>
+  <section class="content-section" aria-labelledby="community-heading">
+    <div class="section-heading"><h2 id="community-heading">Teams & Teaching</h2></div>
+    {communityExperience.map((item) => <ExperienceRow item={item} />)}
   </section>
 </SiteLayout>
 

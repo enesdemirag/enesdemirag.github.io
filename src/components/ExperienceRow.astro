@@ -1,33 +1,121 @@
 ---
 import type { Experience } from "../data/experience";
 const { item } = Astro.props as { item: Experience };
-const Tag = item.href ? "a" : "div";
+const expandable = Boolean(item.roles?.length || item.projects?.length || item.awards?.length);
+const EntryTag = expandable ? "details" : "article";
+const Tag = expandable ? "summary" : item.href ? "a" : "div";
+const rowHref = expandable ? null : item.href;
 ---
 
-<Tag class="experience-row" href={item.href ?? undefined} target={item.href ? "_blank" : undefined} rel={item.href ? "noopener noreferrer" : undefined}>
-  <span class="experience-logo" aria-hidden="true">
-    {item.image ? <img src={item.image} alt="" loading="lazy" /> : <span>{item.monogram}</span>}
-  </span>
-  <span class="experience-copy">
-    <span class="experience-name">{item.name}</span>
-    <span class="experience-subtitle">{item.subtitle}{item.period && <span class="experience-period"> · {item.period}</span>}</span>
-    <span class="experience-description">{item.description}</span>
-  </span>
-  {item.href && <span class="experience-arrow" aria-hidden="true">↗</span>}
-</Tag>
+<EntryTag class="experience-entry">
+  <Tag class="experience-row" href={rowHref ?? undefined} target={rowHref ? "_blank" : undefined} rel={rowHref ? "noopener noreferrer" : undefined}>
+    <span class="experience-logo" aria-hidden="true">
+      {item.image ? <img src={item.image} alt="" loading="lazy" /> : <span>{item.monogram}</span>}
+    </span>
+    <div class="experience-copy">
+      <h3 class="experience-name">{item.name}</h3>
+      <span class="experience-subtitle">{item.subtitle}{item.period && <span class="experience-period"> · {item.period}</span>}</span>
+      <span class="experience-description">{item.description}</span>
+    </div>
+    {expandable ? (
+      <svg class="experience-chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    ) : item.href && <span class="experience-arrow" aria-hidden="true">↗</span>}
+  </Tag>
+  {expandable && item.href && (
+    <a class="experience-company-link" href={item.href} target="_blank" rel="noopener noreferrer">Visit Website ↗</a>
+  )}
+  {item.roles && (
+    <ul class="experience-roles" aria-label={`Roles at ${item.name}`}>
+      {item.roles.map((role) => (
+        <li>
+          <p class="role-title">{role.title}</p>
+          {role.employmentType && <p class="role-type">{role.employmentType}</p>}
+          <p class="role-period">{role.period}</p>
+        </li>
+      ))}
+    </ul>
+  )}
+  {item.awards && (
+    <div class="experience-awards">
+      <h4>Awards</h4>
+      <ul>
+        {item.awards.map((award) => <li>{award}</li>)}
+      </ul>
+    </div>
+  )}
+  {item.projects && (
+    <div class="experience-projects">
+      <ul class="project-list">
+        {item.projects.map((project) => (
+          <li>
+            <a class="project-row" href={project.href ?? undefined} target={project.href ? "_blank" : undefined} rel={project.href ? "noopener noreferrer" : undefined}>
+              <span class="project-logo" aria-hidden="true">
+                {project.image ? <img src={project.image} alt="" loading="lazy" /> : <span>{project.monogram}</span>}
+              </span>
+              <span class="project-copy">
+                <span class="project-name">{project.name}</span>
+                <span class="experience-description">{project.description}</span>
+              </span>
+              <span class="experience-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</EntryTag>
 
 <style>
-  .experience-row { display: grid; grid-template-columns: 52px minmax(0, 1fr) 18px; align-items: center; gap: 17px; padding: 18px 0; border-top: 1px solid var(--line); color: inherit; text-decoration: none; }
-  .experience-row:last-child { border-bottom: 1px solid var(--line); }
+  .experience-entry { border-top: 1px solid var(--line); }
+  .experience-entry:last-child { border-bottom: 1px solid var(--line); }
+  .experience-row { display: grid; grid-template-columns: 52px minmax(0, 1fr) 18px; align-items: center; gap: 17px; padding: 18px 0; color: inherit; text-decoration: none; }
   a.experience-row:hover .experience-name { color: var(--accent); }
+  summary.experience-row { cursor: pointer; list-style: none; }
+  summary.experience-row::-webkit-details-marker { display: none; }
+  summary.experience-row:hover .experience-name { color: var(--accent); }
+  .experience-chevron { width: 18px; height: 18px; color: var(--faint); transition: transform .15s ease; }
+  details[open] > .experience-row .experience-chevron { transform: rotate(180deg); }
+  .experience-company-link { display: block; width: fit-content; margin: 0 0 20px 69px; font-size: .875rem; }
   .experience-logo { display: grid; place-items: center; width: 52px; height: 52px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); color: var(--accent); font-size: .86rem; font-weight: 750; letter-spacing: -.03em; }
   .experience-logo img { width: 100%; height: 100%; object-fit: contain; }
+  .experience-logo img[src="/images/dias.jpg"] { object-fit: cover; object-position: center; }
+  .experience-logo img[src="/images/beneluxsoft-logo.png"], .project-logo img[src="/images/beneluxsoft-logo.png"] { padding: 6px; background: #fff; }
   .experience-copy { display: grid; gap: 2px; min-width: 0; }
-  .experience-name { color: var(--ink); font-weight: 650; letter-spacing: -.01em; transition: color .15s; }
-  .experience-subtitle { color: var(--ink); font-size: .82rem; font-weight: 500; }
+  .experience-name { margin: 0; color: var(--ink); font-size: 1rem; font-weight: 650; line-height: 1.6; letter-spacing: -.01em; transition: color .15s; }
+  .experience-subtitle { color: var(--ink); font-size: .875rem; font-weight: 500; }
   .experience-period { color: var(--faint); font-weight: 400; }
-  .experience-description { color: var(--muted); font-size: .86rem; line-height: 1.45; }
+  .experience-description { color: var(--muted); font-size: .875rem; line-height: 1.45; }
   .experience-arrow { color: var(--faint); font-size: 1.1rem; transition: color .15s; }
   a.experience-row:hover .experience-arrow { color: var(--accent); }
-  @media (max-width: 600px) { .experience-row { grid-template-columns: 46px minmax(0, 1fr) 16px; gap: 12px; } .experience-logo { width: 46px; height: 46px; } .experience-period { display: block; } }
+  .experience-roles { display: grid; gap: 20px; margin: 0 0 22px 69px; padding: 0 0 0 18px; border-left: 1px solid var(--line); list-style: none; }
+  .experience-roles li { position: relative; }
+  .experience-roles li::before { position: absolute; top: 9px; left: -22px; width: 7px; height: 7px; border-radius: 50%; background: var(--faint); content: ""; }
+  .experience-roles p { margin: 0; font-size: .875rem; line-height: 1.6; }
+  .experience-roles .role-title { color: var(--ink); font-weight: 600; }
+  .role-period { color: var(--faint); }
+  .experience-awards { margin: 0 0 24px 69px; }
+  .experience-awards h4 { margin: 0 0 8px; color: var(--ink); font-size: .875rem; font-weight: 600; }
+  .experience-awards ul { display: grid; gap: 8px; margin: 0; padding-left: 18px; color: var(--muted); font-size: .875rem; }
+  .experience-projects { margin: 0 0 24px 69px; padding-left: 18px; border-left: 1px solid var(--line); }
+  .project-list { margin: 0; padding: 0; list-style: none; }
+  .project-row { display: grid; grid-template-columns: 36px minmax(0, 1fr) 18px; align-items: center; gap: 12px; padding: 10px 0; color: inherit; text-decoration: none; }
+  .project-logo { display: grid; place-items: center; width: 36px; height: 36px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+  .project-logo img { width: 100%; height: 100%; object-fit: contain; }
+  .project-copy { display: grid; gap: 2px; min-width: 0; }
+  .project-name { color: var(--ink); font-size: .875rem; font-weight: 600; transition: color .15s; }
+  .project-row:hover .project-name, .project-row:hover .experience-arrow { color: var(--accent); }
+  @media (max-width: 600px) {
+    .experience-row { grid-template-columns: 46px minmax(0, 1fr) 16px; gap: 12px; }
+    .experience-logo { width: 46px; height: 46px; }
+    .experience-period { display: block; }
+    .experience-company-link, .experience-awards { margin-left: 58px; }
+    .experience-roles, .experience-projects { margin-left: 58px; padding-left: 14px; }
+    .experience-roles li::before { left: -18px; }
+    .project-row { grid-template-columns: 32px minmax(0, 1fr); gap: 10px; }
+    .project-logo { width: 32px; height: 32px; }
+    .project-row .experience-arrow { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { .experience-chevron { transition: none; } }
 </style>

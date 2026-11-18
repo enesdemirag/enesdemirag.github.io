@@ -1,6 +1,6 @@
 # enesdemirag.com
 
-Personal site built with Astro. The homepage introduces the first eight experiences and the about section. The full experience list and writing list have their own pages. Personal and social data lives in `src/data/site.ts`; companies, products, and teams live in `src/data/experience.ts`. Published posts on other platforms are listed once in `src/data/external-posts.json`.
+Personal site built with Astro. The homepage introduces the first six experiences through Baykar, with projects and freelance work grouped under Freelance. The full experience list, teams and teaching, and writing list have their own pages. Personal and social data lives in `src/data/site.ts`; companies, freelance projects, and teams live in `src/data/experience.ts`. Published posts on other platforms are listed once in `src/data/external-posts.json`.
 
 ```bash
 npm install
